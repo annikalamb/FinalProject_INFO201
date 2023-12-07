@@ -1,0 +1,1500 @@
+"District.code","District.name","Category","Student.group","X2021.2022.student.count...year.to.date","X2021.2022.attendance.rate...year.to.date","Math.2019.Average.Score","Math.2022.Average.Score","X2019.ELA.Average.Score","X2022.ELA.Average.Score"
+"0020011","Ansonia School District","","All Students",2139,0.9045,439,416,467,443
+"0020011","Ansonia School District","Students With Disabilities","Students With Disabilities",369,0.8897,439,416,467,443
+"0020011","Ansonia School District","Free/Reduced Lunch","Free Meal Eligible",1192,0.8893,439,416,467,443
+"0020011","Ansonia School District","Free/Reduced Lunch","Reduced Price Meal Eligible",225,0.9282,439,416,467,443
+"0020011","Ansonia School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",1417,0.8953,439,416,467,443
+"0020011","Ansonia School District","English Learners","English Learners",122,0.918,439,416,467,443
+"0020011","Ansonia School District","Race/Ethnicity","All other races",149,0.9191,439,416,467,443
+"0020011","Ansonia School District","Race/Ethnicity","Black or African American",434,0.8987,439,416,467,443
+"0020011","Ansonia School District","Race/Ethnicity","Hispanic/Latino of any race",987,0.8994,439,416,467,443
+"0020011","Ansonia School District","Race/Ethnicity","White",569,0.9136,439,416,467,443
+"0020011","Ansonia School District","High Needs","Students Without High Needs",528,0.9287,439,416,467,443
+"0020011","Ansonia School District","High Needs","Students With High Needs",1545,0.8968,439,416,467,443
+"0040011","Avon School District","","All Students",3057,0.9457,588,574,583,576
+"0040011","Avon School District","Students With Disabilities","Students With Disabilities",324,0.9207,588,574,583,576
+"0040011","Avon School District","Free/Reduced Lunch","Free Meal Eligible",226,0.9145,588,574,583,576
+"0040011","Avon School District","Free/Reduced Lunch","Reduced Price Meal Eligible",60,0.9022,588,574,583,576
+"0040011","Avon School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",286,0.9119,588,574,583,576
+"0040011","Avon School District","English Learners","English Learners",76,0.9414,588,574,583,576
+"0040011","Avon School District","Race/Ethnicity","All other races",712,0.9543,588,574,583,576
+"0040011","Avon School District","Race/Ethnicity","Black or African American",179,0.9224,588,574,583,576
+"0040011","Avon School District","Race/Ethnicity","Hispanic/Latino of any race",221,0.9349,588,574,583,576
+"0040011","Avon School District","Race/Ethnicity","White",1945,0.9458,588,574,583,576
+"0040011","Avon School District","High Needs","Students Without High Needs",2427,0.9517,588,574,583,576
+"0040011","Avon School District","High Needs","Students With High Needs",587,0.9221,588,574,583,576
+"0070011","Berlin School District","","All Students",2613,0.9341,516,516,537,522
+"0070011","Berlin School District","Students With Disabilities","Students With Disabilities",385,0.907,516,516,537,522
+"0070011","Berlin School District","Free/Reduced Lunch","Free Meal Eligible",429,0.9039,516,516,537,522
+"0070011","Berlin School District","Free/Reduced Lunch","Reduced Price Meal Eligible",128,0.9146,516,516,537,522
+"0070011","Berlin School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",557,0.9063,516,516,537,522
+"0070011","Berlin School District","English Learners","English Learners",95,0.9171,516,516,537,522
+"0070011","Berlin School District","Race/Ethnicity","All other races",192,0.9411,516,516,537,522
+"0070011","Berlin School District","Race/Ethnicity","Black or African American",64,0.9271,516,516,537,522
+"0070011","Berlin School District","Race/Ethnicity","Hispanic/Latino of any race",317,0.905,516,516,537,522
+"0070011","Berlin School District","Race/Ethnicity","White",2040,0.9383,516,516,537,522
+"0070011","Berlin School District","High Needs","Students Without High Needs",1756,0.9449,516,516,537,522
+"0070011","Berlin School District","High Needs","Students With High Needs",841,0.9121,516,516,537,522
+"0090011","Bethel School District","","All Students",3102,0.9375,523,508,529,519
+"0090011","Bethel School District","Students With Disabilities","Students With Disabilities",405,0.9204,523,508,529,519
+"0090011","Bethel School District","Free/Reduced Lunch","Free Meal Eligible",686,0.9225,523,508,529,519
+"0090011","Bethel School District","Free/Reduced Lunch","Reduced Price Meal Eligible",217,0.9406,523,508,529,519
+"0090011","Bethel School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",903,0.9269,523,508,529,519
+"0090011","Bethel School District","English Learners","English Learners",167,0.9278,523,508,529,519
+"0090011","Bethel School District","Race/Ethnicity","All other races",384,0.9475,523,508,529,519
+"0090011","Bethel School District","Race/Ethnicity","Black or African American",128,0.9403,523,508,529,519
+"0090011","Bethel School District","Race/Ethnicity","Hispanic/Latino of any race",744,0.9343,523,508,529,519
+"0090011","Bethel School District","Race/Ethnicity","White",1846,0.9365,523,508,529,519
+"0090011","Bethel School District","High Needs","Students Without High Needs",1821,0.9447,523,508,529,519
+"0090011","Bethel School District","High Needs","Students With High Needs",1216,0.9274,523,508,529,519
+"0110011","Bloomfield School District","","All Students",1734,0.9293,439,438,477,457
+"0110011","Bloomfield School District","Students With Disabilities","Students With Disabilities",369,0.9126,439,438,477,457
+"0110011","Bloomfield School District","Free/Reduced Lunch","Free Meal Eligible",775,0.918,439,438,477,457
+"0110011","Bloomfield School District","Free/Reduced Lunch","Reduced Price Meal Eligible",163,0.931,439,438,477,457
+"0110011","Bloomfield School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",938,0.9203,439,438,477,457
+"0110011","Bloomfield School District","English Learners","English Learners",87,0.9221,439,438,477,457
+"0110011","Bloomfield School District","Race/Ethnicity","All other races",101,0.9215,439,438,477,457
+"0110011","Bloomfield School District","Race/Ethnicity","Black or African American",1273,0.9346,439,438,477,457
+"0110011","Bloomfield School District","Race/Ethnicity","Hispanic/Latino of any race",296,0.9117,439,438,477,457
+"0110011","Bloomfield School District","Race/Ethnicity","White",64,0.9154,439,438,477,457
+"0110011","Bloomfield School District","High Needs","Students Without High Needs",607,0.9426,439,438,477,457
+"0110011","Bloomfield School District","High Needs","Students With High Needs",1090,0.9219,439,438,477,457
+"0120011","Bolton School District","","All Students",745,0.9433,506,517,540,551
+"0120011","Bolton School District","Students With Disabilities","Students With Disabilities",80,0.9148,506,517,540,551
+"0120011","Bolton School District","Free/Reduced Lunch","Free Meal Eligible",149,0.9034,506,517,540,551
+"0120011","Bolton School District","Free/Reduced Lunch","Reduced Price Meal Eligible",31,0.9169,506,517,540,551
+"0120011","Bolton School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",180,0.9058,506,517,540,551
+"0120011","Bolton School District","Race/Ethnicity","All other races",51,0.9394,506,517,540,551
+"0120011","Bolton School District","Race/Ethnicity","Black or African American",36,0.922,506,517,540,551
+"0120011","Bolton School District","Race/Ethnicity","Hispanic/Latino of any race",89,0.9131,506,517,540,551
+"0120011","Bolton School District","Race/Ethnicity","White",569,0.9496,506,517,540,551
+"0120011","Bolton School District","High Needs","Students Without High Needs",509,0.9566,506,517,540,551
+"0120011","Bolton School District","High Needs","Students With High Needs",228,0.9137,506,517,540,551
+"0140011","Branford School District","","All Students",2527,0.9268,513,472,523,495
+"0140011","Branford School District","Students With Disabilities","Students With Disabilities",322,0.914,513,472,523,495
+"0140011","Branford School District","Free/Reduced Lunch","Free Meal Eligible",693,0.9012,513,472,523,495
+"0140011","Branford School District","Free/Reduced Lunch","Reduced Price Meal Eligible",193,0.9302,513,472,523,495
+"0140011","Branford School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",886,0.9075,513,472,523,495
+"0140011","Branford School District","English Learners","English Learners",166,0.9358,513,472,523,495
+"0140011","Branford School District","Race/Ethnicity","All other races",290,0.9394,513,472,523,495
+"0140011","Branford School District","Race/Ethnicity","Black or African American",97,0.9248,513,472,523,495
+"0140011","Branford School District","Race/Ethnicity","Hispanic/Latino of any race",377,0.9062,513,472,523,495
+"0140011","Branford School District","Race/Ethnicity","White",1763,0.9293,513,472,523,495
+"0140011","Branford School District","High Needs","Students Without High Needs",1389,0.9389,513,472,523,495
+"0140011","Branford School District","High Needs","Students With High Needs",1104,0.913,513,472,523,495
+"0150011","Bridgeport School District","","All Students",18482,0.9008,413,408,435,434
+"0150011","Bridgeport School District","Homelessness","Students Experiencing Homelessness",123,0.8455,413,408,435,434
+"0150011","Bridgeport School District","Students With Disabilities","Students With Disabilities",3258,0.8758,413,408,435,434
+"0150011","Bridgeport School District","Free/Reduced Lunch","Free Meal Eligible",9915,0.8868,413,408,435,434
+"0150011","Bridgeport School District","Free/Reduced Lunch","Reduced Price Meal Eligible",1559,0.923,413,408,435,434
+"0150011","Bridgeport School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",11474,0.8917,413,408,435,434
+"0150011","Bridgeport School District","English Learners","English Learners",4177,0.9125,413,408,435,434
+"0150011","Bridgeport School District","Race/Ethnicity","All other races",811,0.9245,413,408,435,434
+"0150011","Bridgeport School District","Race/Ethnicity","Black or African American",5550,0.8991,413,408,435,434
+"0150011","Bridgeport School District","Race/Ethnicity","Hispanic/Latino of any race",10368,0.8988,413,408,435,434
+"0150011","Bridgeport School District","Race/Ethnicity","White",1753,0.907,413,408,435,434
+"0150011","Bridgeport School District","High Needs","Students Without High Needs",3590,0.9238,413,408,435,434
+"0150011","Bridgeport School District","High Needs","Students With High Needs",13849,0.8949,413,408,435,434
+"0170011","Bristol School District","","All Students",7439,0.9251,484,462,500,482
+"0170011","Bristol School District","Homelessness","Students Experiencing Homelessness",65,0.8904,484,462,500,482
+"0170011","Bristol School District","Students With Disabilities","Students With Disabilities",1417,0.9034,484,462,500,482
+"0170011","Bristol School District","Free/Reduced Lunch","Free Meal Eligible",3545,0.9063,484,462,500,482
+"0170011","Bristol School District","Free/Reduced Lunch","Reduced Price Meal Eligible",436,0.9292,484,462,500,482
+"0170011","Bristol School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",3981,0.9088,484,462,500,482
+"0170011","Bristol School District","English Learners","English Learners",423,0.9127,484,462,500,482
+"0170011","Bristol School District","Race/Ethnicity","All other races",627,0.9288,484,462,500,482
+"0170011","Bristol School District","Race/Ethnicity","Black or African American",572,0.9268,484,462,500,482
+"0170011","Bristol School District","Race/Ethnicity","Hispanic/Latino of any race",2614,0.9095,484,462,500,482
+"0170011","Bristol School District","Race/Ethnicity","White",3626,0.9353,484,462,500,482
+"0170011","Bristol School District","High Needs","Students Without High Needs",2800,0.949,484,462,500,482
+"0170011","Bristol School District","High Needs","Students With High Needs",4510,0.911,484,462,500,482
+"0180011","Brookfield School District","","All Students",2545,0.9368,550,530,549,539
+"0180011","Brookfield School District","Students With Disabilities","Students With Disabilities",350,0.9153,550,530,549,539
+"0180011","Brookfield School District","Free/Reduced Lunch","Free Meal Eligible",379,0.9133,550,530,549,539
+"0180011","Brookfield School District","Free/Reduced Lunch","Reduced Price Meal Eligible",135,0.9301,550,530,549,539
+"0180011","Brookfield School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",514,0.9177,550,530,549,539
+"0180011","Brookfield School District","English Learners","English Learners",105,0.9374,550,530,549,539
+"0180011","Brookfield School District","Race/Ethnicity","All other races",242,0.9478,550,530,549,539
+"0180011","Brookfield School District","Race/Ethnicity","Black or African American",74,0.9488,550,530,549,539
+"0180011","Brookfield School District","Race/Ethnicity","Hispanic/Latino of any race",366,0.9246,550,530,549,539
+"0180011","Brookfield School District","Race/Ethnicity","White",1863,0.9372,550,530,549,539
+"0180011","Brookfield School District","High Needs","Students Without High Needs",1721,0.9449,550,530,549,539
+"0180011","Brookfield School District","High Needs","Students With High Needs",801,0.9201,550,530,549,539
+"0230011","Canton School District","","All Students",1462,0.9356,555,531,565,548
+"0230011","Canton School District","Students With Disabilities","Students With Disabilities",207,0.9092,555,531,565,548
+"0230011","Canton School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",263,0.9233,555,531,565,548
+"0230011","Canton School District","Race/Ethnicity","All other races",78,0.93,555,531,565,548
+"0230011","Canton School District","Race/Ethnicity","Black or African American",89,0.8953,555,531,565,548
+"0230011","Canton School District","Race/Ethnicity","Hispanic/Latino of any race",95,0.9156,555,531,565,548
+"0230011","Canton School District","Race/Ethnicity","White",1200,0.9406,555,531,565,548
+"0230011","Canton School District","High Needs","Students Without High Needs",1018,0.9426,555,531,565,548
+"0230011","Canton School District","High Needs","Students With High Needs",437,0.9192,555,531,565,548
+"0250011","Cheshire School District","","All Students",4119,0.9466,562,541,571,553
+"0250011","Cheshire School District","Students With Disabilities","Students With Disabilities",527,0.9177,562,541,571,553
+"0250011","Cheshire School District","Free/Reduced Lunch","Free Meal Eligible",460,0.921,562,541,571,553
+"0250011","Cheshire School District","Free/Reduced Lunch","Reduced Price Meal Eligible",154,0.942,562,541,571,553
+"0250011","Cheshire School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",614,0.9263,562,541,571,553
+"0250011","Cheshire School District","English Learners","English Learners",96,0.9484,562,541,571,553
+"0250011","Cheshire School District","Race/Ethnicity","All other races",527,0.9485,562,541,571,553
+"0250011","Cheshire School District","Race/Ethnicity","Black or African American",135,0.942,562,541,571,553
+"0250011","Cheshire School District","Race/Ethnicity","Hispanic/Latino of any race",311,0.9358,562,541,571,553
+"0250011","Cheshire School District","Race/Ethnicity","White",3146,0.9476,562,541,571,553
+"0250011","Cheshire School District","High Needs","Students Without High Needs",3041,0.954,562,541,571,553
+"0250011","Cheshire School District","High Needs","Students With High Needs",1040,0.9259,562,541,571,553
+"0270011","Clinton School District","","All Students",1493,0.939,492,513,537,519
+"0270011","Clinton School District","Students With Disabilities","Students With Disabilities",202,0.9103,492,513,537,519
+"0270011","Clinton School District","Free/Reduced Lunch","Free Meal Eligible",400,0.9243,492,513,537,519
+"0270011","Clinton School District","Free/Reduced Lunch","Reduced Price Meal Eligible",126,0.939,492,513,537,519
+"0270011","Clinton School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",526,0.9278,492,513,537,519
+"0270011","Clinton School District","English Learners","English Learners",126,0.9403,492,513,537,519
+"0270011","Clinton School District","Race/Ethnicity","Hispanic/Latino of any race",324,0.9403,492,513,537,519
+"0270011","Clinton School District","Race/Ethnicity","White",1084,0.9383,492,513,537,519
+"0270011","Clinton School District","High Needs","Students Without High Needs",823,0.9483,492,513,537,519
+"0270011","Clinton School District","High Needs","Students With High Needs",655,0.9272,492,513,537,519
+"0280011","Colchester School District","","All Students",2141,0.9318,509,516,532,516
+"0280011","Colchester School District","Students With Disabilities","Students With Disabilities",303,0.9145,509,516,532,516
+"0280011","Colchester School District","Free/Reduced Lunch","Free Meal Eligible",409,0.9128,509,516,532,516
+"0280011","Colchester School District","Free/Reduced Lunch","Reduced Price Meal Eligible",97,0.9153,509,516,532,516
+"0280011","Colchester School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",506,0.9133,509,516,532,516
+"0280011","Colchester School District","English Learners","English Learners",35,0.9226,509,516,532,516
+"0280011","Colchester School District","Race/Ethnicity","All other races",159,0.9376,509,516,532,516
+"0280011","Colchester School District","Race/Ethnicity","Black or African American",33,0.9284,509,516,532,516
+"0280011","Colchester School District","Race/Ethnicity","Hispanic/Latino of any race",182,0.9209,509,516,532,516
+"0280011","Colchester School District","Race/Ethnicity","White",1767,0.9324,509,516,532,516
+"0280011","Colchester School District","High Needs","Students Without High Needs",1405,0.9409,509,516,532,516
+"0280011","Colchester School District","High Needs","Students With High Needs",714,0.9152,509,516,532,516
+"0320011","Coventry School District","","All Students",1549,0.9295,532,497,541,510
+"0320011","Coventry School District","Students With Disabilities","Students With Disabilities",206,0.8936,532,497,541,510
+"0320011","Coventry School District","Free/Reduced Lunch","Free Meal Eligible",259,0.8879,532,497,541,510
+"0320011","Coventry School District","Free/Reduced Lunch","Reduced Price Meal Eligible",90,0.9288,532,497,541,510
+"0320011","Coventry School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",349,0.8986,532,497,541,510
+"0320011","Coventry School District","Race/Ethnicity","Hispanic/Latino of any race",106,0.9055,532,497,541,510
+"0320011","Coventry School District","Race/Ethnicity","White",1343,0.933,532,497,541,510
+"0320011","Coventry School District","High Needs","Students Without High Needs",1053,0.9423,532,497,541,510
+"0320011","Coventry School District","High Needs","Students With High Needs",484,0.9028,532,497,541,510
+"0330011","Cromwell School District","","All Students",1873,0.9445,510,507,525,508
+"0330011","Cromwell School District","Students With Disabilities","Students With Disabilities",211,0.9287,510,507,525,508
+"0330011","Cromwell School District","Free/Reduced Lunch","Free Meal Eligible",381,0.9265,510,507,525,508
+"0330011","Cromwell School District","Free/Reduced Lunch","Reduced Price Meal Eligible",105,0.9267,510,507,525,508
+"0330011","Cromwell School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",486,0.9265,510,507,525,508
+"0330011","Cromwell School District","English Learners","English Learners",99,0.9197,510,507,525,508
+"0330011","Cromwell School District","Race/Ethnicity","All other races",200,0.9429,510,507,525,508
+"0330011","Cromwell School District","Race/Ethnicity","Black or African American",126,0.9438,510,507,525,508
+"0330011","Cromwell School District","Race/Ethnicity","Hispanic/Latino of any race",254,0.931,510,507,525,508
+"0330011","Cromwell School District","Race/Ethnicity","White",1293,0.9475,510,507,525,508
+"0330011","Cromwell School District","High Needs","Students Without High Needs",1219,0.9532,510,507,525,508
+"0330011","Cromwell School District","High Needs","Students With High Needs",651,0.9286,510,507,525,508
+"0340011","Danbury School District","","All Students",11783,0.9166,454,434,482,457
+"0340011","Danbury School District","Homelessness","Students Experiencing Homelessness",25,0.8891,454,434,482,457
+"0340011","Danbury School District","Students With Disabilities","Students With Disabilities",1432,0.8994,454,434,482,457
+"0340011","Danbury School District","Free/Reduced Lunch","Free Meal Eligible",4685,0.9092,454,434,482,457
+"0340011","Danbury School District","Free/Reduced Lunch","Reduced Price Meal Eligible",1172,0.9248,454,434,482,457
+"0340011","Danbury School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",5857,0.9123,454,434,482,457
+"0340011","Danbury School District","English Learners","English Learners",3541,0.9114,454,434,482,457
+"0340011","Danbury School District","Race/Ethnicity","All other races",992,0.9227,454,434,482,457
+"0340011","Danbury School District","Race/Ethnicity","Black or African American",785,0.9109,454,434,482,457
+"0340011","Danbury School District","Race/Ethnicity","Hispanic/Latino of any race",7182,0.9137,454,434,482,457
+"0340011","Danbury School District","Race/Ethnicity","White",2824,0.9232,454,434,482,457
+"0340011","Danbury School District","High Needs","Students Without High Needs",3318,0.9347,454,434,482,457
+"0340011","Danbury School District","High Needs","Students With High Needs",7802,0.9098,454,434,482,457
+"0350011","Darien School District","","All Students",4675,0.9553,628,617,611,599
+"0350011","Darien School District","Students With Disabilities","Students With Disabilities",819,0.9465,628,617,611,599
+"0350011","Darien School District","Free/Reduced Lunch","Free Meal Eligible",47,0.9446,628,617,611,599
+"0350011","Darien School District","Free/Reduced Lunch","Reduced Price Meal Eligible",32,0.9617,628,617,611,599
+"0350011","Darien School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",79,0.9516,628,617,611,599
+"0350011","Darien School District","English Learners","English Learners",51,0.9454,628,617,611,599
+"0350011","Darien School District","Race/Ethnicity","All other races",457,0.9643,628,617,611,599
+"0350011","Darien School District","Race/Ethnicity","Black or African American",37,0.9547,628,617,611,599
+"0350011","Darien School District","Race/Ethnicity","Hispanic/Latino of any race",312,0.9508,628,617,611,599
+"0350011","Darien School District","Race/Ethnicity","White",3869,0.9546,628,617,611,599
+"0350011","Darien School District","High Needs","Students Without High Needs",3749,0.9571,628,617,611,599
+"0350011","Darien School District","High Needs","Students With High Needs",899,0.9477,628,617,611,599
+"0370011","Derby School District","","All Students",1222,0.8979,423,432,463,467
+"0370011","Derby School District","Students With Disabilities","Students With Disabilities",235,0.882,423,432,463,467
+"0370011","Derby School District","Free/Reduced Lunch","Free Meal Eligible",461,0.8761,423,432,463,467
+"0370011","Derby School District","Free/Reduced Lunch","Reduced Price Meal Eligible",72,0.9086,423,432,463,467
+"0370011","Derby School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",533,0.8804,423,432,463,467
+"0370011","Derby School District","English Learners","English Learners",42,0.8968,423,432,463,467
+"0370011","Derby School District","Race/Ethnicity","All other races",104,0.8969,423,432,463,467
+"0370011","Derby School District","Race/Ethnicity","Black or African American",238,0.8972,423,432,463,467
+"0370011","Derby School District","Race/Ethnicity","Hispanic/Latino of any race",495,0.8914,423,432,463,467
+"0370011","Derby School District","Race/Ethnicity","White",385,0.9068,423,432,463,467
+"0370011","Derby School District","High Needs","Students Without High Needs",509,0.9175,423,432,463,467
+"0370011","Derby School District","High Needs","Students With High Needs",663,0.884,423,432,463,467
+"0400011","East Granby School District","","All Students",839,0.9301,518,514,554,545
+"0400011","East Granby School District","Students With Disabilities","Students With Disabilities",120,0.885,518,514,554,545
+"0400011","East Granby School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",119,0.8846,518,514,554,545
+"0400011","East Granby School District","Race/Ethnicity","All other races",98,0.9335,518,514,554,545
+"0400011","East Granby School District","Race/Ethnicity","Black or African American",68,0.9018,518,514,554,545
+"0400011","East Granby School District","Race/Ethnicity","Hispanic/Latino of any race",57,0.8757,518,514,554,545
+"0400011","East Granby School District","Race/Ethnicity","White",616,0.9379,518,514,554,545
+"0400011","East Granby School District","High Needs","Students Without High Needs",602,0.9433,518,514,554,545
+"0400011","East Granby School District","High Needs","Students With High Needs",222,0.8951,518,514,554,545
+"0410011","East Haddam School District","","All Students",951,0.9391,512,516,541,533
+"0410011","East Haddam School District","Students With Disabilities","Students With Disabilities",134,0.9292,512,516,541,533
+"0410011","East Haddam School District","Free/Reduced Lunch","Free Meal Eligible",198,0.9132,512,516,541,533
+"0410011","East Haddam School District","Free/Reduced Lunch","Reduced Price Meal Eligible",39,0.931,512,516,541,533
+"0410011","East Haddam School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",237,0.9162,512,516,541,533
+"0410011","East Haddam School District","Race/Ethnicity","Hispanic/Latino of any race",121,0.9245,512,516,541,533
+"0410011","East Haddam School District","Race/Ethnicity","White",787,0.9411,512,516,541,533
+"0410011","East Haddam School District","High Needs","Students Without High Needs",616,0.9475,512,516,541,533
+"0410011","East Haddam School District","High Needs","Students With High Needs",320,0.9235,512,516,541,533
+"0420011","East Hampton School District","","All Students",1713,0.9413,501,479,539,502
+"0420011","East Hampton School District","Students With Disabilities","Students With Disabilities",272,0.9265,501,479,539,502
+"0420011","East Hampton School District","Free/Reduced Lunch","Free Meal Eligible",282,0.903,501,479,539,502
+"0420011","East Hampton School District","Free/Reduced Lunch","Reduced Price Meal Eligible",70,0.9304,501,479,539,502
+"0420011","East Hampton School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",352,0.9087,501,479,539,502
+"0420011","East Hampton School District","Race/Ethnicity","All other races",80,0.9504,501,479,539,502
+"0420011","East Hampton School District","Race/Ethnicity","Black or African American",21,0.9458,501,479,539,502
+"0420011","East Hampton School District","Race/Ethnicity","Hispanic/Latino of any race",119,0.9402,501,479,539,502
+"0420011","East Hampton School District","Race/Ethnicity","White",1493,0.9408,501,479,539,502
+"0420011","East Hampton School District","High Needs","Students Without High Needs",1181,0.9509,501,479,539,502
+"0420011","East Hampton School District","High Needs","Students With High Needs",515,0.9195,501,479,539,502
+"0430011","East Hartford School District","","All Students",6126,0.91,443,436,458,448
+"0430011","East Hartford School District","Students With Disabilities","Students With Disabilities",1238,0.8698,443,436,458,448
+"0430011","East Hartford School District","Free/Reduced Lunch","Free Meal Eligible",3340,0.8912,443,436,458,448
+"0430011","East Hartford School District","Free/Reduced Lunch","Reduced Price Meal Eligible",577,0.9277,443,436,458,448
+"0430011","East Hartford School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",3917,0.8966,443,436,458,448
+"0430011","East Hartford School District","English Learners","English Learners",900,0.8988,443,436,458,448
+"0430011","East Hartford School District","Race/Ethnicity","All other races",495,0.9299,443,436,458,448
+"0430011","East Hartford School District","Race/Ethnicity","Black or African American",1840,0.9251,443,436,458,448
+"0430011","East Hartford School District","Race/Ethnicity","Hispanic/Latino of any race",3122,0.8979,443,436,458,448
+"0430011","East Hartford School District","Race/Ethnicity","White",669,0.9106,443,436,458,448
+"0430011","East Hartford School District","High Needs","Students Without High Needs",1494,0.9458,443,436,458,448
+"0430011","East Hartford School District","High Needs","Students With High Needs",4447,0.8986,443,436,458,448
+"0440011","East Haven School District","","All Students",2660,0.92,436,434,465,461
+"0440011","East Haven School District","Students With Disabilities","Students With Disabilities",409,0.901,436,434,465,461
+"0440011","East Haven School District","Free/Reduced Lunch","Free Meal Eligible",809,0.8943,436,434,465,461
+"0440011","East Haven School District","Free/Reduced Lunch","Reduced Price Meal Eligible",49,0.9283,436,434,465,461
+"0440011","East Haven School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",858,0.8962,436,434,465,461
+"0440011","East Haven School District","English Learners","English Learners",272,0.9356,436,434,465,461
+"0440011","East Haven School District","Race/Ethnicity","All other races",170,0.9372,436,434,465,461
+"0440011","East Haven School District","Race/Ethnicity","Black or African American",150,0.9244,436,434,465,461
+"0440011","East Haven School District","Race/Ethnicity","Hispanic/Latino of any race",990,0.915,436,434,465,461
+"0440011","East Haven School District","Race/Ethnicity","White",1350,0.9209,436,434,465,461
+"0440011","East Haven School District","High Needs","Students Without High Needs",1334,0.9337,436,434,465,461
+"0440011","East Haven School District","High Needs","Students With High Needs",1265,0.9055,436,434,465,461
+"0450011","East Lyme School District","","All Students",2597,0.9481,533,554,554,571
+"0450011","East Lyme School District","Students With Disabilities","Students With Disabilities",437,0.9373,533,554,554,571
+"0450011","East Lyme School District","Free/Reduced Lunch","Free Meal Eligible",446,0.9353,533,554,554,571
+"0450011","East Lyme School District","Free/Reduced Lunch","Reduced Price Meal Eligible",119,0.9297,533,554,554,571
+"0450011","East Lyme School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",565,0.9341,533,554,554,571
+"0450011","East Lyme School District","English Learners","English Learners",84,0.9471,533,554,554,571
+"0450011","East Lyme School District","Race/Ethnicity","All other races",408,0.9572,533,554,554,571
+"0450011","East Lyme School District","Race/Ethnicity","Black or African American",39,0.9471,533,554,554,571
+"0450011","East Lyme School District","Race/Ethnicity","Hispanic/Latino of any race",239,0.9324,533,554,554,571
+"0450011","East Lyme School District","Race/Ethnicity","White",1911,0.9481,533,554,554,571
+"0450011","East Lyme School District","High Needs","Students Without High Needs",1662,0.9542,533,554,554,571
+"0450011","East Lyme School District","High Needs","Students With High Needs",897,0.9371,533,554,554,571
+"0470011","East Windsor School District","","All Students",971,0.9003,475,437,490,464
+"0470011","East Windsor School District","Students With Disabilities","Students With Disabilities",192,0.8856,475,437,490,464
+"0470011","East Windsor School District","Free/Reduced Lunch","Free Meal Eligible",407,0.8742,475,437,490,464
+"0470011","East Windsor School District","Free/Reduced Lunch","Reduced Price Meal Eligible",106,0.9008,475,437,490,464
+"0470011","East Windsor School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",513,0.8796,475,437,490,464
+"0470011","East Windsor School District","English Learners","English Learners",56,0.8907,475,437,490,464
+"0470011","East Windsor School District","Race/Ethnicity","All other races",109,0.9037,475,437,490,464
+"0470011","East Windsor School District","Race/Ethnicity","Black or African American",143,0.8879,475,437,490,464
+"0470011","East Windsor School District","Race/Ethnicity","Hispanic/Latino of any race",238,0.8815,475,437,490,464
+"0470011","East Windsor School District","Race/Ethnicity","White",481,0.9121,475,437,490,464
+"0470011","East Windsor School District","High Needs","Students Without High Needs",354,0.9283,475,437,490,464
+"0470011","East Windsor School District","High Needs","Students With High Needs",596,0.8847,475,437,490,464
+"0480011","Ellington School District","","All Students",2548,0.943,519,529,534,535
+"0480011","Ellington School District","Students With Disabilities","Students With Disabilities",342,0.9269,519,529,534,535
+"0480011","Ellington School District","Free/Reduced Lunch","Free Meal Eligible",352,0.9168,519,529,534,535
+"0480011","Ellington School District","Free/Reduced Lunch","Reduced Price Meal Eligible",74,0.9405,519,529,534,535
+"0480011","Ellington School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",426,0.921,519,529,534,535
+"0480011","Ellington School District","English Learners","English Learners",40,0.937,519,529,534,535
+"0480011","Ellington School District","Race/Ethnicity","All other races",383,0.9447,519,529,534,535
+"0480011","Ellington School District","Race/Ethnicity","Black or African American",103,0.9255,519,529,534,535
+"0480011","Ellington School District","Race/Ethnicity","Hispanic/Latino of any race",183,0.9278,519,529,534,535
+"0480011","Ellington School District","Race/Ethnicity","White",1879,0.9451,519,529,534,535
+"0480011","Ellington School District","High Needs","Students Without High Needs",1837,0.9494,519,529,534,535
+"0480011","Ellington School District","High Needs","Students With High Needs",691,0.9272,519,529,534,535
+"0490011","Enfield School District","","All Students",4660,0.9211,499,472,508,485
+"0490011","Enfield School District","Students With Disabilities","Students With Disabilities",778,0.8998,499,472,508,485
+"0490011","Enfield School District","Free/Reduced Lunch","Free Meal Eligible",1640,0.9013,499,472,508,485
+"0490011","Enfield School District","Free/Reduced Lunch","Reduced Price Meal Eligible",373,0.9176,499,472,508,485
+"0490011","Enfield School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",2013,0.9043,499,472,508,485
+"0490011","Enfield School District","English Learners","English Learners",151,0.9061,499,472,508,485
+"0490011","Enfield School District","Race/Ethnicity","All other races",391,0.9246,499,472,508,485
+"0490011","Enfield School District","Race/Ethnicity","Black or African American",302,0.8988,499,472,508,485
+"0490011","Enfield School District","Race/Ethnicity","Hispanic/Latino of any race",945,0.9018,499,472,508,485
+"0490011","Enfield School District","Race/Ethnicity","White",3022,0.9289,499,472,508,485
+"0490011","Enfield School District","High Needs","Students Without High Needs",2183,0.9372,499,472,508,485
+"0490011","Enfield School District","High Needs","Students With High Needs",2377,0.9076,499,472,508,485
+"0510011","Fairfield School District","","All Students",9229,0.9385,570,553,566,562
+"0510011","Fairfield School District","Students With Disabilities","Students With Disabilities",1408,0.9186,570,553,566,562
+"0510011","Fairfield School District","Free/Reduced Lunch","Free Meal Eligible",1072,0.9122,570,553,566,562
+"0510011","Fairfield School District","Free/Reduced Lunch","Reduced Price Meal Eligible",319,0.9386,570,553,566,562
+"0510011","Fairfield School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",1391,0.9184,570,553,566,562
+"0510011","Fairfield School District","English Learners","English Learners",221,0.9125,570,553,566,562
+"0510011","Fairfield School District","Race/Ethnicity","All other races",1042,0.9456,570,553,566,562
+"0510011","Fairfield School District","Race/Ethnicity","Black or African American",257,0.9327,570,553,566,562
+"0510011","Fairfield School District","Race/Ethnicity","Hispanic/Latino of any race",1157,0.9256,570,553,566,562
+"0510011","Fairfield School District","Race/Ethnicity","White",6773,0.9399,570,553,566,562
+"0510011","Fairfield School District","High Needs","Students Without High Needs",6599,0.9452,570,553,566,562
+"0510011","Fairfield School District","High Needs","Students With High Needs",2553,0.9214,570,553,566,562
+"0520011","Farmington School District","","All Students",4073,0.9442,575,558,578,573
+"0520011","Farmington School District","Students With Disabilities","Students With Disabilities",485,0.9148,575,558,578,573
+"0520011","Farmington School District","Free/Reduced Lunch","Free Meal Eligible",558,0.9153,575,558,578,573
+"0520011","Farmington School District","Free/Reduced Lunch","Reduced Price Meal Eligible",163,0.9276,575,558,578,573
+"0520011","Farmington School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",721,0.9181,575,558,578,573
+"0520011","Farmington School District","English Learners","English Learners",180,0.9347,575,558,578,573
+"0520011","Farmington School District","Race/Ethnicity","All other races",1187,0.9552,575,558,578,573
+"0520011","Farmington School District","Race/Ethnicity","Black or African American",199,0.9272,575,558,578,573
+"0520011","Farmington School District","Race/Ethnicity","Hispanic/Latino of any race",407,0.9202,575,558,578,573
+"0520011","Farmington School District","Race/Ethnicity","White",2280,0.9443,575,558,578,573
+"0520011","Farmington School District","High Needs","Students Without High Needs",2863,0.9531,575,558,578,573
+"0520011","Farmington School District","High Needs","Students With High Needs",1166,0.9237,575,558,578,573
+"0540011","Glastonbury School District","","All Students",5631,0.9509,583,563,570,563
+"0540011","Glastonbury School District","Students With Disabilities","Students With Disabilities",600,0.9216,583,563,570,563
+"0540011","Glastonbury School District","Free/Reduced Lunch","Free Meal Eligible",509,0.9174,583,563,570,563
+"0540011","Glastonbury School District","Free/Reduced Lunch","Reduced Price Meal Eligible",118,0.9279,583,563,570,563
+"0540011","Glastonbury School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",627,0.9194,583,563,570,563
+"0540011","Glastonbury School District","English Learners","English Learners",146,0.9441,583,563,570,563
+"0540011","Glastonbury School District","Race/Ethnicity","All other races",1066,0.9609,583,563,570,563
+"0540011","Glastonbury School District","Race/Ethnicity","Black or African American",180,0.9372,583,563,570,563
+"0540011","Glastonbury School District","Race/Ethnicity","Hispanic/Latino of any race",643,0.9359,583,563,570,563
+"0540011","Glastonbury School District","Race/Ethnicity","White",3742,0.9513,583,563,570,563
+"0540011","Glastonbury School District","High Needs","Students Without High Needs",4400,0.9575,583,563,570,563
+"0540011","Glastonbury School District","High Needs","Students With High Needs",1179,0.9262,583,563,570,563
+"0560011","Granby School District","","All Students",1726,0.9449,551,530,570,547
+"0560011","Granby School District","Students With Disabilities","Students With Disabilities",256,0.9253,551,530,570,547
+"0560011","Granby School District","Free/Reduced Lunch","Free Meal Eligible",213,0.9164,551,530,570,547
+"0560011","Granby School District","Free/Reduced Lunch","Reduced Price Meal Eligible",39,0.9374,551,530,570,547
+"0560011","Granby School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",252,0.9197,551,530,570,547
+"0560011","Granby School District","Race/Ethnicity","All other races",95,0.9391,551,530,570,547
+"0560011","Granby School District","Race/Ethnicity","Black or African American",104,0.9268,551,530,570,547
+"0560011","Granby School District","Race/Ethnicity","Hispanic/Latino of any race",80,0.9386,551,530,570,547
+"0560011","Granby School District","Race/Ethnicity","White",1447,0.9469,551,530,570,547
+"0560011","Granby School District","High Needs","Students Without High Needs",1257,0.9513,551,530,570,547
+"0560011","Granby School District","High Needs","Students With High Needs",447,0.9276,551,530,570,547
+"0570011","Greenwich School District","","All Students",8471,0.9418,571,563,579,570
+"0570011","Greenwich School District","Students With Disabilities","Students With Disabilities",1093,0.9251,571,563,579,570
+"0570011","Greenwich School District","Free/Reduced Lunch","Free Meal Eligible",1008,0.9214,571,563,579,570
+"0570011","Greenwich School District","Free/Reduced Lunch","Reduced Price Meal Eligible",326,0.9368,571,563,579,570
+"0570011","Greenwich School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",1334,0.9251,571,563,579,570
+"0570011","Greenwich School District","English Learners","English Learners",354,0.9318,571,563,579,570
+"0570011","Greenwich School District","Race/Ethnicity","All other races",1251,0.9507,571,563,579,570
+"0570011","Greenwich School District","Race/Ethnicity","Black or African American",187,0.9376,571,563,579,570
+"0570011","Greenwich School District","Race/Ethnicity","Hispanic/Latino of any race",1921,0.9299,571,563,579,570
+"0570011","Greenwich School District","Race/Ethnicity","White",5112,0.9442,571,563,579,570
+"0570011","Greenwich School District","High Needs","Students Without High Needs",5998,0.9469,571,563,579,570
+"0570011","Greenwich School District","High Needs","Students With High Needs",2328,0.9286,571,563,579,570
+"0580011","Griswold School District","","All Students",1639,0.9234,461,464,491,487
+"0580011","Griswold School District","Students With Disabilities","Students With Disabilities",319,0.8913,461,464,491,487
+"0580011","Griswold School District","Free/Reduced Lunch","Free Meal Eligible",621,0.9031,461,464,491,487
+"0580011","Griswold School District","Free/Reduced Lunch","Reduced Price Meal Eligible",154,0.9198,461,464,491,487
+"0580011","Griswold School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",775,0.9064,461,464,491,487
+"0580011","Griswold School District","English Learners","English Learners",24,0.8672,461,464,491,487
+"0580011","Griswold School District","Race/Ethnicity","All other races",166,0.9136,461,464,491,487
+"0580011","Griswold School District","Race/Ethnicity","Black or African American",41,0.9164,461,464,491,487
+"0580011","Griswold School District","Race/Ethnicity","Hispanic/Latino of any race",205,0.9125,461,464,491,487
+"0580011","Griswold School District","Race/Ethnicity","White",1227,0.9267,461,464,491,487
+"0580011","Griswold School District","High Needs","Students Without High Needs",706,0.9444,461,464,491,487
+"0580011","Griswold School District","High Needs","Students With High Needs",901,0.9086,461,464,491,487
+"0590011","Groton School District","","All Students",4560,0.9144,502,476,516,495
+"0590011","Groton School District","Students With Disabilities","Students With Disabilities",748,0.8931,502,476,516,495
+"0590011","Groton School District","Free/Reduced Lunch","Free Meal Eligible",1499,0.8919,502,476,516,495
+"0590011","Groton School District","Free/Reduced Lunch","Reduced Price Meal Eligible",498,0.9218,502,476,516,495
+"0590011","Groton School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",1997,0.8993,502,476,516,495
+"0590011","Groton School District","English Learners","English Learners",176,0.9117,502,476,516,495
+"0590011","Groton School District","Race/Ethnicity","All other races",840,0.914,502,476,516,495
+"0590011","Groton School District","Race/Ethnicity","Black or African American",304,0.9074,502,476,516,495
+"0590011","Groton School District","Race/Ethnicity","Hispanic/Latino of any race",1076,0.9006,502,476,516,495
+"0590011","Groton School District","Race/Ethnicity","White",2340,0.9225,502,476,516,495
+"0590011","Groton School District","High Needs","Students Without High Needs",2001,0.9326,502,476,516,495
+"0590011","Groton School District","High Needs","Students With High Needs",2355,0.9014,502,476,516,495
+"0600011","Guilford School District","","All Students",3108,0.9372,576,562,577,565
+"0600011","Guilford School District","Students With Disabilities","Students With Disabilities",380,0.9161,576,562,577,565
+"0600011","Guilford School District","Free/Reduced Lunch","Free Meal Eligible",263,0.9101,576,562,577,565
+"0600011","Guilford School District","Free/Reduced Lunch","Reduced Price Meal Eligible",109,0.9141,576,562,577,565
+"0600011","Guilford School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",372,0.9113,576,562,577,565
+"0600011","Guilford School District","English Learners","English Learners",45,0.9488,576,562,577,565
+"0600011","Guilford School District","Race/Ethnicity","All other races",322,0.9477,576,562,577,565
+"0600011","Guilford School District","Race/Ethnicity","Black or African American",37,0.9264,576,562,577,565
+"0600011","Guilford School District","Race/Ethnicity","Hispanic/Latino of any race",259,0.927,576,562,577,565
+"0600011","Guilford School District","Race/Ethnicity","White",2490,0.937,576,562,577,565
+"0600011","Guilford School District","High Needs","Students Without High Needs",2391,0.9428,576,562,577,565
+"0600011","Guilford School District","High Needs","Students With High Needs",696,0.9179,576,562,577,565
+"0620011","Hamden School District","","All Students",5392,0.8962,474,463,497,486
+"0620011","Hamden School District","Students With Disabilities","Students With Disabilities",900,0.8745,474,463,497,486
+"0620011","Hamden School District","Free/Reduced Lunch","Free Meal Eligible",1738,0.8728,474,463,497,486
+"0620011","Hamden School District","Free/Reduced Lunch","Reduced Price Meal Eligible",391,0.908,474,463,497,486
+"0620011","Hamden School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",2129,0.8792,474,463,497,486
+"0620011","Hamden School District","English Learners","English Learners",340,0.9111,474,463,497,486
+"0620011","Hamden School District","Race/Ethnicity","All other races",686,0.9165,474,463,497,486
+"0620011","Hamden School District","Race/Ethnicity","Black or African American",1718,0.8871,474,463,497,486
+"0620011","Hamden School District","Race/Ethnicity","Hispanic/Latino of any race",1358,0.8826,474,463,497,486
+"0620011","Hamden School District","Race/Ethnicity","White",1630,0.9085,474,463,497,486
+"0620011","Hamden School District","High Needs","Students Without High Needs",2524,0.9135,474,463,497,486
+"0620011","Hamden School District","High Needs","Students With High Needs",2693,0.8813,474,463,497,486
+"0640011","Hartford School District","","All Students",16371,0.8564,436,418,453,436
+"0640011","Hartford School District","Homelessness","Students Experiencing Homelessness",107,0.7986,436,418,453,436
+"0640011","Hartford School District","Students With Disabilities","Students With Disabilities",3227,0.8147,436,418,453,436
+"0640011","Hartford School District","Free/Reduced Lunch","Free Meal Eligible",12011,0.842,436,418,453,436
+"0640011","Hartford School District","Free/Reduced Lunch","Reduced Price Meal Eligible",434,0.9108,436,418,453,436
+"0640011","Hartford School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",12445,0.8444,436,418,453,436
+"0640011","Hartford School District","English Learners","English Learners",3591,0.8484,436,418,453,436
+"0640011","Hartford School District","Race/Ethnicity","All other races",1033,0.8971,436,418,453,436
+"0640011","Hartford School District","Race/Ethnicity","Black or African American",4852,0.8694,436,418,453,436
+"0640011","Hartford School District","Race/Ethnicity","Hispanic/Latino of any race",9286,0.8389,436,418,453,436
+"0640011","Hartford School District","Race/Ethnicity","White",1200,0.905,436,418,453,436
+"0640011","Hartford School District","High Needs","Students Without High Needs",2305,0.9148,436,418,453,436
+"0640011","Hartford School District","High Needs","Students With High Needs",13351,0.8469,436,418,453,436
+"0690011","Killingly School District","","All Students",2245,0.9093,474,466,502,504
+"0690011","Killingly School District","Students With Disabilities","Students With Disabilities",388,0.8849,474,466,502,504
+"0690011","Killingly School District","Free/Reduced Lunch","Free Meal Eligible",847,0.8825,474,466,502,504
+"0690011","Killingly School District","Free/Reduced Lunch","Reduced Price Meal Eligible",149,0.9107,474,466,502,504
+"0690011","Killingly School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",996,0.8867,474,466,502,504
+"0690011","Killingly School District","English Learners","English Learners",60,0.9096,474,466,502,504
+"0690011","Killingly School District","Race/Ethnicity","All other races",214,0.9093,474,466,502,504
+"0690011","Killingly School District","Race/Ethnicity","Black or African American",35,0.9191,474,466,502,504
+"0690011","Killingly School District","Race/Ethnicity","Hispanic/Latino of any race",259,0.8855,474,466,502,504
+"0690011","Killingly School District","Race/Ethnicity","White",1737,0.9126,474,466,502,504
+"0690011","Killingly School District","High Needs","Students Without High Needs",1022,0.931,474,466,502,504
+"0690011","Killingly School District","High Needs","Students With High Needs",1161,0.8914,474,466,502,504
+"0710011","Lebanon School District","","All Students",886,0.9386,509,479,521,509
+"0710011","Lebanon School District","Students With Disabilities","Students With Disabilities",146,0.9221,509,479,521,509
+"0710011","Lebanon School District","Free/Reduced Lunch","Free Meal Eligible",202,0.9227,509,479,521,509
+"0710011","Lebanon School District","Free/Reduced Lunch","Reduced Price Meal Eligible",40,0.9262,509,479,521,509
+"0710011","Lebanon School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",242,0.9233,509,479,521,509
+"0710011","Lebanon School District","Race/Ethnicity","Hispanic/Latino of any race",66,0.9362,509,479,521,509
+"0710011","Lebanon School District","Race/Ethnicity","White",776,0.9404,509,479,521,509
+"0710011","Lebanon School District","High Needs","Students Without High Needs",557,0.9464,509,479,521,509
+"0710011","Lebanon School District","High Needs","Students With High Needs",324,0.9254,509,479,521,509
+"0720011","Ledyard School District","","All Students",2424,0.9117,498,510,517,517
+"0720011","Ledyard School District","Students With Disabilities","Students With Disabilities",406,0.8964,498,510,517,517
+"0720011","Ledyard School District","Free/Reduced Lunch","Free Meal Eligible",376,0.8859,498,510,517,517
+"0720011","Ledyard School District","Free/Reduced Lunch","Reduced Price Meal Eligible",117,0.8955,498,510,517,517
+"0720011","Ledyard School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",493,0.8881,498,510,517,517
+"0720011","Ledyard School District","English Learners","English Learners",37,0.9177,498,510,517,517
+"0720011","Ledyard School District","Race/Ethnicity","All other races",306,0.902,498,510,517,517
+"0720011","Ledyard School District","Race/Ethnicity","Black or African American",110,0.889,498,510,517,517
+"0720011","Ledyard School District","Race/Ethnicity","Hispanic/Latino of any race",283,0.8955,498,510,517,517
+"0720011","Ledyard School District","Race/Ethnicity","White",1725,0.9174,498,510,517,517
+"0720011","Ledyard School District","High Needs","Students Without High Needs",1587,0.9209,498,510,517,517
+"0720011","Ledyard School District","High Needs","Students With High Needs",787,0.8937,498,510,517,517
+"0740011","Litchfield School District","","All Students",808,0.9299,523,521,552,529
+"0740011","Litchfield School District","Students With Disabilities","Students With Disabilities",141,0.8996,523,521,552,529
+"0740011","Litchfield School District","Free/Reduced Lunch","Free Meal Eligible",103,0.9088,523,521,552,529
+"0740011","Litchfield School District","Free/Reduced Lunch","Reduced Price Meal Eligible",28,0.9248,523,521,552,529
+"0740011","Litchfield School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",131,0.9122,523,521,552,529
+"0740011","Litchfield School District","Race/Ethnicity","Hispanic/Latino of any race",59,0.9107,523,521,552,529
+"0740011","Litchfield School District","Race/Ethnicity","White",706,0.9314,523,521,552,529
+"0740011","Litchfield School District","High Needs","Students Without High Needs",562,0.9369,523,521,552,529
+"0740011","Litchfield School District","High Needs","Students With High Needs",240,0.913,523,521,552,529
+"0760011","Madison School District","","All Students",2414,0.9593,579,564,579,553
+"0760011","Madison School District","Students With Disabilities","Students With Disabilities",339,0.9527,579,564,579,553
+"0760011","Madison School District","Free/Reduced Lunch","Free Meal Eligible",66,0.939,579,564,579,553
+"0760011","Madison School District","Free/Reduced Lunch","Reduced Price Meal Eligible",23,0.9626,579,564,579,553
+"0760011","Madison School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",89,0.9451,579,564,579,553
+"0760011","Madison School District","English Learners","English Learners",39,0.9575,579,564,579,553
+"0760011","Madison School District","Race/Ethnicity","All other races",183,0.9693,579,564,579,553
+"0760011","Madison School District","Race/Ethnicity","White",2058,0.9585,579,564,579,553
+"0760011","Madison School District","High Needs","Students Without High Needs",1980,0.9605,579,564,579,553
+"0760011","Madison School District","High Needs","Students With High Needs",422,0.9537,579,564,579,553
+"0770011","Manchester School District","","All Students",6039,0.8854,469,451,480,461
+"0770011","Manchester School District","Students With Disabilities","Students With Disabilities",959,0.8446,469,451,480,461
+"0770011","Manchester School District","Free/Reduced Lunch","Free Meal Eligible",2922,0.8577,469,451,480,461
+"0770011","Manchester School District","Free/Reduced Lunch","Reduced Price Meal Eligible",497,0.9005,469,451,480,461
+"0770011","Manchester School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",3419,0.8639,469,451,480,461
+"0770011","Manchester School District","English Learners","English Learners",461,0.885,469,451,480,461
+"0770011","Manchester School District","Race/Ethnicity","All other races",661,0.8982,469,451,480,461
+"0770011","Manchester School District","Race/Ethnicity","Black or African American",1492,0.8895,469,451,480,461
+"0770011","Manchester School District","Race/Ethnicity","Hispanic/Latino of any race",2011,0.8609,469,451,480,461
+"0770011","Manchester School District","Race/Ethnicity","White",1875,0.9034,469,451,480,461
+"0770011","Manchester School District","High Needs","Students Without High Needs",2050,0.9222,469,451,480,461
+"0770011","Manchester School District","High Needs","Students With High Needs",3821,0.8672,469,451,480,461
+"0800011","Meriden School District","","All Students",8476,0.9112,424,423,453,453
+"0800011","Meriden School District","Students With Disabilities","Students With Disabilities",1663,0.8845,424,423,453,453
+"0800011","Meriden School District","Free/Reduced Lunch","Free Meal Eligible",5968,0.9028,424,423,453,453
+"0800011","Meriden School District","Free/Reduced Lunch","Reduced Price Meal Eligible",984,0.9311,424,423,453,453
+"0800011","Meriden School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",6952,0.9068,424,423,453,453
+"0800011","Meriden School District","English Learners","English Learners",1394,0.906,424,423,453,453
+"0800011","Meriden School District","Race/Ethnicity","All other races",543,0.9226,424,423,453,453
+"0800011","Meriden School District","Race/Ethnicity","Black or African American",956,0.9124,424,423,453,453
+"0800011","Meriden School District","Race/Ethnicity","Hispanic/Latino of any race",5035,0.9042,424,423,453,453
+"0800011","Meriden School District","Race/Ethnicity","White",1942,0.9255,424,423,453,453
+"0800011","Meriden School District","High Needs","Students Without High Needs",1023,0.9437,424,423,453,453
+"0800011","Meriden School District","High Needs","Students With High Needs",7250,0.9072,424,423,453,453
+"0830011","Middletown School District","","All Students",4346,0.8941,471,441,492,463
+"0830011","Middletown School District","Homelessness","Students Experiencing Homelessness",35,0.8319,471,441,492,463
+"0830011","Middletown School District","Students With Disabilities","Students With Disabilities",596,0.8606,471,441,492,463
+"0830011","Middletown School District","Free/Reduced Lunch","Free Meal Eligible",1394,0.867,471,441,492,463
+"0830011","Middletown School District","Free/Reduced Lunch","Reduced Price Meal Eligible",226,0.8798,471,441,492,463
+"0830011","Middletown School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",1620,0.8688,471,441,492,463
+"0830011","Middletown School District","English Learners","English Learners",189,0.8983,471,441,492,463
+"0830011","Middletown School District","Race/Ethnicity","All other races",703,0.9026,471,441,492,463
+"0830011","Middletown School District","Race/Ethnicity","Black or African American",954,0.8755,471,441,492,463
+"0830011","Middletown School District","Race/Ethnicity","Hispanic/Latino of any race",702,0.8701,471,441,492,463
+"0830011","Middletown School District","Race/Ethnicity","White",1987,0.9085,471,441,492,463
+"0830011","Middletown School District","High Needs","Students Without High Needs",2288,0.9132,471,441,492,463
+"0830011","Middletown School District","High Needs","Students With High Needs",1971,0.8728,471,441,492,463
+"0840011","Milford School District","","All Students",5204,0.9227,514,504,527,514
+"0840011","Milford School District","Students With Disabilities","Students With Disabilities",784,0.8946,514,504,527,514
+"0840011","Milford School District","Free/Reduced Lunch","Free Meal Eligible",1113,0.9021,514,504,527,514
+"0840011","Milford School District","Free/Reduced Lunch","Reduced Price Meal Eligible",282,0.9156,514,504,527,514
+"0840011","Milford School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",1395,0.9049,514,504,527,514
+"0840011","Milford School District","English Learners","English Learners",121,0.9341,514,504,527,514
+"0840011","Milford School District","Race/Ethnicity","All other races",658,0.9336,514,504,527,514
+"0840011","Milford School District","Race/Ethnicity","Black or African American",254,0.9136,514,504,527,514
+"0840011","Milford School District","Race/Ethnicity","Hispanic/Latino of any race",768,0.9141,514,504,527,514
+"0840011","Milford School District","Race/Ethnicity","White",3524,0.9231,514,504,527,514
+"0840011","Milford School District","High Needs","Students Without High Needs",3201,0.933,514,504,527,514
+"0840011","Milford School District","High Needs","Students With High Needs",1920,0.9068,514,504,527,514
+"0850011","Monroe School District","","All Students",3319,0.9485,570,536,564,548
+"0850011","Monroe School District","Students With Disabilities","Students With Disabilities",446,0.9363,570,536,564,548
+"0850011","Monroe School District","Free/Reduced Lunch","Free Meal Eligible",262,0.9255,570,536,564,548
+"0850011","Monroe School District","Free/Reduced Lunch","Reduced Price Meal Eligible",75,0.9395,570,536,564,548
+"0850011","Monroe School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",337,0.9286,570,536,564,548
+"0850011","Monroe School District","English Learners","English Learners",43,0.9514,570,536,564,548
+"0850011","Monroe School District","Race/Ethnicity","All other races",315,0.9532,570,536,564,548
+"0850011","Monroe School District","Race/Ethnicity","Black or African American",102,0.9588,570,536,564,548
+"0850011","Monroe School District","Race/Ethnicity","Hispanic/Latino of any race",501,0.942,570,536,564,548
+"0850011","Monroe School District","Race/Ethnicity","White",2401,0.9488,570,536,564,548
+"0850011","Monroe School District","High Needs","Students Without High Needs",2545,0.9525,570,536,564,548
+"0850011","Monroe School District","High Needs","Students With High Needs",737,0.9351,570,536,564,548
+"0860011","Montville School District","","All Students",1970,0.9225,479,486,520,509
+"0860011","Montville School District","Students With Disabilities","Students With Disabilities",351,0.8799,479,486,520,509
+"0860011","Montville School District","Free/Reduced Lunch","Free Meal Eligible",648,0.8993,479,486,520,509
+"0860011","Montville School District","Free/Reduced Lunch","Reduced Price Meal Eligible",175,0.9284,479,486,520,509
+"0860011","Montville School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",823,0.9056,479,486,520,509
+"0860011","Montville School District","English Learners","English Learners",89,0.9306,479,486,520,509
+"0860011","Montville School District","Race/Ethnicity","All other races",389,0.9277,479,486,520,509
+"0860011","Montville School District","Race/Ethnicity","Black or African American",86,0.9225,479,486,520,509
+"0860011","Montville School District","Race/Ethnicity","Hispanic/Latino of any race",296,0.914,479,486,520,509
+"0860011","Montville School District","Race/Ethnicity","White",1199,0.9229,479,486,520,509
+"0860011","Montville School District","High Needs","Students Without High Needs",934,0.9419,479,486,520,509
+"0860011","Montville School District","High Needs","Students With High Needs",997,0.9062,479,486,520,509
+"0880011","Naugatuck School District","","All Students",4208,0.9184,446,441,473,471
+"0880011","Naugatuck School District","Students With Disabilities","Students With Disabilities",719,0.9057,446,441,473,471
+"0880011","Naugatuck School District","Free/Reduced Lunch","Free Meal Eligible",1839,0.8992,446,441,473,471
+"0880011","Naugatuck School District","Free/Reduced Lunch","Reduced Price Meal Eligible",372,0.9251,446,441,473,471
+"0880011","Naugatuck School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",2211,0.9035,446,441,473,471
+"0880011","Naugatuck School District","English Learners","English Learners",347,0.9104,446,441,473,471
+"0880011","Naugatuck School District","Race/Ethnicity","All other races",342,0.9277,446,441,473,471
+"0880011","Naugatuck School District","Race/Ethnicity","Black or African American",466,0.924,446,441,473,471
+"0880011","Naugatuck School District","Race/Ethnicity","Hispanic/Latino of any race",1517,0.9065,446,441,473,471
+"0880011","Naugatuck School District","Race/Ethnicity","White",1883,0.9247,446,441,473,471
+"0880011","Naugatuck School District","High Needs","Students Without High Needs",1518,0.9411,446,441,473,471
+"0880011","Naugatuck School District","High Needs","Students With High Needs",2569,0.9055,446,441,473,471
+"0890011","New Britain School District","","All Students",9299,0.8671,412,407,428,436
+"0890011","New Britain School District","Homelessness","Students Experiencing Homelessness",81,0.8201,412,407,428,436
+"0890011","New Britain School District","Students With Disabilities","Students With Disabilities",1889,0.8315,412,407,428,436
+"0890011","New Britain School District","Free/Reduced Lunch","Free Meal Eligible",6030,0.8511,412,407,428,436
+"0890011","New Britain School District","Free/Reduced Lunch","Reduced Price Meal Eligible",755,0.8866,412,407,428,436
+"0890011","New Britain School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",6785,0.855,412,407,428,436
+"0890011","New Britain School District","English Learners","English Learners",1558,0.8545,412,407,428,436
+"0890011","New Britain School District","Race/Ethnicity","All other races",613,0.8998,412,407,428,436
+"0890011","New Britain School District","Race/Ethnicity","Black or African American",1016,0.8805,412,407,428,436
+"0890011","New Britain School District","Race/Ethnicity","Hispanic/Latino of any race",6261,0.8561,412,407,428,436
+"0890011","New Britain School District","Race/Ethnicity","White",1409,0.8925,412,407,428,436
+"0890011","New Britain School District","High Needs","Students Without High Needs",1613,0.9108,412,407,428,436
+"0890011","New Britain School District","High Needs","Students With High Needs",7379,0.8578,412,407,428,436
+"0900011","New Canaan School District","","All Students",4113,0.9566,619,581,618,587
+"0900011","New Canaan School District","Students With Disabilities","Students With Disabilities",486,0.9488,619,581,618,587
+"0900011","New Canaan School District","English Learners","English Learners",21,0.9533,619,581,618,587
+"0900011","New Canaan School District","Race/Ethnicity","All other races",495,0.9631,619,581,618,587
+"0900011","New Canaan School District","Race/Ethnicity","Black or African American",54,0.9518,619,581,618,587
+"0900011","New Canaan School District","Race/Ethnicity","Hispanic/Latino of any race",245,0.9578,619,581,618,587
+"0900011","New Canaan School District","Race/Ethnicity","White",3319,0.9556,619,581,618,587
+"0900011","New Canaan School District","High Needs","Students Without High Needs",3565,0.9577,619,581,618,587
+"0900011","New Canaan School District","High Needs","Students With High Needs",507,0.9492,619,581,618,587
+"0910011","New Fairfield School District","","All Students",2096,0.9288,522,508,546,513
+"0910011","New Fairfield School District","Students With Disabilities","Students With Disabilities",316,0.9108,522,508,546,513
+"0910011","New Fairfield School District","Free/Reduced Lunch","Free Meal Eligible",187,0.901,522,508,546,513
+"0910011","New Fairfield School District","Free/Reduced Lunch","Reduced Price Meal Eligible",73,0.926,522,508,546,513
+"0910011","New Fairfield School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",260,0.908,522,508,546,513
+"0910011","New Fairfield School District","English Learners","English Learners",84,0.9105,522,508,546,513
+"0910011","New Fairfield School District","Race/Ethnicity","All other races",98,0.933,522,508,546,513
+"0910011","New Fairfield School District","Race/Ethnicity","Black or African American",45,0.9323,522,508,546,513
+"0910011","New Fairfield School District","Race/Ethnicity","Hispanic/Latino of any race",362,0.9206,522,508,546,513
+"0910011","New Fairfield School District","Race/Ethnicity","White",1591,0.9303,522,508,546,513
+"0910011","New Fairfield School District","High Needs","Students Without High Needs",1491,0.9343,522,508,546,513
+"0910011","New Fairfield School District","High Needs","Students With High Needs",557,0.9136,522,508,546,513
+"0930011","New Haven School District","","All Students",18028,0.8383,423,416,444,439
+"0930011","New Haven School District","Homelessness","Students Experiencing Homelessness",234,0.7573,423,416,444,439
+"0930011","New Haven School District","Students With Disabilities","Students With Disabilities",2708,0.7911,423,416,444,439
+"0930011","New Haven School District","Free/Reduced Lunch","Free Meal Eligible",10661,0.8201,423,416,444,439
+"0930011","New Haven School District","Free/Reduced Lunch","Reduced Price Meal Eligible",1467,0.8664,423,416,444,439
+"0930011","New Haven School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",12128,0.8257,423,416,444,439
+"0930011","New Haven School District","English Learners","English Learners",3569,0.8606,423,416,444,439
+"0930011","New Haven School District","Race/Ethnicity","All other races",1101,0.8623,423,416,444,439
+"0930011","New Haven School District","Race/Ethnicity","Black or African American",6203,0.8205,423,416,444,439
+"0930011","New Haven School District","Race/Ethnicity","Hispanic/Latino of any race",8779,0.8421,423,416,444,439
+"0930011","New Haven School District","Race/Ethnicity","White",1945,0.8649,423,416,444,439
+"0930011","New Haven School District","High Needs","Students Without High Needs",3996,0.872,423,416,444,439
+"0930011","New Haven School District","High Needs","Students With High Needs",13533,0.8294,423,416,444,439
+"0940011","Newington School District","","All Students",3850,0.9413,528,502,536,498
+"0940011","Newington School District","Students With Disabilities","Students With Disabilities",572,0.9215,528,502,536,498
+"0940011","Newington School District","Free/Reduced Lunch","Free Meal Eligible",981,0.9157,528,502,536,498
+"0940011","Newington School District","Free/Reduced Lunch","Reduced Price Meal Eligible",284,0.9367,528,502,536,498
+"0940011","Newington School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",1265,0.9204,528,502,536,498
+"0940011","Newington School District","English Learners","English Learners",308,0.9371,528,502,536,498
+"0940011","Newington School District","Race/Ethnicity","All other races",563,0.951,528,502,536,498
+"0940011","Newington School District","Race/Ethnicity","Black or African American",220,0.9425,528,502,536,498
+"0940011","Newington School District","Race/Ethnicity","Hispanic/Latino of any race",974,0.9242,528,502,536,498
+"0940011","Newington School District","Race/Ethnicity","White",2093,0.9464,528,502,536,498
+"0940011","Newington School District","High Needs","Students Without High Needs",2134,0.955,528,502,536,498
+"0940011","Newington School District","High Needs","Students With High Needs",1682,0.9243,528,502,536,498
+"0950011","New London School District","","All Students",3055,0.8868,431,414,442,433
+"0950011","New London School District","Homelessness","Students Experiencing Homelessness",184,0.8869,431,414,442,433
+"0950011","New London School District","Students With Disabilities","Students With Disabilities",542,0.8406,431,414,442,433
+"0950011","New London School District","Free/Reduced Lunch","Free Meal Eligible",2323,0.8778,431,414,442,433
+"0950011","New London School District","Free/Reduced Lunch","Reduced Price Meal Eligible",184,0.9222,431,414,442,433
+"0950011","New London School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",2507,0.881,431,414,442,433
+"0950011","New London School District","English Learners","English Learners",768,0.8854,431,414,442,433
+"0950011","New London School District","Race/Ethnicity","All other races",434,0.8976,431,414,442,433
+"0950011","New London School District","Race/Ethnicity","Black or African American",507,0.9054,431,414,442,433
+"0950011","New London School District","Race/Ethnicity","Hispanic/Latino of any race",1704,0.8743,431,414,442,433
+"0950011","New London School District","Race/Ethnicity","White",410,0.9038,431,414,442,433
+"0950011","New London School District","High Needs","Students Without High Needs",328,0.9269,431,414,442,433
+"0950011","New London School District","High Needs","Students With High Needs",2601,0.8819,431,414,442,433
+"0960011","New Milford School District","","All Students",3601,0.9183,530,509,530,528
+"0960011","New Milford School District","Students With Disabilities","Students With Disabilities",540,0.8897,530,509,530,528
+"0960011","New Milford School District","Free/Reduced Lunch","Free Meal Eligible",894,0.8933,530,509,530,528
+"0960011","New Milford School District","Free/Reduced Lunch","Reduced Price Meal Eligible",254,0.916,530,509,530,528
+"0960011","New Milford School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",1148,0.8982,530,509,530,528
+"0960011","New Milford School District","English Learners","English Learners",214,0.9151,530,509,530,528
+"0960011","New Milford School District","Race/Ethnicity","All other races",267,0.9272,530,509,530,528
+"0960011","New Milford School District","Race/Ethnicity","Black or African American",116,0.9193,530,509,530,528
+"0960011","New Milford School District","Race/Ethnicity","Hispanic/Latino of any race",754,0.914,530,509,530,528
+"0960011","New Milford School District","Race/Ethnicity","White",2464,0.9187,530,509,530,528
+"0960011","New Milford School District","High Needs","Students Without High Needs",2017,0.9312,530,509,530,528
+"0960011","New Milford School District","High Needs","Students With High Needs",1523,0.9011,530,509,530,528
+"0970011","Newtown School District","","All Students",4001,0.9465,579,545,573,539
+"0970011","Newtown School District","Students With Disabilities","Students With Disabilities",578,0.934,579,545,573,539
+"0970011","Newtown School District","Free/Reduced Lunch","Free Meal Eligible",377,0.9257,579,545,573,539
+"0970011","Newtown School District","Free/Reduced Lunch","Reduced Price Meal Eligible",120,0.9359,579,545,573,539
+"0970011","Newtown School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",497,0.9281,579,545,573,539
+"0970011","Newtown School District","English Learners","English Learners",45,0.9531,579,545,573,539
+"0970011","Newtown School District","Race/Ethnicity","All other races",184,0.9506,579,545,573,539
+"0970011","Newtown School District","Race/Ethnicity","Black or African American",85,0.9532,579,545,573,539
+"0970011","Newtown School District","Race/Ethnicity","Hispanic/Latino of any race",437,0.9392,579,545,573,539
+"0970011","Newtown School District","Race/Ethnicity","White",3295,0.9471,579,545,573,539
+"0970011","Newtown School District","High Needs","Students Without High Needs",2981,0.951,579,545,573,539
+"0970011","Newtown School District","High Needs","Students With High Needs",969,0.9336,579,545,573,539
+"0990011","North Branford School District","","All Students",1536,0.935,504,499,518,518
+"0990011","North Branford School District","Students With Disabilities","Students With Disabilities",229,0.9241,504,499,518,518
+"0990011","North Branford School District","Free/Reduced Lunch","Free Meal Eligible",240,0.9204,504,499,518,518
+"0990011","North Branford School District","Free/Reduced Lunch","Reduced Price Meal Eligible",52,0.9247,504,499,518,518
+"0990011","North Branford School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",292,0.9212,504,499,518,518
+"0990011","North Branford School District","Race/Ethnicity","All other races",56,0.9509,504,499,518,518
+"0990011","North Branford School District","Race/Ethnicity","Black or African American",22,0.935,504,499,518,518
+"0990011","North Branford School District","Race/Ethnicity","Hispanic/Latino of any race",141,0.9252,504,499,518,518
+"0990011","North Branford School District","Race/Ethnicity","White",1317,0.9353,504,499,518,518
+"0990011","North Branford School District","High Needs","Students Without High Needs",1069,0.9396,504,499,518,518
+"0990011","North Branford School District","High Needs","Students With High Needs",462,0.9243,504,499,518,518
+"1010011","North Haven School District","","All Students",3130,0.9464,504,509,516,516
+"1010011","North Haven School District","Students With Disabilities","Students With Disabilities",372,0.9209,504,509,516,516
+"1010011","North Haven School District","Free/Reduced Lunch","Free Meal Eligible",510,0.9238,504,509,516,516
+"1010011","North Haven School District","Free/Reduced Lunch","Reduced Price Meal Eligible",151,0.9288,504,509,516,516
+"1010011","North Haven School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",661,0.925,504,509,516,516
+"1010011","North Haven School District","English Learners","English Learners",139,0.943,504,509,516,516
+"1010011","North Haven School District","Race/Ethnicity","All other races",304,0.9537,504,509,516,516
+"1010011","North Haven School District","Race/Ethnicity","Black or African American",157,0.9429,504,509,516,516
+"1010011","North Haven School District","Race/Ethnicity","Hispanic/Latino of any race",380,0.9437,504,509,516,516
+"1010011","North Haven School District","Race/Ethnicity","White",2289,0.9461,504,509,516,516
+"1010011","North Haven School District","High Needs","Students Without High Needs",2124,0.9548,504,509,516,516
+"1010011","North Haven School District","High Needs","Students With High Needs",975,0.929,504,509,516,516
+"1020011","North Stonington School District","","All Students",740,0.9413,549,535,572,566
+"1020011","North Stonington School District","Students With Disabilities","Students With Disabilities",74,0.939,549,535,572,566
+"1020011","North Stonington School District","Free/Reduced Lunch","Free Meal Eligible",109,0.9284,549,535,572,566
+"1020011","North Stonington School District","Free/Reduced Lunch","Reduced Price Meal Eligible",42,0.9191,549,535,572,566
+"1020011","North Stonington School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",151,0.9258,549,535,572,566
+"1020011","North Stonington School District","Race/Ethnicity","All other races",35,0.9116,549,535,572,566
+"1020011","North Stonington School District","Race/Ethnicity","White",655,0.9429,549,535,572,566
+"1020011","North Stonington School District","High Needs","Students Without High Needs",537,0.9454,549,535,572,566
+"1020011","North Stonington School District","High Needs","Students With High Needs",194,0.9298,549,535,572,566
+"1030011","Norwalk School District","","All Students",12356,0.9092,478,466,491,477
+"1030011","Norwalk School District","Homelessness","Students Experiencing Homelessness",33,0.8129,478,466,491,477
+"1030011","Norwalk School District","Students With Disabilities","Students With Disabilities",1721,0.8835,478,466,491,477
+"1030011","Norwalk School District","Free/Reduced Lunch","Free Meal Eligible",5372,0.8959,478,466,491,477
+"1030011","Norwalk School District","Free/Reduced Lunch","Reduced Price Meal Eligible",1163,0.9155,478,466,491,477
+"1030011","Norwalk School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",6535,0.8994,478,466,491,477
+"1030011","Norwalk School District","English Learners","English Learners",2161,0.8999,478,466,491,477
+"1030011","Norwalk School District","Race/Ethnicity","All other races",913,0.9193,478,466,491,477
+"1030011","Norwalk School District","Race/Ethnicity","Black or African American",1768,0.8995,478,466,491,477
+"1030011","Norwalk School District","Race/Ethnicity","Hispanic/Latino of any race",6723,0.9035,478,466,491,477
+"1030011","Norwalk School District","Race/Ethnicity","White",2952,0.9247,478,466,491,477
+"1030011","Norwalk School District","High Needs","Students Without High Needs",4151,0.93,478,466,491,477
+"1030011","Norwalk School District","High Needs","Students With High Needs",7747,0.8988,478,466,491,477
+"1060011","Old Saybrook School District","","All Students",1014,0.9466,528,530,532,538
+"1060011","Old Saybrook School District","Students With Disabilities","Students With Disabilities",157,0.9332,528,530,532,538
+"1060011","Old Saybrook School District","Free/Reduced Lunch","Free Meal Eligible",200,0.9339,528,530,532,538
+"1060011","Old Saybrook School District","Free/Reduced Lunch","Reduced Price Meal Eligible",63,0.9447,528,530,532,538
+"1060011","Old Saybrook School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",263,0.9365,528,530,532,538
+"1060011","Old Saybrook School District","English Learners","English Learners",82,0.9555,528,530,532,538
+"1060011","Old Saybrook School District","Race/Ethnicity","Hispanic/Latino of any race",143,0.9505,528,530,532,538
+"1060011","Old Saybrook School District","Race/Ethnicity","White",789,0.9466,528,530,532,538
+"1060011","Old Saybrook School District","High Needs","Students Without High Needs",616,0.9518,528,530,532,538
+"1060011","Old Saybrook School District","High Needs","Students With High Needs",379,0.9392,528,530,532,538
+"1080011","Oxford School District","","All Students",1693,0.9413,489,490,523,519
+"1080011","Oxford School District","Students With Disabilities","Students With Disabilities",222,0.941,489,490,523,519
+"1080011","Oxford School District","Free/Reduced Lunch","Free Meal Eligible",191,0.915,489,490,523,519
+"1080011","Oxford School District","Free/Reduced Lunch","Reduced Price Meal Eligible",34,0.9212,489,490,523,519
+"1080011","Oxford School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",225,0.9159,489,490,523,519
+"1080011","Oxford School District","English Learners","English Learners",39,0.9458,489,490,523,519
+"1080011","Oxford School District","Race/Ethnicity","All other races",67,0.9477,489,490,523,519
+"1080011","Oxford School District","Race/Ethnicity","Black or African American",32,0.9316,489,490,523,519
+"1080011","Oxford School District","Race/Ethnicity","Hispanic/Latino of any race",163,0.9301,489,490,523,519
+"1080011","Oxford School District","Race/Ethnicity","White",1431,0.9425,489,490,523,519
+"1080011","Oxford School District","High Needs","Students Without High Needs",1259,0.9446,489,490,523,519
+"1080011","Oxford School District","High Needs","Students With High Needs",418,0.9307,489,490,523,519
+"1090011","Plainfield School District","","All Students",1860,0.9151,453,442,488,463
+"1090011","Plainfield School District","Students With Disabilities","Students With Disabilities",319,0.895,453,442,488,463
+"1090011","Plainfield School District","Free/Reduced Lunch","Free Meal Eligible",848,0.8985,453,442,488,463
+"1090011","Plainfield School District","Free/Reduced Lunch","Reduced Price Meal Eligible",188,0.9247,453,442,488,463
+"1090011","Plainfield School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",1036,0.9032,453,442,488,463
+"1090011","Plainfield School District","English Learners","English Learners",31,0.9063,453,442,488,463
+"1090011","Plainfield School District","Race/Ethnicity","All other races",89,0.885,453,442,488,463
+"1090011","Plainfield School District","Race/Ethnicity","Black or African American",66,0.9247,453,442,488,463
+"1090011","Plainfield School District","Race/Ethnicity","Hispanic/Latino of any race",175,0.9097,453,442,488,463
+"1090011","Plainfield School District","Race/Ethnicity","White",1530,0.917,453,442,488,463
+"1090011","Plainfield School District","High Needs","Students Without High Needs",671,0.9319,453,442,488,463
+"1090011","Plainfield School District","High Needs","Students With High Needs",1141,0.9051,453,442,488,463
+"1100011","Plainville School District","","All Students",2171,0.9241,498,479,507,491
+"1100011","Plainville School District","Students With Disabilities","Students With Disabilities",304,0.895,498,479,507,491
+"1100011","Plainville School District","Free/Reduced Lunch","Free Meal Eligible",670,0.902,498,479,507,491
+"1100011","Plainville School District","Free/Reduced Lunch","Reduced Price Meal Eligible",210,0.9182,498,479,507,491
+"1100011","Plainville School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",880,0.9059,498,479,507,491
+"1100011","Plainville School District","English Learners","English Learners",156,0.9106,498,479,507,491
+"1100011","Plainville School District","Race/Ethnicity","All other races",166,0.9359,498,479,507,491
+"1100011","Plainville School District","Race/Ethnicity","Black or African American",118,0.9162,498,479,507,491
+"1100011","Plainville School District","Race/Ethnicity","Hispanic/Latino of any race",487,0.901,498,479,507,491
+"1100011","Plainville School District","Race/Ethnicity","White",1400,0.9313,498,479,507,491
+"1100011","Plainville School District","High Needs","Students Without High Needs",1076,0.9415,498,479,507,491
+"1100011","Plainville School District","High Needs","Students With High Needs",1074,0.9073,498,479,507,491
+"1110011","Plymouth School District","","All Students",1245,0.8993,493,480,501,490
+"1110011","Plymouth School District","Students With Disabilities","Students With Disabilities",246,0.8711,493,480,501,490
+"1110011","Plymouth School District","Free/Reduced Lunch","Free Meal Eligible",409,0.8732,493,480,501,490
+"1110011","Plymouth School District","Free/Reduced Lunch","Reduced Price Meal Eligible",111,0.8992,493,480,501,490
+"1110011","Plymouth School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",520,0.8787,493,480,501,490
+"1110011","Plymouth School District","English Learners","English Learners",23,0.9148,493,480,501,490
+"1110011","Plymouth School District","Race/Ethnicity","Hispanic/Latino of any race",181,0.8903,493,480,501,490
+"1110011","Plymouth School District","Race/Ethnicity","White",956,0.9053,493,480,501,490
+"1110011","Plymouth School District","High Needs","Students Without High Needs",596,0.9198,493,480,501,490
+"1110011","Plymouth School District","High Needs","Students With High Needs",634,0.8816,493,480,501,490
+"1130011","Portland School District","","All Students",1209,0.9386,520,501,521,514
+"1130011","Portland School District","Students With Disabilities","Students With Disabilities",197,0.9125,520,501,521,514
+"1130011","Portland School District","Free/Reduced Lunch","Free Meal Eligible",248,0.9062,520,501,521,514
+"1130011","Portland School District","Free/Reduced Lunch","Reduced Price Meal Eligible",48,0.9223,520,501,521,514
+"1130011","Portland School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",296,0.9089,520,501,521,514
+"1130011","Portland School District","English Learners","English Learners",44,0.9323,520,501,521,514
+"1130011","Portland School District","Race/Ethnicity","All other races",82,0.9392,520,501,521,514
+"1130011","Portland School District","Race/Ethnicity","Black or African American",41,0.8995,520,501,521,514
+"1130011","Portland School District","Race/Ethnicity","Hispanic/Latino of any race",211,0.9174,520,501,521,514
+"1130011","Portland School District","Race/Ethnicity","White",875,0.9455,520,501,521,514
+"1130011","Portland School District","High Needs","Students Without High Needs",784,0.95,520,501,521,514
+"1130011","Portland School District","High Needs","Students With High Needs",413,0.9169,520,501,521,514
+"1160011","Putnam School District","","All Students",1063,0.8996,435,432,479,470
+"1160011","Putnam School District","Students With Disabilities","Students With Disabilities",209,0.8701,435,432,479,470
+"1160011","Putnam School District","Free/Reduced Lunch","Free Meal Eligible",425,0.8759,435,432,479,470
+"1160011","Putnam School District","Free/Reduced Lunch","Reduced Price Meal Eligible",81,0.9007,435,432,479,470
+"1160011","Putnam School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",506,0.88,435,432,479,470
+"1160011","Putnam School District","English Learners","English Learners",40,0.8828,435,432,479,470
+"1160011","Putnam School District","Race/Ethnicity","All other races",73,0.8754,435,432,479,470
+"1160011","Putnam School District","Race/Ethnicity","Black or African American",20,0.9287,435,432,479,470
+"1160011","Putnam School District","Race/Ethnicity","Hispanic/Latino of any race",158,0.885,435,432,479,470
+"1160011","Putnam School District","Race/Ethnicity","White",812,0.9041,435,432,479,470
+"1160011","Putnam School District","High Needs","Students Without High Needs",406,0.9263,435,432,479,470
+"1160011","Putnam School District","High Needs","Students With High Needs",611,0.8816,435,432,479,470
+"1180011","Ridgefield School District","","All Students",4533,0.9446,604,580,604,592
+"1180011","Ridgefield School District","Students With Disabilities","Students With Disabilities",674,0.9305,604,580,604,592
+"1180011","Ridgefield School District","Free/Reduced Lunch","Free Meal Eligible",278,0.9304,604,580,604,592
+"1180011","Ridgefield School District","Free/Reduced Lunch","Reduced Price Meal Eligible",74,0.932,604,580,604,592
+"1180011","Ridgefield School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",352,0.9307,604,580,604,592
+"1180011","Ridgefield School District","English Learners","English Learners",59,0.9386,604,580,604,592
+"1180011","Ridgefield School District","Race/Ethnicity","All other races",515,0.951,604,580,604,592
+"1180011","Ridgefield School District","Race/Ethnicity","Black or African American",33,0.9521,604,580,604,592
+"1180011","Ridgefield School District","Race/Ethnicity","Hispanic/Latino of any race",396,0.938,604,580,604,592
+"1180011","Ridgefield School District","Race/Ethnicity","White",3589,0.9443,604,580,604,592
+"1180011","Ridgefield School District","High Needs","Students Without High Needs",3517,0.9482,604,580,604,592
+"1180011","Ridgefield School District","High Needs","Students With High Needs",970,0.9318,604,580,604,592
+"1190011","Rocky Hill School District","","All Students",2483,0.948,521,539,528,549
+"1190011","Rocky Hill School District","Students With Disabilities","Students With Disabilities",321,0.9334,521,539,528,549
+"1190011","Rocky Hill School District","Free/Reduced Lunch","Free Meal Eligible",427,0.9161,521,539,528,549
+"1190011","Rocky Hill School District","Free/Reduced Lunch","Reduced Price Meal Eligible",84,0.9411,521,539,528,549
+"1190011","Rocky Hill School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",511,0.9201,521,539,528,549
+"1190011","Rocky Hill School District","English Learners","English Learners",163,0.9414,521,539,528,549
+"1190011","Rocky Hill School District","Race/Ethnicity","All other races",798,0.9559,521,539,528,549
+"1190011","Rocky Hill School District","Race/Ethnicity","Black or African American",86,0.9456,521,539,528,549
+"1190011","Rocky Hill School District","Race/Ethnicity","Hispanic/Latino of any race",297,0.9227,521,539,528,549
+"1190011","Rocky Hill School District","Race/Ethnicity","White",1302,0.9488,521,539,528,549
+"1190011","Rocky Hill School District","High Needs","Students Without High Needs",1600,0.9573,521,539,528,549
+"1190011","Rocky Hill School District","High Needs","Students With High Needs",818,0.9302,521,539,528,549
+"1240011","Seymour School District","","All Students",2077,0.9296,493,482,511,503
+"1240011","Seymour School District","Students With Disabilities","Students With Disabilities",301,0.9081,493,482,511,503
+"1240011","Seymour School District","Free/Reduced Lunch","Free Meal Eligible",586,0.9119,493,482,511,503
+"1240011","Seymour School District","Free/Reduced Lunch","Reduced Price Meal Eligible",176,0.9323,493,482,511,503
+"1240011","Seymour School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",762,0.9167,493,482,511,503
+"1240011","Seymour School District","English Learners","English Learners",109,0.9238,493,482,511,503
+"1240011","Seymour School District","Race/Ethnicity","All other races",117,0.9338,493,482,511,503
+"1240011","Seymour School District","Race/Ethnicity","Black or African American",143,0.9388,493,482,511,503
+"1240011","Seymour School District","Race/Ethnicity","Hispanic/Latino of any race",434,0.9046,493,482,511,503
+"1240011","Seymour School District","Race/Ethnicity","White",1383,0.9359,493,482,511,503
+"1240011","Seymour School District","High Needs","Students Without High Needs",1090,0.9407,493,482,511,503
+"1240011","Seymour School District","High Needs","Students With High Needs",948,0.9173,493,482,511,503
+"1260011","Shelton School District","","All Students",4404,0.9369,528,497,534,509
+"1260011","Shelton School District","Students With Disabilities","Students With Disabilities",638,0.916,528,497,534,509
+"1260011","Shelton School District","Free/Reduced Lunch","Free Meal Eligible",1029,0.9175,528,497,534,509
+"1260011","Shelton School District","Free/Reduced Lunch","Reduced Price Meal Eligible",265,0.9343,528,497,534,509
+"1260011","Shelton School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",1294,0.921,528,497,534,509
+"1260011","Shelton School District","English Learners","English Learners",295,0.9427,528,497,534,509
+"1260011","Shelton School District","Race/Ethnicity","All other races",425,0.9485,528,497,534,509
+"1260011","Shelton School District","Race/Ethnicity","Black or African American",332,0.9454,528,497,534,509
+"1260011","Shelton School District","Race/Ethnicity","Hispanic/Latino of any race",973,0.9252,528,497,534,509
+"1260011","Shelton School District","Race/Ethnicity","White",2674,0.9382,528,497,534,509
+"1260011","Shelton School District","High Needs","Students Without High Needs",2564,0.9467,528,497,534,509
+"1260011","Shelton School District","High Needs","Students With High Needs",1772,0.923,528,497,534,509
+"1280011","Simsbury School District","","All Students",4068,0.9414,577,562,589,577
+"1280011","Simsbury School District","Students With Disabilities","Students With Disabilities",616,0.917,577,562,589,577
+"1280011","Simsbury School District","Free/Reduced Lunch","Free Meal Eligible",452,0.9126,577,562,589,577
+"1280011","Simsbury School District","Free/Reduced Lunch","Reduced Price Meal Eligible",81,0.9335,577,562,589,577
+"1280011","Simsbury School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",533,0.9158,577,562,589,577
+"1280011","Simsbury School District","English Learners","English Learners",70,0.9289,577,562,589,577
+"1280011","Simsbury School District","Race/Ethnicity","All other races",473,0.9503,577,562,589,577
+"1280011","Simsbury School District","Race/Ethnicity","Black or African American",240,0.9228,577,562,589,577
+"1280011","Simsbury School District","Race/Ethnicity","Hispanic/Latino of any race",454,0.9303,577,562,589,577
+"1280011","Simsbury School District","Race/Ethnicity","White",2901,0.9433,577,562,589,577
+"1280011","Simsbury School District","High Needs","Students Without High Needs",2978,0.9489,577,562,589,577
+"1280011","Simsbury School District","High Needs","Students With High Needs",1040,0.9207,577,562,589,577
+"1290011","Somers School District","","All Students",1319,0.9478,518,523,543,521
+"1290011","Somers School District","Students With Disabilities","Students With Disabilities",202,0.9311,518,523,543,521
+"1290011","Somers School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",68,0.9322,518,523,543,521
+"1290011","Somers School District","Race/Ethnicity","All other races",42,0.9454,518,523,543,521
+"1290011","Somers School District","Race/Ethnicity","Black or African American",30,0.9275,518,523,543,521
+"1290011","Somers School District","Race/Ethnicity","Hispanic/Latino of any race",66,0.9334,518,523,543,521
+"1290011","Somers School District","Race/Ethnicity","White",1181,0.9493,518,523,543,521
+"1290011","Somers School District","High Needs","Students Without High Needs",1057,0.9519,518,523,543,521
+"1290011","Somers School District","High Needs","Students With High Needs",250,0.9327,518,523,543,521
+"1310011","Southington School District","","All Students",6171,0.9409,532,518,532,522
+"1310011","Southington School District","Students With Disabilities","Students With Disabilities",920,0.9131,532,518,532,522
+"1310011","Southington School District","Free/Reduced Lunch","Free Meal Eligible",1116,0.9099,532,518,532,522
+"1310011","Southington School District","Free/Reduced Lunch","Reduced Price Meal Eligible",297,0.9335,532,518,532,522
+"1310011","Southington School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",1413,0.9149,532,518,532,522
+"1310011","Southington School District","English Learners","English Learners",146,0.9289,532,518,532,522
+"1310011","Southington School District","Race/Ethnicity","All other races",563,0.9441,532,518,532,522
+"1310011","Southington School District","Race/Ethnicity","Black or African American",147,0.9303,532,518,532,522
+"1310011","Southington School District","Race/Ethnicity","Hispanic/Latino of any race",694,0.9197,532,518,532,522
+"1310011","Southington School District","Race/Ethnicity","White",4767,0.9439,532,518,532,522
+"1310011","Southington School District","High Needs","Students Without High Needs",4117,0.9523,532,518,532,522
+"1310011","Southington School District","High Needs","Students With High Needs",2017,0.918,532,518,532,522
+"1320011","South Windsor School District","","All Students",4714,0.9476,554,550,557,541
+"1320011","South Windsor School District","Students With Disabilities","Students With Disabilities",579,0.9226,554,550,557,541
+"1320011","South Windsor School District","Free/Reduced Lunch","Free Meal Eligible",583,0.9206,554,550,557,541
+"1320011","South Windsor School District","Free/Reduced Lunch","Reduced Price Meal Eligible",197,0.9458,554,550,557,541
+"1320011","South Windsor School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",780,0.927,554,550,557,541
+"1320011","South Windsor School District","English Learners","English Learners",350,0.9388,554,550,557,541
+"1320011","South Windsor School District","Race/Ethnicity","All other races",1635,0.9524,554,550,557,541
+"1320011","South Windsor School District","Race/Ethnicity","Black or African American",276,0.931,554,550,557,541
+"1320011","South Windsor School District","Race/Ethnicity","Hispanic/Latino of any race",462,0.9347,554,550,557,541
+"1320011","South Windsor School District","Race/Ethnicity","White",2341,0.9486,554,550,557,541
+"1320011","South Windsor School District","High Needs","Students Without High Needs",3236,0.9548,554,550,557,541
+"1320011","South Windsor School District","High Needs","Students With High Needs",1409,0.9312,554,550,557,541
+"1340011","Stafford School District","","All Students",1312,0.9244,510,502,523,512
+"1340011","Stafford School District","Students With Disabilities","Students With Disabilities",213,0.8974,510,502,523,512
+"1340011","Stafford School District","Free/Reduced Lunch","Free Meal Eligible",329,0.9056,510,502,523,512
+"1340011","Stafford School District","Free/Reduced Lunch","Reduced Price Meal Eligible",67,0.8978,510,502,523,512
+"1340011","Stafford School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",396,0.9043,510,502,523,512
+"1340011","Stafford School District","Race/Ethnicity","Hispanic/Latino of any race",129,0.9173,510,502,523,512
+"1340011","Stafford School District","Race/Ethnicity","White",1106,0.9255,510,502,523,512
+"1340011","Stafford School District","High Needs","Students Without High Needs",762,0.9366,510,502,523,512
+"1340011","Stafford School District","High Needs","Students With High Needs",527,0.9075,510,502,523,512
+"1350011","Stamford School District","","All Students",15986,0.9104,488,473,497,493
+"1350011","Stamford School District","Homelessness","Students Experiencing Homelessness",57,0.8306,488,473,497,493
+"1350011","Stamford School District","Students With Disabilities","Students With Disabilities",2257,0.8848,488,473,497,493
+"1350011","Stamford School District","Free/Reduced Lunch","Free Meal Eligible",7070,0.8972,488,473,497,493
+"1350011","Stamford School District","Free/Reduced Lunch","Reduced Price Meal Eligible",1385,0.922,488,473,497,493
+"1350011","Stamford School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",8455,0.9013,488,473,497,493
+"1350011","Stamford School District","English Learners","English Learners",2046,0.8806,488,473,497,493
+"1350011","Stamford School District","Race/Ethnicity","All other races",1611,0.9216,488,473,497,493
+"1350011","Stamford School District","Race/Ethnicity","Black or African American",2212,0.892,488,473,497,493
+"1350011","Stamford School District","Race/Ethnicity","Hispanic/Latino of any race",7786,0.9027,488,473,497,493
+"1350011","Stamford School District","Race/Ethnicity","White",4377,0.9289,488,473,497,493
+"1350011","Stamford School District","High Needs","Students Without High Needs",5490,0.9344,488,473,497,493
+"1350011","Stamford School District","High Needs","Students With High Needs",9864,0.8986,488,473,497,493
+"1370011","Stonington School District","","All Students",1805,0.9313,532,517,551,537
+"1370011","Stonington School District","Students With Disabilities","Students With Disabilities",246,0.9033,532,517,551,537
+"1370011","Stonington School District","Free/Reduced Lunch","Free Meal Eligible",340,0.9052,532,517,551,537
+"1370011","Stonington School District","Free/Reduced Lunch","Reduced Price Meal Eligible",70,0.9234,532,517,551,537
+"1370011","Stonington School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",410,0.9084,532,517,551,537
+"1370011","Stonington School District","Race/Ethnicity","All other races",148,0.93,532,517,551,537
+"1370011","Stonington School District","Race/Ethnicity","White",1521,0.9329,532,517,551,537
+"1370011","Stonington School District","High Needs","Students Without High Needs",1206,0.9414,532,517,551,537
+"1370011","Stonington School District","High Needs","Students With High Needs",574,0.9109,532,517,551,537
+"1380011","Stratford School District","","All Students",6724,0.9173,463,438,484,466
+"1380011","Stratford School District","Homelessness","Students Experiencing Homelessness",24,0.9006,463,438,484,466
+"1380011","Stratford School District","Students With Disabilities","Students With Disabilities",1040,0.8936,463,438,484,466
+"1380011","Stratford School District","Free/Reduced Lunch","Free Meal Eligible",2765,0.905,463,438,484,466
+"1380011","Stratford School District","Free/Reduced Lunch","Reduced Price Meal Eligible",533,0.9246,463,438,484,466
+"1380011","Stratford School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",3298,0.9082,463,438,484,466
+"1380011","Stratford School District","English Learners","English Learners",487,0.9244,463,438,484,466
+"1380011","Stratford School District","Race/Ethnicity","All other races",450,0.9297,463,438,484,466
+"1380011","Stratford School District","Race/Ethnicity","Black or African American",1707,0.9197,463,438,484,466
+"1380011","Stratford School District","Race/Ethnicity","Hispanic/Latino of any race",2587,0.9121,463,438,484,466
+"1380011","Stratford School District","Race/Ethnicity","White",1980,0.9193,463,438,484,466
+"1380011","Stratford School District","High Needs","Students Without High Needs",2714,0.9302,463,438,484,466
+"1380011","Stratford School District","High Needs","Students With High Needs",3850,0.909,463,438,484,466
+"1390011","Suffield School District","","All Students",2016,0.9356,525,507,549,530
+"1390011","Suffield School District","Students With Disabilities","Students With Disabilities",279,0.9167,525,507,549,530
+"1390011","Suffield School District","Free/Reduced Lunch","Free Meal Eligible",225,0.8993,525,507,549,530
+"1390011","Suffield School District","Free/Reduced Lunch","Reduced Price Meal Eligible",77,0.9311,525,507,549,530
+"1390011","Suffield School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",302,0.9074,525,507,549,530
+"1390011","Suffield School District","English Learners","English Learners",41,0.9449,525,507,549,530
+"1390011","Suffield School District","Race/Ethnicity","All other races",105,0.945,525,507,549,530
+"1390011","Suffield School District","Race/Ethnicity","Black or African American",79,0.9097,525,507,549,530
+"1390011","Suffield School District","Race/Ethnicity","Hispanic/Latino of any race",157,0.9173,525,507,549,530
+"1390011","Suffield School District","Race/Ethnicity","White",1675,0.938,525,507,549,530
+"1390011","Suffield School District","High Needs","Students Without High Needs",1449,0.943,525,507,549,530
+"1390011","Suffield School District","High Needs","Students With High Needs",532,0.9172,525,507,549,530
+"1400011","Thomaston School District","","All Students",795,0.9423,491,488,523,510
+"1400011","Thomaston School District","Students With Disabilities","Students With Disabilities",113,0.926,491,488,523,510
+"1400011","Thomaston School District","Free/Reduced Lunch","Free Meal Eligible",219,0.9215,491,488,523,510
+"1400011","Thomaston School District","Free/Reduced Lunch","Reduced Price Meal Eligible",53,0.9242,491,488,523,510
+"1400011","Thomaston School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",272,0.922,491,488,523,510
+"1400011","Thomaston School District","Race/Ethnicity","Hispanic/Latino of any race",81,0.9159,491,488,523,510
+"1400011","Thomaston School District","Race/Ethnicity","White",662,0.9454,491,488,523,510
+"1400011","Thomaston School District","High Needs","Students Without High Needs",449,0.9543,491,488,523,510
+"1400011","Thomaston School District","High Needs","Students With High Needs",341,0.9271,491,488,523,510
+"1410011","Thompson School District","","All Students",892,0.8924,470,482,504,491
+"1410011","Thompson School District","Students With Disabilities","Students With Disabilities",177,0.8579,470,482,504,491
+"1410011","Thompson School District","Free/Reduced Lunch","Free Meal Eligible",296,0.8617,470,482,504,491
+"1410011","Thompson School District","Free/Reduced Lunch","Reduced Price Meal Eligible",66,0.8922,470,482,504,491
+"1410011","Thompson School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",362,0.8671,470,482,504,491
+"1410011","Thompson School District","Race/Ethnicity","Hispanic/Latino of any race",69,0.8757,470,482,504,491
+"1410011","Thompson School District","Race/Ethnicity","White",783,0.8934,470,482,504,491
+"1410011","Thompson School District","High Needs","Students Without High Needs",422,0.916,470,482,504,491
+"1410011","Thompson School District","High Needs","Students With High Needs",448,0.8713,470,482,504,491
+"1420011","Tolland School District","","All Students",2200,0.9351,571,556,558,546
+"1420011","Tolland School District","Students With Disabilities","Students With Disabilities",307,0.9164,571,556,558,546
+"1420011","Tolland School District","Free/Reduced Lunch","Free Meal Eligible",245,0.9074,571,556,558,546
+"1420011","Tolland School District","Free/Reduced Lunch","Reduced Price Meal Eligible",82,0.9254,571,556,558,546
+"1420011","Tolland School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",327,0.9119,571,556,558,546
+"1420011","Tolland School District","English Learners","English Learners",24,0.9446,571,556,558,546
+"1420011","Tolland School District","Race/Ethnicity","All other races",133,0.94,571,556,558,546
+"1420011","Tolland School District","Race/Ethnicity","Black or African American",65,0.9335,571,556,558,546
+"1420011","Tolland School District","Race/Ethnicity","Hispanic/Latino of any race",199,0.9228,571,556,558,546
+"1420011","Tolland School District","Race/Ethnicity","White",1803,0.9361,571,556,558,546
+"1420011","Tolland School District","High Needs","Students Without High Needs",1616,0.9416,571,556,558,546
+"1420011","Tolland School District","High Needs","Students With High Needs",571,0.9175,571,556,558,546
+"1430011","Torrington School District","","All Students",3813,0.9188,461,454,483,477
+"1430011","Torrington School District","Students With Disabilities","Students With Disabilities",641,0.8968,461,454,483,477
+"1430011","Torrington School District","Free/Reduced Lunch","Free Meal Eligible",1864,0.9073,461,454,483,477
+"1430011","Torrington School District","Free/Reduced Lunch","Reduced Price Meal Eligible",465,0.922,461,454,483,477
+"1430011","Torrington School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",2329,0.9103,461,454,483,477
+"1430011","Torrington School District","English Learners","English Learners",434,0.942,461,454,483,477
+"1430011","Torrington School District","Race/Ethnicity","All other races",278,0.9246,461,454,483,477
+"1430011","Torrington School District","Race/Ethnicity","Black or African American",220,0.9045,461,454,483,477
+"1430011","Torrington School District","Race/Ethnicity","Hispanic/Latino of any race",1415,0.9213,461,454,483,477
+"1430011","Torrington School District","Race/Ethnicity","White",1900,0.9178,461,454,483,477
+"1430011","Torrington School District","High Needs","Students Without High Needs",1076,0.9353,461,454,483,477
+"1430011","Torrington School District","High Needs","Students With High Needs",2612,0.9121,461,454,483,477
+"1440011","Trumbull School District","","All Students",6703,0.9505,567,557,559,546
+"1440011","Trumbull School District","Students With Disabilities","Students With Disabilities",838,0.9363,567,557,559,546
+"1440011","Trumbull School District","Free/Reduced Lunch","Free Meal Eligible",823,0.9372,567,557,559,546
+"1440011","Trumbull School District","Free/Reduced Lunch","Reduced Price Meal Eligible",319,0.9437,567,557,559,546
+"1440011","Trumbull School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",1142,0.939,567,557,559,546
+"1440011","Trumbull School District","English Learners","English Learners",285,0.9462,567,557,559,546
+"1440011","Trumbull School District","Race/Ethnicity","All other races",871,0.9568,567,557,559,546
+"1440011","Trumbull School District","Race/Ethnicity","Black or African American",416,0.952,567,557,559,546
+"1440011","Trumbull School District","Race/Ethnicity","Hispanic/Latino of any race",1171,0.9435,567,557,559,546
+"1440011","Trumbull School District","Race/Ethnicity","White",4245,0.951,567,557,559,546
+"1440011","Trumbull School District","High Needs","Students Without High Needs",4715,0.955,567,557,559,546
+"1440011","Trumbull School District","High Needs","Students With High Needs",1904,0.9399,567,557,559,546
+"1460011","Vernon School District","","All Students",3019,0.9357,486,457,504,474
+"1460011","Vernon School District","Students With Disabilities","Students With Disabilities",545,0.9027,486,457,504,474
+"1460011","Vernon School District","Free/Reduced Lunch","Free Meal Eligible",1303,0.9172,486,457,504,474
+"1460011","Vernon School District","Free/Reduced Lunch","Reduced Price Meal Eligible",249,0.934,486,457,504,474
+"1460011","Vernon School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",1552,0.9199,486,457,504,474
+"1460011","Vernon School District","English Learners","English Learners",108,0.9094,486,457,504,474
+"1460011","Vernon School District","Race/Ethnicity","All other races",470,0.9302,486,457,504,474
+"1460011","Vernon School District","Race/Ethnicity","Black or African American",316,0.9329,486,457,504,474
+"1460011","Vernon School District","Race/Ethnicity","Hispanic/Latino of any race",663,0.9173,486,457,504,474
+"1460011","Vernon School District","Race/Ethnicity","White",1570,0.9457,486,457,504,474
+"1460011","Vernon School District","High Needs","Students Without High Needs",1198,0.9573,486,457,504,474
+"1460011","Vernon School District","High Needs","Students With High Needs",1751,0.9217,486,457,504,474
+"1480011","Wallingford School District","","All Students",5133,0.9233,502,496,520,513
+"1480011","Wallingford School District","Students With Disabilities","Students With Disabilities",861,0.8975,502,496,520,513
+"1480011","Wallingford School District","Free/Reduced Lunch","Free Meal Eligible",1259,0.8944,502,496,520,513
+"1480011","Wallingford School District","Free/Reduced Lunch","Reduced Price Meal Eligible",335,0.918,502,496,520,513
+"1480011","Wallingford School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",1594,0.8994,502,496,520,513
+"1480011","Wallingford School District","English Learners","English Learners",329,0.9161,502,496,520,513
+"1480011","Wallingford School District","Race/Ethnicity","All other races",449,0.9292,502,496,520,513
+"1480011","Wallingford School District","Race/Ethnicity","Black or African American",86,0.9205,502,496,520,513
+"1480011","Wallingford School District","Race/Ethnicity","Hispanic/Latino of any race",1051,0.9081,502,496,520,513
+"1480011","Wallingford School District","Race/Ethnicity","White",3547,0.927,502,496,520,513
+"1480011","Wallingford School District","High Needs","Students Without High Needs",2928,0.9376,502,496,520,513
+"1480011","Wallingford School District","High Needs","Students With High Needs",2150,0.9044,502,496,520,513
+"1510011","Waterbury School District","","All Students",17806,0.8881,407,397,435,425
+"1510011","Waterbury School District","Homelessness","Students Experiencing Homelessness",245,0.8516,407,397,435,425
+"1510011","Waterbury School District","Students With Disabilities","Students With Disabilities",3244,0.8622,407,397,435,425
+"1510011","Waterbury School District","Free/Reduced Lunch","Free Meal Eligible",12207,0.8789,407,397,435,425
+"1510011","Waterbury School District","Free/Reduced Lunch","Reduced Price Meal Eligible",361,0.9282,407,397,435,425
+"1510011","Waterbury School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",12568,0.8802,407,397,435,425
+"1510011","Waterbury School District","English Learners","English Learners",3008,0.8901,407,397,435,425
+"1510011","Waterbury School District","Race/Ethnicity","All other races",1043,0.8988,407,397,435,425
+"1510011","Waterbury School District","Race/Ethnicity","Black or African American",3876,0.8875,407,397,435,425
+"1510011","Waterbury School District","Race/Ethnicity","Hispanic/Latino of any race",10731,0.8834,407,397,435,425
+"1510011","Waterbury School District","Race/Ethnicity","White",2156,0.9068,407,397,435,425
+"1510011","Waterbury School District","High Needs","Students Without High Needs",3185,0.9138,407,397,435,425
+"1510011","Waterbury School District","High Needs","Students With High Needs",13926,0.8829,407,397,435,425
+"1520011","Waterford School District","","All Students",2287,0.944,515,499,525,529
+"1520011","Waterford School District","Students With Disabilities","Students With Disabilities",360,0.9262,515,499,525,529
+"1520011","Waterford School District","Free/Reduced Lunch","Free Meal Eligible",468,0.9221,515,499,525,529
+"1520011","Waterford School District","Free/Reduced Lunch","Reduced Price Meal Eligible",143,0.939,515,499,525,529
+"1520011","Waterford School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",611,0.926,515,499,525,529
+"1520011","Waterford School District","English Learners","English Learners",82,0.9259,515,499,525,529
+"1520011","Waterford School District","Race/Ethnicity","All other races",256,0.9475,515,499,525,529
+"1520011","Waterford School District","Race/Ethnicity","Black or African American",55,0.9521,515,499,525,529
+"1520011","Waterford School District","Race/Ethnicity","Hispanic/Latino of any race",289,0.9202,515,499,525,529
+"1520011","Waterford School District","Race/Ethnicity","White",1687,0.9474,515,499,525,529
+"1520011","Waterford School District","High Needs","Students Without High Needs",1396,0.9543,515,499,525,529
+"1520011","Waterford School District","High Needs","Students With High Needs",855,0.9275,515,499,525,529
+"1530011","Watertown School District","","All Students",2521,0.9415,482,466,495,493
+"1530011","Watertown School District","Students With Disabilities","Students With Disabilities",376,0.9135,482,466,495,493
+"1530011","Watertown School District","Free/Reduced Lunch","Free Meal Eligible",671,0.9243,482,466,495,493
+"1530011","Watertown School District","Free/Reduced Lunch","Reduced Price Meal Eligible",207,0.9478,482,466,495,493
+"1530011","Watertown School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",878,0.9298,482,466,495,493
+"1530011","Watertown School District","English Learners","English Learners",119,0.9379,482,466,495,493
+"1530011","Watertown School District","Race/Ethnicity","All other races",135,0.9429,482,466,495,493
+"1530011","Watertown School District","Race/Ethnicity","Black or African American",84,0.9551,482,466,495,493
+"1530011","Watertown School District","Race/Ethnicity","Hispanic/Latino of any race",243,0.9301,482,466,495,493
+"1530011","Watertown School District","Race/Ethnicity","White",2059,0.9421,482,466,495,493
+"1530011","Watertown School District","High Needs","Students Without High Needs",1389,0.9517,482,466,495,493
+"1530011","Watertown School District","High Needs","Students With High Needs",1118,0.9293,482,466,495,493
+"1540011","Westbrook School District","","All Students",590,0.9255,530,507,551,521
+"1540011","Westbrook School District","Students With Disabilities","Students With Disabilities",87,0.9207,530,507,551,521
+"1540011","Westbrook School District","Free/Reduced Lunch","Free Meal Eligible",154,0.9147,530,507,551,521
+"1540011","Westbrook School District","Free/Reduced Lunch","Reduced Price Meal Eligible",51,0.9218,530,507,551,521
+"1540011","Westbrook School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",205,0.9164,530,507,551,521
+"1540011","Westbrook School District","English Learners","English Learners",71,0.9427,530,507,551,521
+"1540011","Westbrook School District","Race/Ethnicity","Hispanic/Latino of any race",137,0.9336,530,507,551,521
+"1540011","Westbrook School District","Race/Ethnicity","White",425,0.924,530,507,551,521
+"1540011","Westbrook School District","High Needs","Students Without High Needs",299,0.9305,530,507,551,521
+"1540011","Westbrook School District","High Needs","Students With High Needs",272,0.9199,530,507,551,521
+"1550011","West Hartford School District","","All Students",9018,0.9319,556,545,566,549
+"1550011","West Hartford School District","Students With Disabilities","Students With Disabilities",1342,0.9052,556,545,566,549
+"1550011","West Hartford School District","Free/Reduced Lunch","Free Meal Eligible",1754,0.9041,556,545,566,549
+"1550011","West Hartford School District","Free/Reduced Lunch","Reduced Price Meal Eligible",428,0.9189,556,545,566,549
+"1550011","West Hartford School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",2182,0.907,556,545,566,549
+"1550011","West Hartford School District","English Learners","English Learners",584,0.916,556,545,566,549
+"1550011","West Hartford School District","Race/Ethnicity","All other races",1482,0.9428,556,545,566,549
+"1550011","West Hartford School District","Race/Ethnicity","Black or African American",779,0.9189,556,545,566,549
+"1550011","West Hartford School District","Race/Ethnicity","Hispanic/Latino of any race",1724,0.9058,556,545,566,549
+"1550011","West Hartford School District","Race/Ethnicity","White",5033,0.9395,556,545,566,549
+"1550011","West Hartford School District","High Needs","Students Without High Needs",5705,0.9437,556,545,566,549
+"1550011","West Hartford School District","High Needs","Students With High Needs",3135,0.9105,556,545,566,549
+"1560011","West Haven School District","","All Students",5863,0.9122,436,429,469,449
+"1560011","West Haven School District","Students With Disabilities","Students With Disabilities",991,0.8936,436,429,469,449
+"1560011","West Haven School District","Free/Reduced Lunch","Free Meal Eligible",2704,0.8972,436,429,469,449
+"1560011","West Haven School District","Free/Reduced Lunch","Reduced Price Meal Eligible",458,0.9219,436,429,469,449
+"1560011","West Haven School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",3162,0.9007,436,429,469,449
+"1560011","West Haven School District","English Learners","English Learners",960,0.9276,436,429,469,449
+"1560011","West Haven School District","Race/Ethnicity","All other races",561,0.9182,436,429,469,449
+"1560011","West Haven School District","Race/Ethnicity","Black or African American",1411,0.9149,436,429,469,449
+"1560011","West Haven School District","Race/Ethnicity","Hispanic/Latino of any race",2299,0.9089,436,429,469,449
+"1560011","West Haven School District","Race/Ethnicity","White",1592,0.9124,436,429,469,449
+"1560011","West Haven School District","High Needs","Students Without High Needs",1823,0.9299,436,429,469,449
+"1560011","West Haven School District","High Needs","Students With High Needs",3832,0.904,436,429,469,449
+"1570011","Weston School District","","All Students",2204,0.9497,590,587,604,607
+"1570011","Weston School District","Students With Disabilities","Students With Disabilities",234,0.9338,590,587,604,607
+"1570011","Weston School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",33,0.9258,590,587,604,607
+"1570011","Weston School District","Race/Ethnicity","All other races",278,0.952,590,587,604,607
+"1570011","Weston School District","Race/Ethnicity","Black or African American",29,0.9343,590,587,604,607
+"1570011","Weston School District","Race/Ethnicity","Hispanic/Latino of any race",186,0.9543,590,587,604,607
+"1570011","Weston School District","Race/Ethnicity","White",1711,0.9491,590,587,604,607
+"1570011","Weston School District","High Needs","Students Without High Needs",1909,0.9518,590,587,604,607
+"1570011","Weston School District","High Needs","Students With High Needs",268,0.9348,590,587,604,607
+"1580011","Westport School District","","All Students",5269,0.9399,610,618,612,604
+"1580011","Westport School District","Students With Disabilities","Students With Disabilities",696,0.9188,610,618,612,604
+"1580011","Westport School District","Free/Reduced Lunch","Free Meal Eligible",113,0.9019,610,618,612,604
+"1580011","Westport School District","Free/Reduced Lunch","Reduced Price Meal Eligible",34,0.9401,610,618,612,604
+"1580011","Westport School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",147,0.9107,610,618,612,604
+"1580011","Westport School District","English Learners","English Learners",60,0.9312,610,618,612,604
+"1580011","Westport School District","Race/Ethnicity","All other races",701,0.9481,610,618,612,604
+"1580011","Westport School District","Race/Ethnicity","Black or African American",117,0.9411,610,618,612,604
+"1580011","Westport School District","Race/Ethnicity","Hispanic/Latino of any race",379,0.9304,610,618,612,604
+"1580011","Westport School District","Race/Ethnicity","White",4072,0.9393,610,618,612,604
+"1580011","Westport School District","High Needs","Students Without High Needs",4399,0.9434,610,618,612,604
+"1580011","Westport School District","High Needs","Students With High Needs",819,0.9211,610,618,612,604
+"1590011","Wethersfield School District","","All Students",3578,0.9334,514,488,527,502
+"1590011","Wethersfield School District","Students With Disabilities","Students With Disabilities",476,0.9086,514,488,527,502
+"1590011","Wethersfield School District","Free/Reduced Lunch","Free Meal Eligible",811,0.9107,514,488,527,502
+"1590011","Wethersfield School District","Free/Reduced Lunch","Reduced Price Meal Eligible",219,0.9265,514,488,527,502
+"1590011","Wethersfield School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",1030,0.914,514,488,527,502
+"1590011","Wethersfield School District","English Learners","English Learners",333,0.9221,514,488,527,502
+"1590011","Wethersfield School District","Race/Ethnicity","All other races",352,0.9333,514,488,527,502
+"1590011","Wethersfield School District","Race/Ethnicity","Black or African American",151,0.9137,514,488,527,502
+"1590011","Wethersfield School District","Race/Ethnicity","Hispanic/Latino of any race",724,0.9167,514,488,527,502
+"1590011","Wethersfield School District","Race/Ethnicity","White",2351,0.9398,514,488,527,502
+"1590011","Wethersfield School District","High Needs","Students Without High Needs",2127,0.9443,514,488,527,502
+"1590011","Wethersfield School District","High Needs","Students With High Needs",1403,0.9178,514,488,527,502
+"1610011","Wilton School District","","All Students",3734,0.9596,595,576,614,590
+"1610011","Wilton School District","Students With Disabilities","Students With Disabilities",572,0.9531,595,576,614,590
+"1610011","Wilton School District","Free/Reduced Lunch","Free Meal Eligible",125,0.943,595,576,614,590
+"1610011","Wilton School District","Free/Reduced Lunch","Reduced Price Meal Eligible",27,0.9572,595,576,614,590
+"1610011","Wilton School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",152,0.9456,595,576,614,590
+"1610011","Wilton School District","English Learners","English Learners",27,0.9377,595,576,614,590
+"1610011","Wilton School District","Race/Ethnicity","All other races",653,0.9634,595,576,614,590
+"1610011","Wilton School District","Race/Ethnicity","Black or African American",37,0.9625,595,576,614,590
+"1610011","Wilton School District","Race/Ethnicity","Hispanic/Latino of any race",270,0.9501,595,576,614,590
+"1610011","Wilton School District","Race/Ethnicity","White",2774,0.9596,595,576,614,590
+"1610011","Wilton School District","High Needs","Students Without High Needs",2978,0.9616,595,576,614,590
+"1610011","Wilton School District","High Needs","Students With High Needs",696,0.9525,595,576,614,590
+"1630011","Windham School District","","All Students",2960,0.8724,420,399,441,424
+"1630011","Windham School District","Students With Disabilities","Students With Disabilities",553,0.8508,420,399,441,424
+"1630011","Windham School District","Free/Reduced Lunch","Free Meal Eligible",1847,0.8532,420,399,441,424
+"1630011","Windham School District","Free/Reduced Lunch","Reduced Price Meal Eligible",236,0.897,420,399,441,424
+"1630011","Windham School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",2083,0.8581,420,399,441,424
+"1630011","Windham School District","English Learners","English Learners",952,0.8628,420,399,441,424
+"1630011","Windham School District","Race/Ethnicity","All other races",103,0.8752,420,399,441,424
+"1630011","Windham School District","Race/Ethnicity","Black or African American",89,0.8673,420,399,441,424
+"1630011","Windham School District","Race/Ethnicity","Hispanic/Latino of any race",2116,0.8649,420,399,441,424
+"1630011","Windham School District","Race/Ethnicity","White",652,0.8973,420,399,441,424
+"1630011","Windham School District","High Needs","Students Without High Needs",554,0.9195,420,399,441,424
+"1630011","Windham School District","High Needs","Students With High Needs",2338,0.8614,420,399,441,424
+"1640011","Windsor School District","","All Students",3219,0.9048,468,466,489,478
+"1640011","Windsor School District","Students With Disabilities","Students With Disabilities",631,0.8717,468,466,489,478
+"1640011","Windsor School District","Free/Reduced Lunch","Free Meal Eligible",1015,0.8774,468,466,489,478
+"1640011","Windsor School District","Free/Reduced Lunch","Reduced Price Meal Eligible",257,0.9061,468,466,489,478
+"1640011","Windsor School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",1272,0.8832,468,466,489,478
+"1640011","Windsor School District","English Learners","English Learners",111,0.877,468,466,489,478
+"1640011","Windsor School District","Race/Ethnicity","All other races",409,0.9108,468,466,489,478
+"1640011","Windsor School District","Race/Ethnicity","Black or African American",1310,0.9081,468,466,489,478
+"1640011","Windsor School District","Race/Ethnicity","Hispanic/Latino of any race",775,0.8873,468,466,489,478
+"1640011","Windsor School District","Race/Ethnicity","White",725,0.9141,468,466,489,478
+"1640011","Windsor School District","High Needs","Students Without High Needs",1546,0.927,468,466,489,478
+"1640011","Windsor School District","High Needs","Students With High Needs",1612,0.8844,468,466,489,478
+"1650011","Windsor Locks School District","","All Students",1428,0.9133,448,451,477,469
+"1650011","Windsor Locks School District","Students With Disabilities","Students With Disabilities",236,0.8901,448,451,477,469
+"1650011","Windsor Locks School District","Free/Reduced Lunch","Free Meal Eligible",532,0.8873,448,451,477,469
+"1650011","Windsor Locks School District","Free/Reduced Lunch","Reduced Price Meal Eligible",104,0.9174,448,451,477,469
+"1650011","Windsor Locks School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",636,0.8922,448,451,477,469
+"1650011","Windsor Locks School District","English Learners","English Learners",102,0.9283,448,451,477,469
+"1650011","Windsor Locks School District","Race/Ethnicity","All other races",192,0.9156,448,451,477,469
+"1650011","Windsor Locks School District","Race/Ethnicity","Black or African American",180,0.87,448,451,477,469
+"1650011","Windsor Locks School District","Race/Ethnicity","Hispanic/Latino of any race",244,0.9071,448,451,477,469
+"1650011","Windsor Locks School District","Race/Ethnicity","White",812,0.9245,448,451,477,469
+"1650011","Windsor Locks School District","High Needs","Students Without High Needs",638,0.9347,448,451,477,469
+"1650011","Windsor Locks School District","High Needs","Students With High Needs",771,0.8962,448,451,477,469
+"1660011","Wolcott School District","","All Students",2121,0.9418,521,492,526,512
+"1660011","Wolcott School District","Students With Disabilities","Students With Disabilities",313,0.9275,521,492,526,512
+"1660011","Wolcott School District","Free/Reduced Lunch","Free Meal Eligible",451,0.9306,521,492,526,512
+"1660011","Wolcott School District","Free/Reduced Lunch","Reduced Price Meal Eligible",141,0.9389,521,492,526,512
+"1660011","Wolcott School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",592,0.9325,521,492,526,512
+"1660011","Wolcott School District","English Learners","English Learners",86,0.9455,521,492,526,512
+"1660011","Wolcott School District","Race/Ethnicity","All other races",129,0.9478,521,492,526,512
+"1660011","Wolcott School District","Race/Ethnicity","Black or African American",77,0.9549,521,492,526,512
+"1660011","Wolcott School District","Race/Ethnicity","Hispanic/Latino of any race",292,0.9325,521,492,526,512
+"1660011","Wolcott School District","Race/Ethnicity","White",1623,0.9424,521,492,526,512
+"1660011","Wolcott School District","High Needs","Students Without High Needs",1280,0.9478,521,492,526,512
+"1660011","Wolcott School District","High Needs","Students With High Needs",820,0.9328,521,492,526,512
+"2010012","Regional School District 01","","All Students",335,0.9166,480,461,526,493
+"2010012","Regional School District 01","Students With Disabilities","Students With Disabilities",62,0.9067,480,461,526,493
+"2010012","Regional School District 01","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",113,0.8998,480,461,526,493
+"2010012","Regional School District 01","Race/Ethnicity","Hispanic/Latino of any race",46,0.9091,480,461,526,493
+"2010012","Regional School District 01","Race/Ethnicity","White",263,0.9174,480,461,526,493
+"2010012","Regional School District 01","High Needs","Students Without High Needs",182,0.9273,480,461,526,493
+"2010012","Regional School District 01","High Needs","Students With High Needs",146,0.9032,480,461,526,493
+"2040012","Regional School District 04","","All Students",814,0.9344,537,527,565,563
+"2040012","Regional School District 04","Students With Disabilities","Students With Disabilities",155,0.9157,537,527,565,563
+"2040012","Regional School District 04","Free/Reduced Lunch","Free Meal Eligible",140,0.9075,537,527,565,563
+"2040012","Regional School District 04","Free/Reduced Lunch","Reduced Price Meal Eligible",44,0.9307,537,527,565,563
+"2040012","Regional School District 04","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",184,0.913,537,527,565,563
+"2040012","Regional School District 04","Race/Ethnicity","Hispanic/Latino of any race",56,0.9426,537,527,565,563
+"2040012","Regional School District 04","Race/Ethnicity","White",702,0.9339,537,527,565,563
+"2040012","Regional School District 04","High Needs","Students Without High Needs",519,0.9437,537,527,565,563
+"2040012","Regional School District 04","High Needs","Students With High Needs",289,0.9178,537,527,565,563
+"2050012","Regional School District 05","","All Students",2132,0.9335,563,576,569,576
+"2050012","Regional School District 05","Students With Disabilities","Students With Disabilities",271,0.8937,563,576,569,576
+"2050012","Regional School District 05","Free/Reduced Lunch","Free Meal Eligible",240,0.9194,563,576,569,576
+"2050012","Regional School District 05","Free/Reduced Lunch","Reduced Price Meal Eligible",68,0.9187,563,576,569,576
+"2050012","Regional School District 05","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",308,0.9192,563,576,569,576
+"2050012","Regional School District 05","Race/Ethnicity","All other races",409,0.9518,563,576,569,576
+"2050012","Regional School District 05","Race/Ethnicity","Black or African American",74,0.9348,563,576,569,576
+"2050012","Regional School District 05","Race/Ethnicity","Hispanic/Latino of any race",161,0.9292,563,576,569,576
+"2050012","Regional School District 05","Race/Ethnicity","White",1488,0.9289,563,576,569,576
+"2050012","Regional School District 05","High Needs","Students Without High Needs",1593,0.9415,563,576,569,576
+"2050012","Regional School District 05","High Needs","Students With High Needs",528,0.9107,563,576,569,576
+"2060012","Regional School District 06","","All Students",830,0.9244,495,503,535,549
+"2060012","Regional School District 06","Students With Disabilities","Students With Disabilities",149,0.9033,495,503,535,549
+"2060012","Regional School District 06","Free/Reduced Lunch","Free Meal Eligible",157,0.911,495,503,535,549
+"2060012","Regional School District 06","Free/Reduced Lunch","Reduced Price Meal Eligible",41,0.8897,495,503,535,549
+"2060012","Regional School District 06","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",198,0.9066,495,503,535,549
+"2060012","Regional School District 06","Race/Ethnicity","Hispanic/Latino of any race",49,0.9176,495,503,535,549
+"2060012","Regional School District 06","Race/Ethnicity","White",738,0.9247,495,503,535,549
+"2060012","Regional School District 06","High Needs","Students Without High Needs",524,0.9329,495,503,535,549
+"2060012","Regional School District 06","High Needs","Students With High Needs",304,0.911,495,503,535,549
+"2070012","Regional School District 07","","All Students",906,0.9313,562,498,551,521
+"2070012","Regional School District 07","Students With Disabilities","Students With Disabilities",188,0.9158,562,498,551,521
+"2070012","Regional School District 07","Free/Reduced Lunch","Free Meal Eligible",144,0.9081,562,498,551,521
+"2070012","Regional School District 07","Free/Reduced Lunch","Reduced Price Meal Eligible",42,0.9085,562,498,551,521
+"2070012","Regional School District 07","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",186,0.9082,562,498,551,521
+"2070012","Regional School District 07","Race/Ethnicity","Hispanic/Latino of any race",35,0.9315,562,498,551,521
+"2070012","Regional School District 07","Race/Ethnicity","White",841,0.9317,562,498,551,521
+"2070012","Regional School District 07","High Needs","Students Without High Needs",582,0.941,562,498,551,521
+"2070012","Regional School District 07","High Needs","Students With High Needs",317,0.9155,562,498,551,521
+"2080012","Regional School District 08","","All Students",1217,0.9456,571,549,565,549
+"2080012","Regional School District 08","Students With Disabilities","Students With Disabilities",176,0.9106,571,549,565,549
+"2080012","Regional School District 08","Free/Reduced Lunch","Free Meal Eligible",160,0.9156,571,549,565,549
+"2080012","Regional School District 08","Free/Reduced Lunch","Reduced Price Meal Eligible",41,0.9373,571,549,565,549
+"2080012","Regional School District 08","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",201,0.92,571,549,565,549
+"2080012","Regional School District 08","Race/Ethnicity","Hispanic/Latino of any race",85,0.9445,571,549,565,549
+"2080012","Regional School District 08","Race/Ethnicity","White",1070,0.9466,571,549,565,549
+"2080012","Regional School District 08","High Needs","Students Without High Needs",880,0.9554,571,549,565,549
+"2080012","Regional School District 08","High Needs","Students With High Needs",335,0.92,571,549,565,549
+"2090012","Regional School District 09","","All Students",817,0.9302,587,563,588,571
+"2090012","Regional School District 09","Students With Disabilities","Students With Disabilities",119,0.885,587,563,588,571
+"2090012","Regional School District 09","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",83,0.9007,587,563,588,571
+"2090012","Regional School District 09","Race/Ethnicity","All other races",73,0.9456,587,563,588,571
+"2090012","Regional School District 09","Race/Ethnicity","White",675,0.9292,587,563,588,571
+"2090012","Regional School District 09","High Needs","Students Without High Needs",622,0.9399,587,563,588,571
+"2090012","Regional School District 09","High Needs","Students With High Needs",190,0.8992,587,563,588,571
+"2100012","Regional School District 10","","All Students",2118,0.9462,527,509,554,536
+"2100012","Regional School District 10","Students With Disabilities","Students With Disabilities",258,0.9316,527,509,554,536
+"2100012","Regional School District 10","Free/Reduced Lunch","Free Meal Eligible",238,0.9316,527,509,554,536
+"2100012","Regional School District 10","Free/Reduced Lunch","Reduced Price Meal Eligible",55,0.941,527,509,554,536
+"2100012","Regional School District 10","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",293,0.9333,527,509,554,536
+"2100012","Regional School District 10","English Learners","English Learners",31,0.962,527,509,554,536
+"2100012","Regional School District 10","Race/Ethnicity","All other races",479,0.9472,527,509,554,536
+"2100012","Regional School District 10","Race/Ethnicity","White",1501,0.9464,527,509,554,536
+"2100012","Regional School District 10","High Needs","Students Without High Needs",1609,0.9502,527,509,554,536
+"2100012","Regional School District 10","High Needs","Students With High Needs",495,0.9349,527,509,554,536
+"2110012","Regional School District 11","","All Students",210,0.9104,523,515,536,501
+"2110012","Regional School District 11","Students With Disabilities","Students With Disabilities",39,0.8816,523,515,536,501
+"2110012","Regional School District 11","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",100,0.9043,523,515,536,501
+"2110012","Regional School District 11","Race/Ethnicity","White",187,0.9112,523,515,536,501
+"2110012","Regional School District 11","High Needs","Students Without High Needs",88,0.9235,523,515,536,501
+"2110012","Regional School District 11","High Needs","Students With High Needs",119,0.9008,523,515,536,501
+"2120012","Regional School District 12","","All Students",718,0.9324,540,504,558,529
+"2120012","Regional School District 12","Students With Disabilities","Students With Disabilities",90,0.9191,540,504,558,529
+"2120012","Regional School District 12","Free/Reduced Lunch","Free Meal Eligible",120,0.914,540,504,558,529
+"2120012","Regional School District 12","Free/Reduced Lunch","Reduced Price Meal Eligible",36,0.9257,540,504,558,529
+"2120012","Regional School District 12","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",156,0.9168,540,504,558,529
+"2120012","Regional School District 12","Race/Ethnicity","Hispanic/Latino of any race",73,0.9189,540,504,558,529
+"2120012","Regional School District 12","Race/Ethnicity","White",605,0.9346,540,504,558,529
+"2120012","Regional School District 12","High Needs","Students Without High Needs",477,0.9387,540,504,558,529
+"2120012","Regional School District 12","High Needs","Students With High Needs",227,0.9204,540,504,558,529
+"2130012","Regional School District 13","","All Students",1345,0.9384,535,526,562,542
+"2130012","Regional School District 13","Students With Disabilities","Students With Disabilities",283,0.9189,535,526,562,542
+"2130012","Regional School District 13","Free/Reduced Lunch","Free Meal Eligible",165,0.9041,535,526,562,542
+"2130012","Regional School District 13","Free/Reduced Lunch","Reduced Price Meal Eligible",50,0.9167,535,526,562,542
+"2130012","Regional School District 13","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",215,0.9071,535,526,562,542
+"2130012","Regional School District 13","Race/Ethnicity","Hispanic/Latino of any race",96,0.9206,535,526,562,542
+"2130012","Regional School District 13","Race/Ethnicity","White",1183,0.9393,535,526,562,542
+"2130012","Regional School District 13","High Needs","Students Without High Needs",915,0.9483,535,526,562,542
+"2130012","Regional School District 13","High Needs","Students With High Needs",420,0.9173,535,526,562,542
+"2140012","Regional School District 14","","All Students",1558,0.9496,503,492,526,510
+"2140012","Regional School District 14","Students With Disabilities","Students With Disabilities",251,0.9383,503,492,526,510
+"2140012","Regional School District 14","Free/Reduced Lunch","Free Meal Eligible",233,0.928,503,492,526,510
+"2140012","Regional School District 14","Free/Reduced Lunch","Reduced Price Meal Eligible",83,0.9423,503,492,526,510
+"2140012","Regional School District 14","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",316,0.9318,503,492,526,510
+"2140012","Regional School District 14","English Learners","English Learners",23,0.9343,503,492,526,510
+"2140012","Regional School District 14","Race/Ethnicity","Hispanic/Latino of any race",128,0.9431,503,492,526,510
+"2140012","Regional School District 14","Race/Ethnicity","White",1342,0.9503,503,492,526,510
+"2140012","Regional School District 14","High Needs","Students Without High Needs",1031,0.9561,503,492,526,510
+"2140012","Regional School District 14","High Needs","Students With High Needs",510,0.9375,503,492,526,510
+"2150012","Regional School District 15","","All Students",3502,0.9296,569,550,564,550
+"2150012","Regional School District 15","Students With Disabilities","Students With Disabilities",623,0.9131,569,550,564,550
+"2150012","Regional School District 15","Free/Reduced Lunch","Free Meal Eligible",331,0.9026,569,550,564,550
+"2150012","Regional School District 15","Free/Reduced Lunch","Reduced Price Meal Eligible",81,0.9063,569,550,564,550
+"2150012","Regional School District 15","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",412,0.9033,569,550,564,550
+"2150012","Regional School District 15","English Learners","English Learners",45,0.9245,569,550,564,550
+"2150012","Regional School District 15","Race/Ethnicity","All other races",299,0.9394,569,550,564,550
+"2150012","Regional School District 15","Race/Ethnicity","Black or African American",89,0.9396,569,550,564,550
+"2150012","Regional School District 15","Race/Ethnicity","Hispanic/Latino of any race",282,0.9181,569,550,564,550
+"2150012","Regional School District 15","Race/Ethnicity","White",2832,0.9294,569,550,564,550
+"2150012","Regional School District 15","High Needs","Students Without High Needs",2544,0.9351,569,550,564,550
+"2150012","Regional School District 15","High Needs","Students With High Needs",930,0.9142,569,550,564,550
+"2160012","Regional School District 16","","All Students",1935,0.9521,542,503,543,514
+"2160012","Regional School District 16","Students With Disabilities","Students With Disabilities",256,0.931,542,503,543,514
+"2160012","Regional School District 16","Free/Reduced Lunch","Free Meal Eligible",287,0.9331,542,503,543,514
+"2160012","Regional School District 16","Free/Reduced Lunch","Reduced Price Meal Eligible",112,0.9464,542,503,543,514
+"2160012","Regional School District 16","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",399,0.9369,542,503,543,514
+"2160012","Regional School District 16","English Learners","English Learners",43,0.942,542,503,543,514
+"2160012","Regional School District 16","Race/Ethnicity","All other races",69,0.9504,542,503,543,514
+"2160012","Regional School District 16","Race/Ethnicity","Black or African American",81,0.9585,542,503,543,514
+"2160012","Regional School District 16","Race/Ethnicity","Hispanic/Latino of any race",159,0.9463,542,503,543,514
+"2160012","Regional School District 16","Race/Ethnicity","White",1626,0.9524,542,503,543,514
+"2160012","Regional School District 16","High Needs","Students Without High Needs",1342,0.9579,542,503,543,514
+"2160012","Regional School District 16","High Needs","Students With High Needs",588,0.9387,542,503,543,514
+"2170012","Regional School District 17","","All Students",1756,0.9417,544,516,555,545
+"2170012","Regional School District 17","Students With Disabilities","Students With Disabilities",273,0.9312,544,516,555,545
+"2170012","Regional School District 17","Free/Reduced Lunch","Free Meal Eligible",163,0.9221,544,516,555,545
+"2170012","Regional School District 17","Free/Reduced Lunch","Reduced Price Meal Eligible",45,0.9436,544,516,555,545
+"2170012","Regional School District 17","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",208,0.9268,544,516,555,545
+"2170012","Regional School District 17","Race/Ethnicity","All other races",87,0.9335,544,516,555,545
+"2170012","Regional School District 17","Race/Ethnicity","White",1574,0.9423,544,516,555,545
+"2170012","Regional School District 17","High Needs","Students Without High Needs",1301,0.9452,544,516,555,545
+"2170012","Regional School District 17","High Needs","Students With High Needs",431,0.9313,544,516,555,545
+"2180012","Regional School District 18","","All Students",1228,0.938,580,577,580,583
+"2180012","Regional School District 18","Students With Disabilities","Students With Disabilities",154,0.9241,580,577,580,583
+"2180012","Regional School District 18","Free/Reduced Lunch","Free Meal Eligible",141,0.9123,580,577,580,583
+"2180012","Regional School District 18","Free/Reduced Lunch","Reduced Price Meal Eligible",28,0.9275,580,577,580,583
+"2180012","Regional School District 18","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",169,0.9148,580,577,580,583
+"2180012","Regional School District 18","English Learners","English Learners",26,0.9336,580,577,580,583
+"2180012","Regional School District 18","Race/Ethnicity","Hispanic/Latino of any race",81,0.9316,580,577,580,583
+"2180012","Regional School District 18","Race/Ethnicity","White",1060,0.9377,580,577,580,583
+"2180012","Regional School District 18","High Needs","Students Without High Needs",896,0.9428,580,577,580,583
+"2180012","Regional School District 18","High Needs","Students With High Needs",303,0.9238,580,577,580,583
+"2190012","Regional School District 19","","All Students",1124,0.9314,572,541,556,550
+"2190012","Regional School District 19","Students With Disabilities","Students With Disabilities",177,0.9039,572,541,556,550
+"2190012","Regional School District 19","Free/Reduced Lunch","Free Meal Eligible",228,0.8852,572,541,556,550
+"2190012","Regional School District 19","Free/Reduced Lunch","Reduced Price Meal Eligible",60,0.9164,572,541,556,550
+"2190012","Regional School District 19","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",288,0.8916,572,541,556,550
+"2190012","Regional School District 19","Race/Ethnicity","All other races",85,0.9559,572,541,556,550
+"2190012","Regional School District 19","Race/Ethnicity","Black or African American",50,0.919,572,541,556,550
+"2190012","Regional School District 19","Race/Ethnicity","Hispanic/Latino of any race",127,0.8987,572,541,556,550
+"2190012","Regional School District 19","Race/Ethnicity","White",862,0.9346,572,541,556,550
+"2190012","Regional School District 19","High Needs","Students Without High Needs",725,0.9463,572,541,556,550
+"2190012","Regional School District 19","High Needs","Students With High Needs",388,0.9039,572,541,556,550
+"2410014","Capitol Region Education Council","","All Students",9653,0.8912,458,419,487,445
+"2410014","Capitol Region Education Council","Homelessness","Students Experiencing Homelessness",51,0.7753,458,419,487,445
+"2410014","Capitol Region Education Council","Students With Disabilities","Students With Disabilities",1981,0.8738,458,419,487,445
+"2410014","Capitol Region Education Council","Free/Reduced Lunch","Free Meal Eligible",5448,0.8706,458,419,487,445
+"2410014","Capitol Region Education Council","Free/Reduced Lunch","Reduced Price Meal Eligible",1012,0.9106,458,419,487,445
+"2410014","Capitol Region Education Council","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",6460,0.8767,458,419,487,445
+"2410014","Capitol Region Education Council","English Learners","English Learners",812,0.8827,458,419,487,445
+"2410014","Capitol Region Education Council","Race/Ethnicity","All other races",978,0.9104,458,419,487,445
+"2410014","Capitol Region Education Council","Race/Ethnicity","Black or African American",3174,0.8964,458,419,487,445
+"2410014","Capitol Region Education Council","Race/Ethnicity","Hispanic/Latino of any race",4073,0.8739,458,419,487,445
+"2410014","Capitol Region Education Council","Race/Ethnicity","White",1428,0.914,458,419,487,445
+"2410014","Capitol Region Education Council","High Needs","Students Without High Needs",2577,0.9243,458,419,487,445
+"2410014","Capitol Region Education Council","High Needs","Students With High Needs",7062,0.879,458,419,487,445
+"2450014","Learn","","All Students",975,0.9085,495,530,525,565
+"2450014","Learn","Students With Disabilities","Students With Disabilities",190,0.8948,495,530,525,565
+"2450014","Learn","Free/Reduced Lunch","Free Meal Eligible",442,0.8839,495,530,525,565
+"2450014","Learn","Free/Reduced Lunch","Reduced Price Meal Eligible",82,0.9074,495,530,525,565
+"2450014","Learn","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",524,0.8876,495,530,525,565
+"2450014","Learn","English Learners","English Learners",83,0.8881,495,530,525,565
+"2450014","Learn","Race/Ethnicity","All other races",155,0.9049,495,530,525,565
+"2450014","Learn","Race/Ethnicity","Black or African American",98,0.9077,495,530,525,565
+"2450014","Learn","Race/Ethnicity","Hispanic/Latino of any race",333,0.8984,495,530,525,565
+"2450014","Learn","Race/Ethnicity","White",389,0.9188,495,530,525,565
+"2450014","Learn","High Needs","Students Without High Needs",372,0.9353,495,530,525,565
+"2450014","Learn","High Needs","Students With High Needs",602,0.8919,495,530,525,565
+"2530014","Eastern Connecticut Regional Educational Service Center (EASTCONN)","","All Students",386,0.8273,427,413,484,483
+"2530014","Eastern Connecticut Regional Educational Service Center (EASTCONN)","Students With Disabilities","Students With Disabilities",159,0.8315,427,413,484,483
+"2530014","Eastern Connecticut Regional Educational Service Center (EASTCONN)","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",155,0.7988,427,413,484,483
+"2530014","Eastern Connecticut Regional Educational Service Center (EASTCONN)","Race/Ethnicity","Hispanic/Latino of any race",70,0.8162,427,413,484,483
+"2530014","Eastern Connecticut Regional Educational Service Center (EASTCONN)","Race/Ethnicity","White",273,0.8346,427,413,484,483
+"2530014","Eastern Connecticut Regional Educational Service Center (EASTCONN)","High Needs","Students Without High Needs",154,0.8412,427,413,484,483
+"2530014","Eastern Connecticut Regional Educational Service Center (EASTCONN)","High Needs","Students With High Needs",230,0.8203,427,413,484,483
+"2680013","Common Ground High School District","","All Students",211,0.8321,412,400,441,431
+"2680013","Common Ground High School District","Students With Disabilities","Students With Disabilities",52,0.8069,412,400,441,431
+"2680013","Common Ground High School District","Free/Reduced Lunch","Free Meal Eligible",122,0.7964,412,400,441,431
+"2680013","Common Ground High School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",136,0.7978,412,400,441,431
+"2680013","Common Ground High School District","Race/Ethnicity","Black or African American",69,0.834,412,400,441,431
+"2680013","Common Ground High School District","Race/Ethnicity","Hispanic/Latino of any race",88,0.8038,412,400,441,431
+"2680013","Common Ground High School District","High Needs","Students Without High Needs",57,0.8919,412,400,441,431
+"2680013","Common Ground High School District","High Needs","Students With High Needs",154,0.8102,412,400,441,431
+"2690013","The Bridge Academy District","","All Students",268,0.9387,425,408,443,416
+"2690013","The Bridge Academy District","Students With Disabilities","Students With Disabilities",51,0.9255,425,408,443,416
+"2690013","The Bridge Academy District","Free/Reduced Lunch","Free Meal Eligible",154,0.93,425,408,443,416
+"2690013","The Bridge Academy District","Free/Reduced Lunch","Reduced Price Meal Eligible",35,0.9343,425,408,443,416
+"2690013","The Bridge Academy District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",189,0.9308,425,408,443,416
+"2690013","The Bridge Academy District","Race/Ethnicity","Black or African American",147,0.9423,425,408,443,416
+"2690013","The Bridge Academy District","Race/Ethnicity","Hispanic/Latino of any race",117,0.9347,425,408,443,416
+"2690013","The Bridge Academy District","High Needs","Students Without High Needs",64,0.9627,425,408,443,416
+"2690013","The Bridge Academy District","High Needs","Students With High Needs",204,0.9312,425,408,443,416
+"2720013","Explorations District","","All Students",87,0.8612,414,416,466,478
+"2720013","Explorations District","Students With Disabilities","Students With Disabilities",24,0.8143,414,416,466,478
+"2720013","Explorations District","Free/Reduced Lunch","Free Meal Eligible",48,0.8418,414,416,466,478
+"2720013","Explorations District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",57,0.8489,414,416,466,478
+"2720013","Explorations District","Race/Ethnicity","White",73,0.8741,414,416,466,478
+"2720013","Explorations District","High Needs","Students Without High Needs",24,0.9043,414,416,466,478
+"2720013","Explorations District","High Needs","Students With High Needs",62,0.8453,414,416,466,478
+"2790013","Amistad Academy District","","All Students",1093,0.8832,474,434,474,436
+"2790013","Amistad Academy District","Students With Disabilities","Students With Disabilities",98,0.8664,474,434,474,436
+"2790013","Amistad Academy District","Free/Reduced Lunch","Free Meal Eligible",640,0.871,474,434,474,436
+"2790013","Amistad Academy District","Free/Reduced Lunch","Reduced Price Meal Eligible",71,0.9067,474,434,474,436
+"2790013","Amistad Academy District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",711,0.8746,474,434,474,436
+"2790013","Amistad Academy District","English Learners","English Learners",132,0.9076,474,434,474,436
+"2790013","Amistad Academy District","Race/Ethnicity","Black or African American",656,0.8793,474,434,474,436
+"2790013","Amistad Academy District","Race/Ethnicity","Hispanic/Latino of any race",395,0.8899,474,434,474,436
+"2790013","Amistad Academy District","High Needs","Students Without High Needs",300,0.8979,474,434,474,436
+"2790013","Amistad Academy District","High Needs","Students With High Needs",789,0.8775,474,434,474,436
+"2850013","Achievement First Bridgeport Academy District","","All Students",1064,0.8728,487,436,488,444
+"2850013","Achievement First Bridgeport Academy District","Students With Disabilities","Students With Disabilities",96,0.8503,487,436,488,444
+"2850013","Achievement First Bridgeport Academy District","Free/Reduced Lunch","Free Meal Eligible",518,0.8583,487,436,488,444
+"2850013","Achievement First Bridgeport Academy District","Free/Reduced Lunch","Reduced Price Meal Eligible",62,0.8926,487,436,488,444
+"2850013","Achievement First Bridgeport Academy District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",580,0.862,487,436,488,444
+"2850013","Achievement First Bridgeport Academy District","English Learners","English Learners",137,0.8907,487,436,488,444
+"2850013","Achievement First Bridgeport Academy District","Race/Ethnicity","Black or African American",570,0.8816,487,436,488,444
+"2850013","Achievement First Bridgeport Academy District","Race/Ethnicity","Hispanic/Latino of any race",457,0.8622,487,436,488,444
+"2850013","Achievement First Bridgeport Academy District","High Needs","Students Without High Needs",394,0.8853,487,436,488,444
+"2850013","Achievement First Bridgeport Academy District","High Needs","Students With High Needs",662,0.8665,487,436,488,444
+"2880013","Achievement First Hartford Academy District","","All Students",1089,0.8827,492,423,469,428
+"2880013","Achievement First Hartford Academy District","Students With Disabilities","Students With Disabilities",103,0.8641,492,423,469,428
+"2880013","Achievement First Hartford Academy District","Free/Reduced Lunch","Free Meal Eligible",686,0.8712,492,423,469,428
+"2880013","Achievement First Hartford Academy District","Free/Reduced Lunch","Reduced Price Meal Eligible",62,0.9172,492,423,469,428
+"2880013","Achievement First Hartford Academy District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",748,0.875,492,423,469,428
+"2880013","Achievement First Hartford Academy District","English Learners","English Learners",50,0.8781,492,423,469,428
+"2880013","Achievement First Hartford Academy District","Race/Ethnicity","Black or African American",795,0.8892,492,423,469,428
+"2880013","Achievement First Hartford Academy District","Race/Ethnicity","Hispanic/Latino of any race",267,0.8631,492,423,469,428
+"2880013","Achievement First Hartford Academy District","High Needs","Students Without High Needs",303,0.8996,492,423,469,428
+"2880013","Achievement First Hartford Academy District","High Needs","Students With High Needs",782,0.8763,492,423,469,428
+"2890013","Elm City College Preparatory School District","","All Students",754,0.8675,474,424,478,427
+"2890013","Elm City College Preparatory School District","Students With Disabilities","Students With Disabilities",70,0.8307,474,424,478,427
+"2890013","Elm City College Preparatory School District","Free/Reduced Lunch","Free Meal Eligible",450,0.8562,474,424,478,427
+"2890013","Elm City College Preparatory School District","Free/Reduced Lunch","Reduced Price Meal Eligible",41,0.886,474,424,478,427
+"2890013","Elm City College Preparatory School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",491,0.8588,474,424,478,427
+"2890013","Elm City College Preparatory School District","English Learners","English Learners",63,0.9115,474,424,478,427
+"2890013","Elm City College Preparatory School District","Race/Ethnicity","Black or African American",496,0.8592,474,424,478,427
+"2890013","Elm City College Preparatory School District","Race/Ethnicity","Hispanic/Latino of any race",230,0.8825,474,424,478,427
+"2890013","Elm City College Preparatory School District","High Needs","Students Without High Needs",226,0.8801,474,424,478,427
+"2890013","Elm City College Preparatory School District","High Needs","Students With High Needs",528,0.8621,474,424,478,427
+"2970013","Capital Preparatory Harbor School District","","All Students",731,0.9102,440,420,470,426
+"2970013","Capital Preparatory Harbor School District","Students With Disabilities","Students With Disabilities",76,0.9061,440,420,470,426
+"2970013","Capital Preparatory Harbor School District","Free/Reduced Lunch","Free Meal Eligible",393,0.9067,440,420,470,426
+"2970013","Capital Preparatory Harbor School District","Free/Reduced Lunch","Reduced Price Meal Eligible",67,0.9209,440,420,470,426
+"2970013","Capital Preparatory Harbor School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",460,0.9088,440,420,470,426
+"2970013","Capital Preparatory Harbor School District","English Learners","English Learners",54,0.9222,440,420,470,426
+"2970013","Capital Preparatory Harbor School District","Race/Ethnicity","Black or African American",490,0.9119,440,420,470,426
+"2970013","Capital Preparatory Harbor School District","Race/Ethnicity","Hispanic/Latino of any race",234,0.9073,440,420,470,426
+"2970013","Capital Preparatory Harbor School District","High Needs","Students Without High Needs",224,0.9126,440,420,470,426
+"2970013","Capital Preparatory Harbor School District","High Needs","Students With High Needs",504,0.9092,440,420,470,426
+"9000016","Connecticut Technical Education and Career System","","All Students",11138,0.8985,434,420,454,440
+"9000016","Connecticut Technical Education and Career System","Homelessness","Students Experiencing Homelessness",27,0.7152,434,420,454,440
+"9000016","Connecticut Technical Education and Career System","Students With Disabilities","Students With Disabilities",1672,0.8921,434,420,454,440
+"9000016","Connecticut Technical Education and Career System","Free/Reduced Lunch","Free Meal Eligible",4181,0.8932,434,420,454,440
+"9000016","Connecticut Technical Education and Career System","Free/Reduced Lunch","Reduced Price Meal Eligible",838,0.9006,434,420,454,440
+"9000016","Connecticut Technical Education and Career System","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",5019,0.8944,434,420,454,440
+"9000016","Connecticut Technical Education and Career System","English Learners","English Learners",487,0.884,434,420,454,440
+"9000016","Connecticut Technical Education and Career System","Race/Ethnicity","All other races",703,0.8954,434,420,454,440
+"9000016","Connecticut Technical Education and Career System","Race/Ethnicity","Black or African American",1308,0.8906,434,420,454,440
+"9000016","Connecticut Technical Education and Career System","Race/Ethnicity","Hispanic/Latino of any race",4674,0.8928,434,420,454,440
+"9000016","Connecticut Technical Education and Career System","Race/Ethnicity","White",4453,0.9074,434,420,454,440
+"9000016","Connecticut Technical Education and Career System","High Needs","Students Without High Needs",5001,0.9038,434,420,454,440
+"9000016","Connecticut Technical Education and Career System","High Needs","Students With High Needs",6130,0.8943,434,420,454,440
+"9010022","Norwich Free Academy District","","All Students",2068,0.894,479,452,497,479
+"9010022","Norwich Free Academy District","Students With Disabilities","Students With Disabilities",256,0.869,479,452,497,479
+"9010022","Norwich Free Academy District","Free/Reduced Lunch","Free Meal Eligible",846,0.8664,479,452,497,479
+"9010022","Norwich Free Academy District","Free/Reduced Lunch","Reduced Price Meal Eligible",188,0.9115,479,452,497,479
+"9010022","Norwich Free Academy District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",1034,0.8746,479,452,497,479
+"9010022","Norwich Free Academy District","English Learners","English Learners",196,0.858,479,452,497,479
+"9010022","Norwich Free Academy District","Race/Ethnicity","All other races",267,0.9055,479,452,497,479
+"9010022","Norwich Free Academy District","Race/Ethnicity","Black or African American",298,0.8909,479,452,497,479
+"9010022","Norwich Free Academy District","Race/Ethnicity","Hispanic/Latino of any race",494,0.8622,479,452,497,479
+"9010022","Norwich Free Academy District","Race/Ethnicity","White",1009,0.907,479,452,497,479
+"9010022","Norwich Free Academy District","High Needs","Students Without High Needs",858,0.9209,479,452,497,479
+"9010022","Norwich Free Academy District","High Needs","Students With High Needs",1156,0.8742,479,452,497,479
+"9020022","The Gilbert School District","","All Students",421,0.8901,466,458,478,496
+"9020022","The Gilbert School District","Students With Disabilities","Students With Disabilities",65,0.867,466,458,478,496
+"9020022","The Gilbert School District","Free/Reduced Lunch","Free Meal Eligible",154,0.8646,466,458,478,496
+"9020022","The Gilbert School District","Free/Reduced Lunch","Reduced Price Meal Eligible",44,0.8772,466,458,478,496
+"9020022","The Gilbert School District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",198,0.8674,466,458,478,496
+"9020022","The Gilbert School District","Race/Ethnicity","Hispanic/Latino of any race",87,0.8736,466,458,478,496
+"9020022","The Gilbert School District","Race/Ethnicity","White",277,0.8936,466,458,478,496
+"9020022","The Gilbert School District","High Needs","Students Without High Needs",189,0.9157,466,458,478,496
+"9020022","The Gilbert School District","High Needs","Students With High Needs",228,0.8696,466,458,478,496
+"9030022","The Woodstock Academy District","","All Students",1060,0.9288,528,497,520,516
+"9030022","The Woodstock Academy District","Students With Disabilities","Students With Disabilities",72,0.9176,528,497,520,516
+"9030022","The Woodstock Academy District","Free/Reduced Lunch","Free Meal Eligible",23,0.8478,528,497,520,516
+"9030022","The Woodstock Academy District","Free/Reduced Lunch","Free/Reduced Price Meal Eligible",23,0.8478,528,497,520,516
+"9030022","The Woodstock Academy District","Race/Ethnicity","All other races",86,0.9393,528,497,520,516
+"9030022","The Woodstock Academy District","Race/Ethnicity","White",901,0.9288,528,497,520,516
+"9030022","The Woodstock Academy District","High Needs","Students Without High Needs",949,0.9318,528,497,520,516
+"9030022","The Woodstock Academy District","High Needs","Students With High Needs",93,0.9041,528,497,520,516
