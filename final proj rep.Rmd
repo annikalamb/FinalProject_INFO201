@@ -1,0 +1,117 @@
+---
+title: "Final Project Report"
+output: html_document
+date: "2023-12-07"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(magick)
+```
+## Introduction
+  By integrating data on attendance rates and SAT scores, our analysis aims to provide a more comprehensive understanding of the factors influencing academic performance. It goes beyond test scores alone and explores the potential correlation with attendance, offering a nuanced view of educational outcomes. The comparative analysis of school districts based on both attendance rates and SAT scores contributes to a richer dataset. This approach allows for identifying patterns, trends, and potential correlations that may not be evident when examining these factors in isolation. The inclusion of various student categories and groups in the dataset reflects a commitment to a holistic approach. This allows for a refined examination of attendance rates and SAT scores across diverse demographics.
+  
+  Attendance rates and SAT scores are critical indicators of educational equity. Analyzing these factors together can help identify disparities in educational outcomes among different student groups and demographics, shedding light on potential inequities in the education system. By including specific student groups such as race, economic class, and mental challenges, our analysis acknowledges the importance of addressing disparities at a deeper level. This equity-focused approach aligns with the broader goal of promoting inclusivity and fairness in education. The exploration of how attendance rates may impact SAT scores in different school districts is particularly relevant from an equity standpoint, exploring the correlation between academic achievement and whether there are systemic issues affecting specific groups of students. Insights derived from the correlation between attendance rates and SAT scores can inform educational policies and interventions. If certain student groups consistently face challenges in attendance and subsequently in standardized testing, policymakers can design targeted strategies to address these disparities and promote equity.
+  
+  Families with higher incomes often have the financial means to invest in test preparation services, such as tutoring, test prep courses, and study materials. This access can contribute to higher test scores. Higher-income families may provide additional educational opportunities, such as extracurricular activities, educational travel, and enrichment programs. These experiences can enhance a student's academic skills and knowledge, potentially influencing test performance.
+  
+  Schools in affluent neighborhoods tend to benefit from higher property tax revenues, leading to better-funded schools. These schools can afford resources like advanced courses, up-to-date technology, and experienced teachers, creating an environment conducive to academic success. Higher-income areas may have smaller class sizes, allowing for more individualized attention. This can positively impact student engagement and academic achievement. Higher family incomes often correlate with better overall health and well-being. Students from economically advantaged families may experience fewer health-related challenges, contributing to consistent attendance and academic success. Affluent families may have the means to access support services, including mental health resources and academic support. This can positively influence a student's ability to attend school regularly and perform well academically.
+  
+  The COVID-19 pandemic highlighted the digital divide, with lower-income families facing challenges in accessing technology for remote learning. Higher-income families are more likely to afford the necessary devices and reliable internet access, impacting attendance and academic performance during periods of remote learning.
+  
+  Higher-income families often exhibit higher levels of parental involvement in their children's education. This involvement may include setting high academic expectations, fostering a positive attitude toward learning, and actively participating in school-related activities. Families with higher incomes may place a stronger emphasis on college attendance and preparation. This expectation can motivate students to excel academically and perform well on college admissions tests.
+  
+  In our study, we combined two distinct datasets: one containing attendance rates per school district and the other containing SAT scores for the same school districts during the 2021/2022 school year. The primary goal was to explore the correlation between attendance rates and SAT scores across different student groups, considering factors like race, socioeconomic status, and other categorical variables.
+  
+  We created a data frame that included school district names, district codes, and broader student categories (e.g., race, economic class, etc.). This allowed us to analyze attendance rates for specific student groups within each district. For each student category, we included the number of enrolled students and their calculated attendance rate as a percentage. This enabled a detailed examination of attendance patterns among different student groups. We integrated SAT scores per school district to compare them with the average attendance rates. This allowed us to assess any correlations between attendance rates and academic performance. We aimed to avoid letting predefined student categories determine academic outcomes. By including various student groups in our analysis, we intended to identify correlations between attendance rates and SAT scores without relying solely on group labels. We concentrated on comparing average attendance rates with SAT scores at the school district level. This approach facilitated a broader understanding of the relationship between attendance patterns and academic achievement. The sample was selected based on the availability of the "school district" variable. Challenges arose as most datasets were school-specific, not district-specific. We conducted a thorough search on reliable sources, primarily government websites (e.g., data.gov), to ensure data accuracy and credibility.
+### Importance:
+  Ensuring that schools in economically disadvantaged areas receive adequate funding and resources to provide quality education.
+  
+  Implementing programs that provide all students, regardless of income, access to affordable or free test preparation resources.
+  
+  Offering additional support services, mentoring programs, and educational initiatives to address the unique challenges faced by students from lower-income families.
+
+## Explain your Data:
+These datasets encompass information for the majority of school districts in Connecticut, fostering a convergence of common features. The deliberate choice of a state-specific dataset allows for the aggregation of information across diverse demographic groups, negating the necessity to analyze an excessively extensive dataset. Notably, both datasets exclusively draw from a specific academic year, augmenting the credibility and robustness of our drawn conclusions.
+
+Our datasets trace their origins to various online sources, with each meticulously curated from repositories maintained by the Connecticut Department of Education. The primary dataset, sourced for the initial article, was directly obtained from data.gov, a government-monitored and sanctioned website. In the case of our second dataset, we encountered a news article reporting on state testing scores for Connecticut. Subsequently, we diligently traced the source data referenced in the article to integrate it into our research. This rigorous approach ensures the reliability and credibility of the data underpinning our study.
+
+The exact party responsible for data collection is unknown. It is likely that attendance data originates from the attendance systems of individual schools, aggregated to form cumulative data for each district. Concerning SAT data, it is probable that the College Board initially collected the information, given that each student takes the SAT. After collection, the data is cleaned and compiled, a process likely undertaken by the Connecticut Department of Education.
+
+These datasets should be accessible to the public without restrictions, given their association with government entities, particularly the Board of Education. Additionally, they are overseen by an open data platform, ensuring that all data remains available for public access.
+
+The target population comprises all students in Connecticut, with the aspiration to generalize findings to the broader United States. However, the sample is confined to students within Connecticut exclusively. It is pertinent to note that the dataset predominantly encompasses students within public school districts and may not comprehensively represent all student scenarios. The initial dataset focuses on analyzing attendance rates across diverse student groups, including those with special needs, varying socioeconomic statuses, and different racial or ethnic backgrounds. The data contains a comparison of attendance rates among all students within a specific district and attendance rates specific to individual student groups within that district.
+
+Substantial data cleaning was essential for our study due to the exclusion of many districts in both datasets, leading to the decision to omit those districts entirely. The datasets also contained numerous unnecessary values and rows with NA values, prompting meticulous removal. The resulting final dataset comprises crucial variables, including a district name column, a group category column encompassing factors like ethnicity and special needs, a group column, attendance rates, and SAT scores for both ELA and math in the respective school year. Following the cleaning process, our analysis focused on 135 districts for which data was available, ensuring a refined and comprehensive dataset for our study.
+
+The rows represent one group of people in a district, their characteristics, their attendance rates, and their district’s SAT scores.
+
+Our final dataset consists of 1499 observations. The initial dataset comprised several thousand more variables; however, we decided to eliminate districts for which complete information was unavailable, along with removing all NA values within districts. This meticulous approach ensured the inclusion of only the most comprehensive and reliable data in our final analysis.
+
+The relevant variables include categories (what category of demographic, race, disability, etc.), labels of category (disabled versus not, what race, etc.), the attendance rates and total student count for each, and SAT scores for all students of the district.
+
+Our cleaning process was designed to eliminate missing variables by systematically removing all rows with unavailable data. Regarding non-plausible values, in our initial examination, we thoroughly reviewed all values and confirmed that no SAT scores exceeded the maximum of 800. Similarly, we verified that no attendance rates surpassed the maximum of 1. This meticulous validation process contributes to the reliability and accuracy of our dataset.
+
+## Discuss your methods.
+In our two combined data sets, attendance rates per school district and SAT scores for said school districts, we had to narrow down many variables to the ones that were just going to apply to what we wanted to analyze. By combining the two different datasets, we were able to create one data frame with the school district name and the district code associated with it, and then the categories and student groups. These two variables, category just being a broader version of the student groups, specified certain groups that students belong to such as race, sorts of mental challenges, families that belong to an economic class where the student is eligible for free school lunches, etc. These variables were necessary to include in our data set because we are looking at the attendance rates for these groups of students in particular, and seeing if the label they were given had any affect on how often they showed up to school. Within that data set as well, we included the number of students enrolled under that group in that school and their calculated attendance rate, as a percentage. The data set that we combined to this attendance rate table were SAT scores per school district. We were able to compare SAT scores to the average attendance rate as a whole of that school. By looking at these two variables, we were not able to specifically look at SAT scores per student category (that seems like a violation of privacy, so likely for the better), but we were able to compare school average SAT scores in comparison to other districts in the area. This showed us any sort of correlation between a school having an above average or below average school attendance rate, and seeing how their SAT scores compare to the rest. 
+
+The reason we processed our data this way in particular was because we discussed the importance of not letting a “group name” determine how well a student does in a school/school district. Rather, there are so many other variables and factors that can affect attendance rates. We were more interested in seeing how attendance rates affect how well a school district does on the SAT. This could be because one district is more academically fronted than another, or how hard parents place emphasis on doing well on the test. We cannot determine the true meaning of these factors just based upon what we have provided from our data set in particular, but we can make an assumption based on only attendance rates and SAT scores, and the correlation between the two of those. 
+
+We selected our sample based upon if the variable “school district” was included or not. This was the most difficult part to do when we were looking for two data sets to combine, because most school oriented data sets we were looking at were labeled by school specific, not district specific. When we started narrowing down our searches to specific observations, such as SAT scores or economic class, we were able to get a broader scope of data which is how we found the two to combine. We also wanted to make sure that our data was coming from a trustworthy source, so we looked mainly on .gov websites. Our first data set, attendance rates, came from data.gov, and under the frequently looked at school category. We had to dig much deeper for the SAT scores data set, but we were still able to find a valid one. 
+
+As far as technical decisions that we made, it was mainly just removing columns that we were not going to work with and cleaning up the school districts to only look at. Tha two data sets that we found were not exact matches, so we had to remove any rows that had missing information. Usually, this missing information came from not having SAT scores associated with a school district, so we just cleaned those out in R Studio and ran an analysis on only the districts with reported average SAT scores. Other than that however, both data sets were very well constructed. We removed attendance columns that provided information on years that we were not interested in looking at, we only wanted to see the most recent school year with reported data and SAT scores. We are specifically looking at 2021-2022. Another difficult thing about our data set in particular was just figuring out what “student group” belonged to which category, but in the end we ended up strictly using student groups and attendance rates instead. Being able to go much more specific helped in our final analysis. 
+
+We did not need to use regression analysis in our given dataset, just because we were not looking at a very long range of time. We were just looking at one school year, attendance rates and SAT scores. This allowed for much more basic analysis, but interesting and insightful nonetheless. 
+
+## Talk about your results:
+To keep it relatively simple to digest and easy to read, we stuck to majority bar graphs for our analysis. The most significant findings that we had though, were to be expected. In our following examples, we are going to strictly stick to G-P district names, just because we had so many to analyze but this one in particular showed the most differences. Although there were many graphs that showed significant differences, I narrowed it down to two just for the sake of the report. We have included attendance rates for all students within these school districts, and then we picked to include the graph that showed attendance rates for students with disabilities. Right off the bat, you see less yellow, which means “high attendance rates” in the graph for disabilities versus all students as a whole. 
+
+All Students Attendance Rates:
+
+```{r, echo = FALSE}
+img <- image_read("all students.png")
+
+plot(img)
+```
+
+
+Students With Disabilities:
+
+```{r, echo = FALSE}
+img <- image_read("disabled students.png")
+
+plot(img)
+```
+
+Even without analyzing each specific school district, we can see the variances by just looking at these two graphs. This could be extremely useful information when a district is looking at increasing attendance rates, and looking at specific groups to narrow in upon. 
+We next analyzed SAT average scores over these Connecticut school districts as well.
+
+```{r, echo = FALSE}
+img <- image_read("sat graph.png")
+
+plot(img)
+```
+
+To represent this data, we thought best to use a scatter plot and a “best-fit” line. We can now see that with higher attendance rates, you see a significant increase in the average SAT scores for that district. With lower average attendance rates, it is obvious that the students do not do nearly as well on the SAT. 
+
+We began this research with the thinking that if we could figure out where poor attendance rates were and what type of influence they had on big tests, like the SAT, we would be able to provide information that would allow for schools to create a bigger emphasis on promoting attendance. This will increase the academic performance in the schools, along with placing more attention on “higher needs” categories of students. Kill two birds with one stone, they say!
+
+## Discuss your findings:
+Our analysis revealed insights into the relationship between attendance rates, SAT scores, and various student categories in Connecticut school districts during the 2021/2022 academic year. Attendance Rates Across Student Categories showed that discrepancies in attendance rates were evident among different student groups. Students with disabilities consistently showed lower attendance rates compared to the overall student population. The visual representation of attendance rates for all students versus students with disabilities highlighted the need for targeted interventions to improve attendance among the latter group. Furthermore, a notable positive correlation emerged between higher attendance rates and increased average SAT scores. School districts with higher attendance rates tended to exhibit higher average SAT scores, emphasizing the impact of consistent attendance on academic achievement. Our project shows the importance of addressing attendance disparities, particularly among students with disabilities. Higher attendance rates correlated with better academic outcomes, emphasizing the role of attendance in promoting educational equity.
+
+Limitations we discovered included generalizability and the question of causation vs. correlation. The findings are specific to Connecticut school districts and may not be directly applicable to other places. Future research could include a more diverse set of states for a broader understanding.While a correlation between attendance rates and SAT scores was observed, establishing causation requires more in-depth analysis and consideration of other variables. The exclusion of districts with missing information limited the comprehensiveness of the analysis. Efforts to acquire complete datasets for all districts could increase the accuracy of the findings.
+
+Further research should delve into the causative factors behind the observed correlation. Exploring the impact of specific interventions on attendance rates and subsequent SAT performance could provide actionable insights for schools. Conducting longitudinal studies over multiple academic years could offer a more comprehensive understanding of trends and changes in attendance rates and academic achievement. Additionally, extending the analysis to include school districts from various states could reveal regional patterns and disparities, contributing to a broader discussion on national educational equity.
+
+## Summary:
+This investigation conducts a comprehensive exploration by intertwining attendance rates and SAT scores, surpassing conventional academic metrics. Employing a comparative analysis of school districts, we aim to attain a more nuanced comprehension of the intricate interplay involving student attendance, socioeconomic factors, and outcomes in standardized testing. The study places particular emphasis on inclusivity, delving into various student categories to gain insights into educational disparities.
+
+The research underscores the pivotal significance of attendance rates and SAT scores as integral indicators of educational equity. Through a collective examination of these factors, the study exposes disparities across diverse student groups, providing a comprehensive outlook on systemic challenges within the education system. The discernible influence of socioeconomic factors is noteworthy, revealing advantages for higher-income families in terms of access to test preparation services, enriched educational opportunities, and well-funded schools.
+
+However, the study does not exclusively highlight advantages. It acknowledges the impact of the digital divide, especially heightened during the COVID-19 pandemic, wherein lower-income families grapple with challenges related to accessing technology for remote learning. This recognition underscores the persistent need for targeted interventions to alleviate disparities in resource access.
+
+### Key Takeaway:
+This study communicates the intricate dynamics shaping educational outcomes, emphasizing the interdependence of attendance rates, socioeconomic factors, and SAT scores. Policymakers and educators can leverage these insights to design precise interventions promoting educational equity. The study underscores the importance of inclusivity and acknowledges challenges like the digital divide, highlighting the continual efforts required to establish an educational environment that affords equal opportunities to all students. Bridging socioeconomic gaps remains a paramount priority in cultivating a genuinely inclusive and equitable educational landscape.
+
+
+
