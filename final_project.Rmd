@@ -1,0 +1,1094 @@
+---
+title: "final project"
+output: html_document
+date: "2023-11-29"
+---
+```{r}
+library("dplyr")
+library("data.table")
+library("stringr")
+library("tidyverse")
+library("ggplot2")
+library("RColorBrewer")
+library("patchwork")
+library("viridis") 
+
+data <- read_csv("combine_data.csv")
+head(data, 5)
+```
+# Attendance Rate vs All Students
+```{r}
+selected_group <- "All Students"
+
+filtered_data <- data %>% 
+  select(District.name, Student.group, X2021.2022.attendance.rate...year.to.date) %>% 
+  filter(Student.group == selected_group)
+```
+
+```{r}
+filtered_data$group <- cut(seq(1, nrow(filtered_data)), breaks = 4, labels = FALSE)
+# Calculate the mean attendance rate
+mean_attendance_rate <- mean(filtered_data$X2021.2022.attendance.rate...year.to.date)
+
+# Classify into three categories: low, medium, high
+filtered_data$class <- cut(
+  filtered_data$X2021.2022.attendance.rate...year.to.date,
+  breaks = c(-Inf, mean_attendance_rate - sd(filtered_data$X2021.2022.attendance.rate...year.to.date), 
+              mean_attendance_rate + sd(filtered_data$X2021.2022.attendance.rate...year.to.date), Inf),
+  labels = c("Low", "Medium", "High"),
+  include.lowest = TRUE
+)
+
+# Creating the first plot
+plot1 <- filtered_data %>%
+  filter(group == 1) %>%
+  ggplot(aes(x = str_wrap(District.name, width = 30), y = X2021.2022.attendance.rate...year.to.date, fill = class)) +
+  geom_bar(stat = "identity", color = "black", width = 0.7,position = position_dodge(width = 1)) +
+  labs(
+    title = "All Students Attendance Rate per School District",
+    x = "District",
+    y = "Attendance Rate"
+  ) +
+  theme(plot.title = element_text(face = "bold"))+
+  scale_y_continuous(breaks = c(0, 0.5, 1,1.5), limits = c(0, 1.5)) +
+  scale_fill_viridis(discrete = TRUE, option = "viridis", alpha = 0.7,name = "Attendance Rate") +  # Reduced opacity
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1)
+  )
+
+# Creating the second plot (containing graph 2) 
+plot2 <- filtered_data %>%
+  filter(group == 2) %>%
+  ggplot(aes(x = str_wrap(District.name, width = 30), y = X2021.2022.attendance.rate...year.to.date, fill = class)) +
+  geom_bar(stat = "identity", color = "black", width = 0.7,position = position_dodge(width = 1)) +
+  labs(
+    x = "District",
+    y = "Attendance Rate"
+  ) +
+  scale_y_continuous(breaks = c(0, 0.5, 1,1.5), limits = c(0, 1.5)) +
+  scale_fill_viridis(discrete = TRUE, option = "viridis", alpha = 0.7,name = "Attendance Rate") +  # Reduced opacity
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1)
+  )
+
+# Creating the second plot (containing graph 3) 
+plot3 <- filtered_data %>%
+  filter(group == 3) %>%
+  ggplot(aes(x = str_wrap(District.name, width = 30), y = X2021.2022.attendance.rate...year.to.date, fill = class)) +
+  geom_bar(stat = "identity", color = "black", width = 0.7,position = position_dodge(width = 1)) +
+  labs(
+    title = "All Students Attendance Rate per School District (Part 2)",
+    x = "District",
+    y = "Attendance Rate"
+  ) +
+  theme(plot.title = element_text(face = "bold"))+
+  scale_y_continuous(breaks = c(0, 0.5, 1,1.5), limits = c(0, 1.5)) +
+  scale_fill_viridis(discrete = TRUE, option = "viridis", alpha = 0.7,name = "Attendance Rate") +  # Reduced opacity
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1)
+  )
+
+# Creating the second plot (containing graph 4) 
+plot4 <- filtered_data %>%
+  filter(group == 4) %>%
+  ggplot(aes(x = str_wrap(District.name, width = 50), y = X2021.2022.attendance.rate...year.to.date, fill = class)) +
+  geom_bar(stat = "identity", color = "black", width = 0.7,position = position_dodge(width = 1)) +
+  labs(
+    x = "District",
+    y = "Attendance Rate"
+  ) +
+  scale_y_continuous(breaks = c(0, 0.5, 1,1.5), limits = c(0, 1.5)) +
+  scale_fill_viridis(discrete = TRUE, option = "viridis", alpha = 0.7,name = "Attendance Rate") +  # Reduced opacity
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1)
+  )
+
+# Arrange the plots into a grid and save as a PNG file
+AS_plot1 <- plot1 + plot2 + plot_layout(ncol = 2)
+AS_plot2 <- plot3 + plot4 + plot_layout(ncol = 2)
+ggsave("AS_plot1.png", AS_plot1, width = 17, height = 8, units = "in")
+ggsave("AS_plot2.png", AS_plot2, width = 17, height = 8, units = "in")
+```
+
+# Attendance Rate vs Student With Disabilities
+
+```{r}
+selected_group <- "Students With Disabilities"
+
+filtered_data <- data %>% 
+  select(District.name, Student.group, X2021.2022.attendance.rate...year.to.date) %>% 
+  filter(Student.group == selected_group)
+```
+
+```{r}
+filtered_data$group <- cut(seq(1, nrow(filtered_data)), breaks = 4, labels = FALSE)
+# Calculate the mean attendance rate
+mean_attendance_rate <- mean(filtered_data$X2021.2022.attendance.rate...year.to.date)
+
+# Classify into three categories: low, medium, high
+filtered_data$class <- cut(
+  filtered_data$X2021.2022.attendance.rate...year.to.date,
+  breaks = c(-Inf, mean_attendance_rate - sd(filtered_data$X2021.2022.attendance.rate...year.to.date), 
+              mean_attendance_rate + sd(filtered_data$X2021.2022.attendance.rate...year.to.date), Inf),
+  labels = c("Low", "Medium", "High"),
+  include.lowest = TRUE
+)
+
+# Creating the first plot
+plot1 <- filtered_data %>%
+  filter(group == 1) %>%
+  ggplot(aes(x = str_wrap(District.name, width = 30), y = X2021.2022.attendance.rate...year.to.date, fill = class)) +
+  geom_bar(stat = "identity", color = "black", width = 0.7,position = position_dodge(width = 1)) +
+  labs(
+    title = "Students With Disabilities Attendance Rate per School District",
+    x = "District",
+    y = "Attendance Rate"
+  ) +
+  theme(plot.title = element_text(face = "bold"))+
+  scale_y_continuous(breaks = c(0, 0.5, 1,1.5), limits = c(0, 1.5)) +
+  scale_fill_viridis(discrete = TRUE, option = "viridis", alpha = 0.7,name = "Attendance Rate") +  # Reduced opacity
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1)
+  )
+
+# Creating the second plot (containing graph 2) 
+plot2 <- filtered_data %>%
+  filter(group == 2) %>%
+  ggplot(aes(x = str_wrap(District.name, width = 30), y = X2021.2022.attendance.rate...year.to.date, fill = class)) +
+  geom_bar(stat = "identity", color = "black", width = 0.7,position = position_dodge(width = 1)) +
+  labs(
+    x = "District",
+    y = "Attendance Rate"
+  ) +
+  scale_y_continuous(breaks = c(0, 0.5, 1,1.5), limits = c(0, 1.5)) +
+  scale_fill_viridis(discrete = TRUE, option = "viridis", alpha = 0.7,name = "Attendance Rate") +  # Reduced opacity
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1)
+  )
+
+# Creating the second plot (containing graph 3) 
+plot3 <- filtered_data %>%
+  filter(group == 3) %>%
+  ggplot(aes(x = str_wrap(District.name, width = 30), y = X2021.2022.attendance.rate...year.to.date, fill = class)) +
+  geom_bar(stat = "identity", color = "black", width = 0.7,position = position_dodge(width = 1)) +
+  labs(
+    title = "Students With Disabilities Attendance Rate per School District (Part 2)",
+    x = "District",
+    y = "Attendance Rate"
+  ) +
+  theme(plot.title = element_text(face = "bold"))+
+  scale_y_continuous(breaks = c(0, 0.5, 1,1.5), limits = c(0, 1.5)) +
+  scale_fill_viridis(discrete = TRUE, option = "viridis", alpha = 0.7,name = "Attendance Rate") +  # Reduced opacity
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1)
+  )
+
+# Creating the second plot (containing graph 4) 
+plot4 <- filtered_data %>%
+  filter(group == 4) %>%
+  ggplot(aes(x = str_wrap(District.name, width = 50), y = X2021.2022.attendance.rate...year.to.date, fill = class)) +
+  geom_bar(stat = "identity", color = "black", width = 0.7,position = position_dodge(width = 1)) +
+  labs(
+    x = "District",
+    y = "Attendance Rate"
+  ) +
+  scale_y_continuous(breaks = c(0, 0.5, 1,1.5), limits = c(0, 1.5)) +
+  scale_fill_viridis(discrete = TRUE, option = "viridis", alpha = 0.7,name = "Attendance Rate") +  # Reduced opacity
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1)
+  )
+
+# Arrange the plots into a grid and save as a PNG file
+SWD_plot1 <- plot1 + plot2 + plot_layout(ncol = 2)
+SWD_plot2 <- plot3 + plot4 + plot_layout(ncol = 2)
+ggsave("SWD_plot1.png", SWD_plot1, width = 17, height = 8, units = "in")
+ggsave("SWD_plot2.png", SWD_plot2, width = 17, height = 8, units = "in")
+```
+
+# Attendance Rate vs Free Meal Eligible
+
+```{r}
+selected_group <- "Free Meal Eligible"
+
+filtered_data <- data %>% 
+  select(District.name, Student.group, X2021.2022.attendance.rate...year.to.date) %>% 
+  filter(Student.group == selected_group)
+```
+
+```{r}
+filtered_data$group <- cut(seq(1, nrow(filtered_data)), breaks = 4, labels = FALSE)
+# Calculate the mean attendance rate
+mean_attendance_rate <- mean(filtered_data$X2021.2022.attendance.rate...year.to.date)
+
+# Classify into three categories: low, medium, high
+filtered_data$class <- cut(
+  filtered_data$X2021.2022.attendance.rate...year.to.date,
+  breaks = c(-Inf, mean_attendance_rate - sd(filtered_data$X2021.2022.attendance.rate...year.to.date), 
+              mean_attendance_rate + sd(filtered_data$X2021.2022.attendance.rate...year.to.date), Inf),
+  labels = c("Low", "Medium", "High"),
+  include.lowest = TRUE
+)
+
+# Creating the first plot
+plot1 <- filtered_data %>%
+  filter(group == 1) %>%
+  ggplot(aes(x = str_wrap(District.name, width = 30), y = X2021.2022.attendance.rate...year.to.date, fill = class)) +
+  geom_bar(stat = "identity", color = "black", width = 0.7,position = position_dodge(width = 1)) +
+  labs(
+    title = "Free Meal Eligible Students Attendance Rate per School District",
+    x = "District",
+    y = "Attendance Rate"
+  ) +
+  theme(plot.title = element_text(face = "bold"))+
+  scale_y_continuous(breaks = c(0, 0.5, 1,1.5), limits = c(0, 1.5)) +
+  scale_fill_viridis(discrete = TRUE, option = "viridis", alpha = 0.7,name = "Attendance Rate") +  # Reduced opacity
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1)
+  )
+
+# Creating the second plot (containing graph 2) 
+plot2 <- filtered_data %>%
+  filter(group == 2) %>%
+  ggplot(aes(x = str_wrap(District.name, width = 30), y = X2021.2022.attendance.rate...year.to.date, fill = class)) +
+  geom_bar(stat = "identity", color = "black", width = 0.7,position = position_dodge(width = 1)) +
+  labs(
+    x = "District",
+    y = "Attendance Rate"
+  ) +
+  scale_y_continuous(breaks = c(0, 0.5, 1,1.5), limits = c(0, 1.5)) +
+  scale_fill_viridis(discrete = TRUE, option = "viridis", alpha = 0.7,name = "Attendance Rate") +  # Reduced opacity
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1)
+  )
+
+# Creating the second plot (containing graph 3) 
+plot3 <- filtered_data %>%
+  filter(group == 3) %>%
+  ggplot(aes(x = str_wrap(District.name, width = 30), y = X2021.2022.attendance.rate...year.to.date, fill = class)) +
+  geom_bar(stat = "identity", color = "black", width = 0.7,position = position_dodge(width = 1)) +
+  labs(
+    title = "Free Meal Eligible Students Attendance Rate per School District (Part 2)",
+    x = "District",
+    y = "Attendance Rate"
+  ) +
+  theme(plot.title = element_text(face = "bold"))+
+  scale_y_continuous(breaks = c(0, 0.5, 1,1.5), limits = c(0, 1.5)) +
+  scale_fill_viridis(discrete = TRUE, option = "viridis", alpha = 0.7,name = "Attendance Rate") +  # Reduced opacity
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1)
+  )
+
+# Creating the second plot (containing graph 4) 
+plot4 <- filtered_data %>%
+  filter(group == 4) %>%
+  ggplot(aes(x = str_wrap(District.name, width = 50), y = X2021.2022.attendance.rate...year.to.date, fill = class)) +
+  geom_bar(stat = "identity", color = "black", width = 0.7,position = position_dodge(width = 1)) +
+  labs(
+    x = "District",
+    y = "Attendance Rate"
+  ) +
+  scale_y_continuous(breaks = c(0, 0.5, 1,1.5), limits = c(0, 1.5)) +
+  scale_fill_viridis(discrete = TRUE, option = "viridis", alpha = 0.7,name = "Attendance Rate") +  # Reduced opacity
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1)
+  )
+
+# Arrange the plots into a grid and save as a PNG file
+FME_plot1 <- plot1 + plot2 + plot_layout(ncol = 2)
+FME_plot2 <- plot3 + plot4 + plot_layout(ncol = 2)
+ggsave("FME_plot1.png", FME_plot1, width = 17, height = 8, units = "in")
+ggsave("FME_plot2.png", FME_plot2, width = 17, height = 8, units = "in")
+```
+# Attendance Rate vs Reduced Price Meal Eligible
+```{r}
+selected_group <- "Reduced Price Meal Eligible"
+
+filtered_data <- data %>% 
+  select(District.name, Student.group, X2021.2022.attendance.rate...year.to.date) %>% 
+  filter(Student.group == selected_group)
+```
+
+```{r}
+filtered_data$group <- cut(seq(1, nrow(filtered_data)), breaks = 4, labels = FALSE)
+# Calculate the mean attendance rate
+mean_attendance_rate <- mean(filtered_data$X2021.2022.attendance.rate...year.to.date)
+
+# Classify into three categories: low, medium, high
+filtered_data$class <- cut(
+  filtered_data$X2021.2022.attendance.rate...year.to.date,
+  breaks = c(-Inf, mean_attendance_rate - sd(filtered_data$X2021.2022.attendance.rate...year.to.date), 
+              mean_attendance_rate + sd(filtered_data$X2021.2022.attendance.rate...year.to.date), Inf),
+  labels = c("Low", "Medium", "High"),
+  include.lowest = TRUE
+)
+
+# Creating the first plot
+plot1 <- filtered_data %>%
+  filter(group == 1) %>%
+  ggplot(aes(x = str_wrap(District.name, width = 30), y = X2021.2022.attendance.rate...year.to.date, fill = class)) +
+  geom_bar(stat = "identity", color = "black", width = 0.7,position = position_dodge(width = 1)) +
+  labs(
+    title = "Reduced Price Meal Eligible Students Attendance Rate per School District",
+    x = "District",
+    y = "Attendance Rate"
+  ) +
+  theme(plot.title = element_text(face = "bold"))+
+  scale_y_continuous(breaks = c(0, 0.5, 1,1.5), limits = c(0, 1.5)) +
+  scale_fill_viridis(discrete = TRUE, option = "viridis", alpha = 0.7,name = "Attendance Rate") +  # Reduced opacity
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1)
+  )
+
+# Creating the second plot (containing graph 2) 
+plot2 <- filtered_data %>%
+  filter(group == 2) %>%
+  ggplot(aes(x = str_wrap(District.name, width = 30), y = X2021.2022.attendance.rate...year.to.date, fill = class)) +
+  geom_bar(stat = "identity", color = "black", width = 0.7,position = position_dodge(width = 1)) +
+  labs(
+    x = "District",
+    y = "Attendance Rate"
+  ) +
+  scale_y_continuous(breaks = c(0, 0.5, 1,1.5), limits = c(0, 1.5)) +
+  scale_fill_viridis(discrete = TRUE, option = "viridis", alpha = 0.7,name = "Attendance Rate") +  # Reduced opacity
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1)
+  )
+
+# Creating the second plot (containing graph 3) 
+plot3 <- filtered_data %>%
+  filter(group == 3) %>%
+  ggplot(aes(x = str_wrap(District.name, width = 30), y = X2021.2022.attendance.rate...year.to.date, fill = class)) +
+  geom_bar(stat = "identity", color = "black", width = 0.7,position = position_dodge(width = 1)) +
+  labs(
+    title = "Reduced Price Meal Eligible Students Attendance Rate per School District (Part 2)",
+    x = "District",
+    y = "Attendance Rate"
+  ) +
+  theme(plot.title = element_text(face = "bold"))+
+  scale_y_continuous(breaks = c(0, 0.5, 1,1.5), limits = c(0, 1.5)) +
+  scale_fill_viridis(discrete = TRUE, option = "viridis", alpha = 0.7,name = "Attendance Rate") +  # Reduced opacity
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1)
+  )
+
+# Creating the second plot (containing graph 4) 
+plot4 <- filtered_data %>%
+  filter(group == 4) %>%
+  ggplot(aes(x = str_wrap(District.name, width = 50), y = X2021.2022.attendance.rate...year.to.date, fill = class)) +
+  geom_bar(stat = "identity", color = "black", width = 0.7,position = position_dodge(width = 1)) +
+  labs(
+    x = "District",
+    y = "Attendance Rate"
+  ) +
+  scale_y_continuous(breaks = c(0, 0.5, 1,1.5), limits = c(0, 1.5)) +
+  scale_fill_viridis(discrete = TRUE, option = "viridis", alpha = 0.7,name = "Attendance Rate") +  # Reduced opacity
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1)
+  )
+
+# Arrange the plots into a grid and save as a PNG file
+RPME_plot1 <- plot1 + plot2 + plot_layout(ncol = 2)
+RPME_plot2 <- plot3 + plot4 + plot_layout(ncol = 2)
+ggsave("RPME_plot1.png", RPME_plot1, width = 17, height = 8, units = "in")
+ggsave("RPME_plot2.png", RPME_plot2, width = 17, height = 8, units = "in")
+```
+# Attendance Rate vs English Learners
+```{r}
+selected_group <- "English Learners"
+
+filtered_data <- data %>% 
+  select(District.name, Student.group, X2021.2022.attendance.rate...year.to.date) %>% 
+  filter(Student.group == selected_group)
+```
+
+```{r}
+filtered_data$group <- cut(seq(1, nrow(filtered_data)), breaks = 4, labels = FALSE)
+# Calculate the mean attendance rate
+mean_attendance_rate <- mean(filtered_data$X2021.2022.attendance.rate...year.to.date)
+
+# Classify into three categories: low, medium, high
+filtered_data$class <- cut(
+  filtered_data$X2021.2022.attendance.rate...year.to.date,
+  breaks = c(-Inf, mean_attendance_rate - sd(filtered_data$X2021.2022.attendance.rate...year.to.date), 
+              mean_attendance_rate + sd(filtered_data$X2021.2022.attendance.rate...year.to.date), Inf),
+  labels = c("Low", "Medium", "High"),
+  include.lowest = TRUE
+)
+
+# Creating the first plot
+plot1 <- filtered_data %>%
+  filter(group == 1) %>%
+  ggplot(aes(x = str_wrap(District.name, width = 30), y = X2021.2022.attendance.rate...year.to.date, fill = class)) +
+  geom_bar(stat = "identity", color = "black", width = 0.7,position = position_dodge(width = 1)) +
+  labs(
+    title = "English Learners Students Attendance Rate per School District",
+    x = "District",
+    y = "Attendance Rate"
+  ) +
+  theme(plot.title = element_text(face = "bold"))+
+  scale_y_continuous(breaks = c(0, 0.5, 1,1.5), limits = c(0, 1.5)) +
+  scale_fill_viridis(discrete = TRUE, option = "viridis", alpha = 0.7,name = "Attendance Rate") +  # Reduced opacity
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1)
+  )
+
+# Creating the second plot (containing graph 2) 
+plot2 <- filtered_data %>%
+  filter(group == 2) %>%
+  ggplot(aes(x = str_wrap(District.name, width = 30), y = X2021.2022.attendance.rate...year.to.date, fill = class)) +
+  geom_bar(stat = "identity", color = "black", width = 0.7,position = position_dodge(width = 1)) +
+  labs(
+    x = "District",
+    y = "Attendance Rate"
+  ) +
+  scale_y_continuous(breaks = c(0, 0.5, 1,1.5), limits = c(0, 1.5)) +
+  scale_fill_viridis(discrete = TRUE, option = "viridis", alpha = 0.7,name = "Attendance Rate") +  # Reduced opacity
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1)
+  )
+
+# Creating the second plot (containing graph 3) 
+plot3 <- filtered_data %>%
+  filter(group == 3) %>%
+  ggplot(aes(x = str_wrap(District.name, width = 30), y = X2021.2022.attendance.rate...year.to.date, fill = class)) +
+  geom_bar(stat = "identity", color = "black", width = 0.7,position = position_dodge(width = 1)) +
+  labs(
+    title = "English Learners Students Attendance Rate per School District (Part 2)",
+    x = "District",
+    y = "Attendance Rate"
+  ) +
+  theme(plot.title = element_text(face = "bold"))+
+  scale_y_continuous(breaks = c(0, 0.5, 1,1.5), limits = c(0, 1.5)) +
+  scale_fill_viridis(discrete = TRUE, option = "viridis", alpha = 0.7,name = "Attendance Rate") +  # Reduced opacity
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1)
+  )
+
+# Creating the second plot (containing graph 4) 
+plot4 <- filtered_data %>%
+  filter(group == 4) %>%
+  ggplot(aes(x = str_wrap(District.name, width = 50), y = X2021.2022.attendance.rate...year.to.date, fill = class)) +
+  geom_bar(stat = "identity", color = "black", width = 0.7,position = position_dodge(width = 1)) +
+  labs(
+    x = "District",
+    y = "Attendance Rate"
+  ) +
+  scale_y_continuous(breaks = c(0, 0.5, 1,1.5), limits = c(0, 1.5)) +
+  scale_fill_viridis(discrete = TRUE, option = "viridis", alpha = 0.7,name = "Attendance Rate") +  # Reduced opacity
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1)
+  )
+
+# Arrange the plots into a grid and save as a PNG file
+EL_plot1 <- plot1 + plot2 + plot_layout(ncol = 2)
+EL_plot2 <- plot3 + plot4 + plot_layout(ncol = 2)
+ggsave("EL_plot1.png", EL_plot1, width = 17, height = 8, units = "in")
+ggsave("EL_plot2.png", EL_plot2, width = 17, height = 8, units = "in")
+```
+
+# Attendance Rate vs All other races
+```{r}
+selected_group <- "All other races"
+
+filtered_data <- data %>% 
+  select(District.name, Student.group, X2021.2022.attendance.rate...year.to.date) %>% 
+  filter(Student.group == selected_group)
+```
+
+```{r}
+filtered_data$group <- cut(seq(1, nrow(filtered_data)), breaks = 4, labels = FALSE)
+# Calculate the mean attendance rate
+mean_attendance_rate <- mean(filtered_data$X2021.2022.attendance.rate...year.to.date)
+
+# Classify into three categories: low, medium, high
+filtered_data$class <- cut(
+  filtered_data$X2021.2022.attendance.rate...year.to.date,
+  breaks = c(-Inf, mean_attendance_rate - sd(filtered_data$X2021.2022.attendance.rate...year.to.date), 
+              mean_attendance_rate + sd(filtered_data$X2021.2022.attendance.rate...year.to.date), Inf),
+  labels = c("Low", "Medium", "High"),
+  include.lowest = TRUE
+)
+
+# Creating the first plot
+plot1 <- filtered_data %>%
+  filter(group == 1) %>%
+  ggplot(aes(x = str_wrap(District.name, width = 30), y = X2021.2022.attendance.rate...year.to.date, fill = class)) +
+  geom_bar(stat = "identity", color = "black", width = 0.7,position = position_dodge(width = 1)) +
+  labs(
+    title = "All Other Races Students Attendance Rate per School District",
+    x = "District",
+    y = "Attendance Rate"
+  ) +
+  theme(plot.title = element_text(face = "bold"))+
+  scale_y_continuous(breaks = c(0, 0.5, 1,1.5), limits = c(0, 1.5)) +
+  scale_fill_viridis(discrete = TRUE, option = "viridis", alpha = 0.7,name = "Attendance Rate") +  # Reduced opacity
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1)
+  )
+
+# Creating the second plot (containing graph 2) 
+plot2 <- filtered_data %>%
+  filter(group == 2) %>%
+  ggplot(aes(x = str_wrap(District.name, width = 30), y = X2021.2022.attendance.rate...year.to.date, fill = class)) +
+  geom_bar(stat = "identity", color = "black", width = 0.7,position = position_dodge(width = 1)) +
+  labs(
+    x = "District",
+    y = "Attendance Rate"
+  ) +
+  scale_y_continuous(breaks = c(0, 0.5, 1,1.5), limits = c(0, 1.5)) +
+  scale_fill_viridis(discrete = TRUE, option = "viridis", alpha = 0.7,name = "Attendance Rate") +  # Reduced opacity
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1)
+  )
+
+# Creating the second plot (containing graph 3) 
+plot3 <- filtered_data %>%
+  filter(group == 3) %>%
+  ggplot(aes(x = str_wrap(District.name, width = 30), y = X2021.2022.attendance.rate...year.to.date, fill = class)) +
+  geom_bar(stat = "identity", color = "black", width = 0.7,position = position_dodge(width = 1)) +
+  labs(
+    title = "All Other Races Students Attendance Rate per School District (Part 2)",
+    x = "District",
+    y = "Attendance Rate"
+  ) +
+  theme(plot.title = element_text(face = "bold"))+
+  scale_y_continuous(breaks = c(0, 0.5, 1,1.5), limits = c(0, 1.5)) +
+  scale_fill_viridis(discrete = TRUE, option = "viridis", alpha = 0.7,name = "Attendance Rate") +  # Reduced opacity
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1)
+  )
+
+# Creating the second plot (containing graph 4) 
+plot4 <- filtered_data %>%
+  filter(group == 4) %>%
+  ggplot(aes(x = str_wrap(District.name, width = 50), y = X2021.2022.attendance.rate...year.to.date, fill = class)) +
+  geom_bar(stat = "identity", color = "black", width = 0.7,position = position_dodge(width = 1)) +
+  labs(
+    x = "District",
+    y = "Attendance Rate"
+  ) +
+  scale_y_continuous(breaks = c(0, 0.5, 1,1.5), limits = c(0, 1.5)) +
+  scale_fill_viridis(discrete = TRUE, option = "viridis", alpha = 0.7,name = "Attendance Rate") +  # Reduced opacity
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1)
+  )
+
+# Arrange the plots into a grid and save as a PNG file
+AOR_plot1 <- plot1 + plot2 + plot_layout(ncol = 2)
+AOR_plot2 <- plot3 + plot4 + plot_layout(ncol = 2)
+ggsave("AOR_plot1.png", AOR_plot1, width = 17, height = 8, units = "in")
+ggsave("AOR_plot2.png", AOR_plot2, width = 17, height = 8, units = "in")
+```
+
+# Attendance Rate vs Black or African American
+```{r}
+selected_group <- "Black or African American"
+
+filtered_data <- data %>% 
+  select(District.name, Student.group, X2021.2022.attendance.rate...year.to.date) %>% 
+  filter(Student.group == selected_group)
+```
+
+```{r}
+filtered_data$group <- cut(seq(1, nrow(filtered_data)), breaks = 4, labels = FALSE)
+# Calculate the mean attendance rate
+mean_attendance_rate <- mean(filtered_data$X2021.2022.attendance.rate...year.to.date)
+
+# Classify into three categories: low, medium, high
+filtered_data$class <- cut(
+  filtered_data$X2021.2022.attendance.rate...year.to.date,
+  breaks = c(-Inf, mean_attendance_rate - sd(filtered_data$X2021.2022.attendance.rate...year.to.date), 
+              mean_attendance_rate + sd(filtered_data$X2021.2022.attendance.rate...year.to.date), Inf),
+  labels = c("Low", "Medium", "High"),
+  include.lowest = TRUE
+)
+
+# Creating the first plot
+plot1 <- filtered_data %>%
+  filter(group == 1) %>%
+  ggplot(aes(x = str_wrap(District.name, width = 30), y = X2021.2022.attendance.rate...year.to.date, fill = class)) +
+  geom_bar(stat = "identity", color = "black", width = 0.7,position = position_dodge(width = 1)) +
+  labs(
+    title = "Black or African American Students Attendance Rate per School District",
+    x = "District",
+    y = "Attendance Rate"
+  ) +
+  theme(plot.title = element_text(face = "bold"))+
+  scale_y_continuous(breaks = c(0, 0.5, 1,1.5), limits = c(0, 1.5)) +
+  scale_fill_viridis(discrete = TRUE, option = "viridis", alpha = 0.7,name = "Attendance Rate") +  # Reduced opacity
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1)
+  )
+
+# Creating the second plot (containing graph 2) 
+plot2 <- filtered_data %>%
+  filter(group == 2) %>%
+  ggplot(aes(x = str_wrap(District.name, width = 30), y = X2021.2022.attendance.rate...year.to.date, fill = class)) +
+  geom_bar(stat = "identity", color = "black", width = 0.7,position = position_dodge(width = 1)) +
+  labs(
+    x = "District",
+    y = "Attendance Rate"
+  ) +
+  scale_y_continuous(breaks = c(0, 0.5, 1,1.5), limits = c(0, 1.5)) +
+  scale_fill_viridis(discrete = TRUE, option = "viridis", alpha = 0.7,name = "Attendance Rate") +  # Reduced opacity
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1)
+  )
+
+# Creating the second plot (containing graph 3) 
+plot3 <- filtered_data %>%
+  filter(group == 3) %>%
+  ggplot(aes(x = str_wrap(District.name, width = 30), y = X2021.2022.attendance.rate...year.to.date, fill = class)) +
+  geom_bar(stat = "identity", color = "black", width = 0.7,position = position_dodge(width = 1)) +
+  labs(
+    title = "Black or African American Students Attendance Rate per School District (Part 2)",
+    x = "District",
+    y = "Attendance Rate"
+  ) +
+  theme(plot.title = element_text(face = "bold"))+
+  scale_y_continuous(breaks = c(0, 0.5, 1,1.5), limits = c(0, 1.5)) +
+  scale_fill_viridis(discrete = TRUE, option = "viridis", alpha = 0.7,name = "Attendance Rate") +  # Reduced opacity
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1)
+  )
+
+# Creating the second plot (containing graph 4) 
+plot4 <- filtered_data %>%
+  filter(group == 4) %>%
+  ggplot(aes(x = str_wrap(District.name, width = 50), y = X2021.2022.attendance.rate...year.to.date, fill = class)) +
+  geom_bar(stat = "identity", color = "black", width = 0.7,position = position_dodge(width = 1)) +
+  labs(
+    x = "District",
+    y = "Attendance Rate"
+  ) +
+  scale_y_continuous(breaks = c(0, 0.5, 1,1.5), limits = c(0, 1.5)) +
+  scale_fill_viridis(discrete = TRUE, option = "viridis", alpha = 0.7,name = "Attendance Rate") +  # Reduced opacity
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1)
+  )
+
+# Arrange the plots into a grid and save as a PNG file
+BAA_plot1 <- plot1 + plot2 + plot_layout(ncol = 2)
+BAA_plot2 <- plot3 + plot4 + plot_layout(ncol = 2)
+ggsave("BAA_plot1.png", BAA_plot1, width = 17, height = 8, units = "in")
+ggsave("BAA_plot2.png", BAA_plot2, width = 17, height = 8, units = "in")
+```
+
+# Attendance Rate vs Hispanic/Latino of any race
+```{r}
+selected_group <- "Hispanic/Latino of any race"
+
+filtered_data <- data %>% 
+  select(District.name, Student.group, X2021.2022.attendance.rate...year.to.date) %>% 
+  filter(Student.group == selected_group)
+```
+
+```{r}
+filtered_data$group <- cut(seq(1, nrow(filtered_data)), breaks = 4, labels = FALSE)
+# Calculate the mean attendance rate
+mean_attendance_rate <- mean(filtered_data$X2021.2022.attendance.rate...year.to.date)
+
+# Classify into three categories: low, medium, high
+filtered_data$class <- cut(
+  filtered_data$X2021.2022.attendance.rate...year.to.date,
+  breaks = c(-Inf, mean_attendance_rate - sd(filtered_data$X2021.2022.attendance.rate...year.to.date), 
+              mean_attendance_rate + sd(filtered_data$X2021.2022.attendance.rate...year.to.date), Inf),
+  labels = c("Low", "Medium", "High"),
+  include.lowest = TRUE
+)
+
+# Creating the first plot
+plot1 <- filtered_data %>%
+  filter(group == 1) %>%
+  ggplot(aes(x = str_wrap(District.name, width = 30), y = X2021.2022.attendance.rate...year.to.date, fill = class)) +
+  geom_bar(stat = "identity", color = "black", width = 0.7,position = position_dodge(width = 1)) +
+  labs(
+    title = "Hispanic/Latino of any Race Students Attendance Rate per School District",
+    x = "District",
+    y = "Attendance Rate"
+  ) +
+  theme(plot.title = element_text(face = "bold"))+
+  scale_y_continuous(breaks = c(0, 0.5, 1,1.5), limits = c(0, 1.5)) +
+  scale_fill_viridis(discrete = TRUE, option = "viridis", alpha = 0.7,name = "Attendance Rate") +  # Reduced opacity
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1)
+  )
+
+# Creating the second plot (containing graph 2) 
+plot2 <- filtered_data %>%
+  filter(group == 2) %>%
+  ggplot(aes(x = str_wrap(District.name, width = 30), y = X2021.2022.attendance.rate...year.to.date, fill = class)) +
+  geom_bar(stat = "identity", color = "black", width = 0.7,position = position_dodge(width = 1)) +
+  labs(
+    x = "District",
+    y = "Attendance Rate"
+  ) +
+  scale_y_continuous(breaks = c(0, 0.5, 1,1.5), limits = c(0, 1.5)) +
+  scale_fill_viridis(discrete = TRUE, option = "viridis", alpha = 0.7,name = "Attendance Rate") +  # Reduced opacity
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1)
+  )
+
+# Creating the second plot (containing graph 3) 
+plot3 <- filtered_data %>%
+  filter(group == 3) %>%
+  ggplot(aes(x = str_wrap(District.name, width = 30), y = X2021.2022.attendance.rate...year.to.date, fill = class)) +
+  geom_bar(stat = "identity", color = "black", width = 0.7,position = position_dodge(width = 1)) +
+  labs(
+    title = "Hispanic/Latino of any Race Students Attendance Rate per School District (Part 2)",
+    x = "District",
+    y = "Attendance Rate"
+  ) +
+  theme(plot.title = element_text(face = "bold"))+
+  scale_y_continuous(breaks = c(0, 0.5, 1,1.5), limits = c(0, 1.5)) +
+  scale_fill_viridis(discrete = TRUE, option = "viridis", alpha = 0.7,name = "Attendance Rate") +  # Reduced opacity
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1)
+  )
+
+# Creating the second plot (containing graph 4) 
+plot4 <- filtered_data %>%
+  filter(group == 4) %>%
+  ggplot(aes(x = str_wrap(District.name, width = 50), y = X2021.2022.attendance.rate...year.to.date, fill = class)) +
+  geom_bar(stat = "identity", color = "black", width = 0.7,position = position_dodge(width = 1)) +
+  labs(
+    x = "District",
+    y = "Attendance Rate"
+  ) +
+  scale_y_continuous(breaks = c(0, 0.5, 1,1.5), limits = c(0, 1.5)) +
+  scale_fill_viridis(discrete = TRUE, option = "viridis", alpha = 0.7,name = "Attendance Rate") +  # Reduced opacity
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1)
+  )
+
+# Arrange the plots into a grid and save as a PNG file
+HLR_plot1 <- plot1 + plot2 + plot_layout(ncol = 2)
+HLR_plot2 <- plot3 + plot4 + plot_layout(ncol = 2)
+ggsave("HLR_plot1.png", HLR_plot1, width = 17, height = 8, units = "in")
+ggsave("HLR_plot2.png", HLR_plot2, width = 17, height = 8, units = "in")
+```
+# Attendance Rate vs White
+```{r}
+selected_group <- "White"
+
+filtered_data <- data %>% 
+  select(District.name, Student.group, X2021.2022.attendance.rate...year.to.date) %>% 
+  filter(Student.group == selected_group)
+```
+
+```{r}
+filtered_data$group <- cut(seq(1, nrow(filtered_data)), breaks = 4, labels = FALSE)
+# Calculate the mean attendance rate
+mean_attendance_rate <- mean(filtered_data$X2021.2022.attendance.rate...year.to.date)
+
+# Classify into three categories: low, medium, high
+filtered_data$class <- cut(
+  filtered_data$X2021.2022.attendance.rate...year.to.date,
+  breaks = c(-Inf, mean_attendance_rate - sd(filtered_data$X2021.2022.attendance.rate...year.to.date), 
+              mean_attendance_rate + sd(filtered_data$X2021.2022.attendance.rate...year.to.date), Inf),
+  labels = c("Low", "Medium", "High"),
+  include.lowest = TRUE
+)
+
+# Creating the first plot
+plot1 <- filtered_data %>%
+  filter(group == 1) %>%
+  ggplot(aes(x = str_wrap(District.name, width = 30), y = X2021.2022.attendance.rate...year.to.date, fill = class)) +
+  geom_bar(stat = "identity", color = "black", width = 0.7,position = position_dodge(width = 1)) +
+  labs(
+    title = "White Students Attendance Rate per School District",
+    x = "District",
+    y = "Attendance Rate"
+  ) +
+  theme(plot.title = element_text(face = "bold"))+
+  scale_y_continuous(breaks = c(0, 0.5, 1,1.5), limits = c(0, 1.5)) +
+  scale_fill_viridis(discrete = TRUE, option = "viridis", alpha = 0.7,name = "Attendance Rate") +  # Reduced opacity
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1)
+  )
+
+# Creating the second plot (containing graph 2) 
+plot2 <- filtered_data %>%
+  filter(group == 2) %>%
+  ggplot(aes(x = str_wrap(District.name, width = 30), y = X2021.2022.attendance.rate...year.to.date, fill = class)) +
+  geom_bar(stat = "identity", color = "black", width = 0.7,position = position_dodge(width = 1)) +
+  labs(
+    x = "District",
+    y = "Attendance Rate"
+  ) +
+  scale_y_continuous(breaks = c(0, 0.5, 1,1.5), limits = c(0, 1.5)) +
+  scale_fill_viridis(discrete = TRUE, option = "viridis", alpha = 0.7,name = "Attendance Rate") +  # Reduced opacity
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1)
+  )
+
+# Creating the second plot (containing graph 3) 
+plot3 <- filtered_data %>%
+  filter(group == 3) %>%
+  ggplot(aes(x = str_wrap(District.name, width = 30), y = X2021.2022.attendance.rate...year.to.date, fill = class)) +
+  geom_bar(stat = "identity", color = "black", width = 0.7,position = position_dodge(width = 1)) +
+  labs(
+    title = "White Students Attendance Rate per School District (Part 2)",
+    x = "District",
+    y = "Attendance Rate"
+  ) +
+  theme(plot.title = element_text(face = "bold"))+
+  scale_y_continuous(breaks = c(0, 0.5, 1,1.5), limits = c(0, 1.5)) +
+  scale_fill_viridis(discrete = TRUE, option = "viridis", alpha = 0.7,name = "Attendance Rate") +  # Reduced opacity
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1)
+  )
+
+# Creating the second plot (containing graph 4) 
+plot4 <- filtered_data %>%
+  filter(group == 4) %>%
+  ggplot(aes(x = str_wrap(District.name, width = 50), y = X2021.2022.attendance.rate...year.to.date, fill = class)) +
+  geom_bar(stat = "identity", color = "black", width = 0.7,position = position_dodge(width = 1)) +
+  labs(
+    x = "District",
+    y = "Attendance Rate"
+  ) +
+  scale_y_continuous(breaks = c(0, 0.5, 1,1.5), limits = c(0, 1.5)) +
+  scale_fill_viridis(discrete = TRUE, option = "viridis", alpha = 0.7,name = "Attendance Rate") +  # Reduced opacity
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1)
+  )
+
+# Arrange the plots into a grid and save as a PNG file
+W_plot1 <- plot1 + plot2 + plot_layout(ncol = 2)
+W_plot2 <- plot3 + plot4 + plot_layout(ncol = 2)
+ggsave("W_plot1.png", W_plot1, width = 17, height = 8, units = "in")
+ggsave("W_plot2.png", W_plot2, width = 17, height = 8, units = "in")
+```
+
+# Attendance Rate vs Students Without High Needs
+```{r}
+selected_group <- "Students Without High Needs"
+
+filtered_data <- data %>% 
+  select(District.name, Student.group, X2021.2022.attendance.rate...year.to.date) %>% 
+  filter(Student.group == selected_group)
+```
+
+```{r}
+filtered_data$group <- cut(seq(1, nrow(filtered_data)), breaks = 4, labels = FALSE)
+# Calculate the mean attendance rate
+mean_attendance_rate <- mean(filtered_data$X2021.2022.attendance.rate...year.to.date)
+
+# Classify into three categories: low, medium, high
+filtered_data$class <- cut(
+  filtered_data$X2021.2022.attendance.rate...year.to.date,
+  breaks = c(-Inf, mean_attendance_rate - sd(filtered_data$X2021.2022.attendance.rate...year.to.date), 
+              mean_attendance_rate + sd(filtered_data$X2021.2022.attendance.rate...year.to.date), Inf),
+  labels = c("Low", "Medium", "High"),
+  include.lowest = TRUE
+)
+
+# Creating the first plot
+plot1 <- filtered_data %>%
+  filter(group == 1) %>%
+  ggplot(aes(x = str_wrap(District.name, width = 30), y = X2021.2022.attendance.rate...year.to.date, fill = class)) +
+  geom_bar(stat = "identity", color = "black", width = 0.7,position = position_dodge(width = 1)) +
+  labs(
+    title = "Students Without High Needs Attendance Rate per School District",
+    x = "District",
+    y = "Attendance Rate"
+  ) +
+  theme(plot.title = element_text(face = "bold"))+
+  scale_y_continuous(breaks = c(0, 0.5, 1,1.5), limits = c(0, 1.5)) +
+  scale_fill_viridis(discrete = TRUE, option = "viridis", alpha = 0.7,name = "Attendance Rate") +  # Reduced opacity
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1)
+  )
+
+# Creating the second plot (containing graph 2) 
+plot2 <- filtered_data %>%
+  filter(group == 2) %>%
+  ggplot(aes(x = str_wrap(District.name, width = 30), y = X2021.2022.attendance.rate...year.to.date, fill = class)) +
+  geom_bar(stat = "identity", color = "black", width = 0.7,position = position_dodge(width = 1)) +
+  labs(
+    x = "District",
+    y = "Attendance Rate"
+  ) +
+  scale_y_continuous(breaks = c(0, 0.5, 1,1.5), limits = c(0, 1.5)) +
+  scale_fill_viridis(discrete = TRUE, option = "viridis", alpha = 0.7,name = "Attendance Rate") +  # Reduced opacity
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1)
+  )
+
+# Creating the second plot (containing graph 3) 
+plot3 <- filtered_data %>%
+  filter(group == 3) %>%
+  ggplot(aes(x = str_wrap(District.name, width = 30), y = X2021.2022.attendance.rate...year.to.date, fill = class)) +
+  geom_bar(stat = "identity", color = "black", width = 0.7,position = position_dodge(width = 1)) +
+  labs(
+    title = "Students Without High Needs Attendance Rate per School District (Part 2)",
+    x = "District",
+    y = "Attendance Rate"
+  ) +
+  theme(plot.title = element_text(face = "bold"))+
+  scale_y_continuous(breaks = c(0, 0.5, 1,1.5), limits = c(0, 1.5)) +
+  scale_fill_viridis(discrete = TRUE, option = "viridis", alpha = 0.7,name = "Attendance Rate") +  # Reduced opacity
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1)
+  )
+
+# Creating the second plot (containing graph 4) 
+plot4 <- filtered_data %>%
+  filter(group == 4) %>%
+  ggplot(aes(x = str_wrap(District.name, width = 50), y = X2021.2022.attendance.rate...year.to.date, fill = class)) +
+  geom_bar(stat = "identity", color = "black", width = 0.7,position = position_dodge(width = 1)) +
+  labs(
+    x = "District",
+    y = "Attendance Rate"
+  ) +
+  scale_y_continuous(breaks = c(0, 0.5, 1,1.5), limits = c(0, 1.5)) +
+  scale_fill_viridis(discrete = TRUE, option = "viridis", alpha = 0.7,name = "Attendance Rate") +  # Reduced opacity
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1)
+  )
+
+# Arrange the plots into a grid and save as a PNG file
+SWHN_plot1 <- plot1 + plot2 + plot_layout(ncol = 2)
+SWHN_plot2 <- plot3 + plot4 + plot_layout(ncol = 2)
+ggsave("SWHN_plot1.png", SWHN_plot1, width = 17, height = 8, units = "in")
+ggsave("SWHN_plot2.png", SWHN_plot2, width = 17, height = 8, units = "in")
+```
+
+# Attendance Rate vs Students With High Needs
+```{r}
+selected_group <- "Students With High Needs"
+
+filtered_data <- data %>% 
+  select(District.name, Student.group, X2021.2022.attendance.rate...year.to.date) %>% 
+  filter(Student.group == selected_group)
+```
+
+```{r}
+filtered_data$group <- cut(seq(1, nrow(filtered_data)), breaks = 4, labels = FALSE)
+# Calculate the mean attendance rate
+mean_attendance_rate <- mean(filtered_data$X2021.2022.attendance.rate...year.to.date)
+
+# Classify into three categories: low, medium, high
+filtered_data$class <- cut(
+  filtered_data$X2021.2022.attendance.rate...year.to.date,
+  breaks = c(-Inf, mean_attendance_rate - sd(filtered_data$X2021.2022.attendance.rate...year.to.date), 
+              mean_attendance_rate + sd(filtered_data$X2021.2022.attendance.rate...year.to.date), Inf),
+  labels = c("Low", "Medium", "High"),
+  include.lowest = TRUE
+)
+
+# Creating the first plot
+plot1 <- filtered_data %>%
+  filter(group == 1) %>%
+  ggplot(aes(x = str_wrap(District.name, width = 30), y = X2021.2022.attendance.rate...year.to.date, fill = class)) +
+  geom_bar(stat = "identity", color = "black", width = 0.7,position = position_dodge(width = 1)) +
+  labs(
+    title = "Students With High Needs Attendance Rate per School District",
+    x = "District",
+    y = "Attendance Rate"
+  ) +
+  theme(plot.title = element_text(face = "bold"))+
+  scale_y_continuous(breaks = c(0, 0.5, 1,1.5), limits = c(0, 1.5)) +
+  scale_fill_viridis(discrete = TRUE, option = "viridis", alpha = 0.7,name = "Attendance Rate") +  # Reduced opacity
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1)
+  )
+
+# Creating the second plot (containing graph 2) 
+plot2 <- filtered_data %>%
+  filter(group == 2) %>%
+  ggplot(aes(x = str_wrap(District.name, width = 30), y = X2021.2022.attendance.rate...year.to.date, fill = class)) +
+  geom_bar(stat = "identity", color = "black", width = 0.7,position = position_dodge(width = 1)) +
+  labs(
+    x = "District",
+    y = "Attendance Rate"
+  ) +
+  scale_y_continuous(breaks = c(0, 0.5, 1,1.5), limits = c(0, 1.5)) +
+  scale_fill_viridis(discrete = TRUE, option = "viridis", alpha = 0.7,name = "Attendance Rate") +  # Reduced opacity
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1)
+  )
+
+# Creating the second plot (containing graph 3) 
+plot3 <- filtered_data %>%
+  filter(group == 3) %>%
+  ggplot(aes(x = str_wrap(District.name, width = 30), y = X2021.2022.attendance.rate...year.to.date, fill = class)) +
+  geom_bar(stat = "identity", color = "black", width = 0.7,position = position_dodge(width = 1)) +
+  labs(
+    title = "Students With High Needs Attendance Rate per School District (Part 2)",
+    x = "District",
+    y = "Attendance Rate"
+  ) +
+  theme(plot.title = element_text(face = "bold"))+
+  scale_y_continuous(breaks = c(0, 0.5, 1,1.5), limits = c(0, 1.5)) +
+  scale_fill_viridis(discrete = TRUE, option = "viridis", alpha = 0.7,name = "Attendance Rate") +  # Reduced opacity
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1)
+  )
+
+# Creating the second plot (containing graph 4) 
+plot4 <- filtered_data %>%
+  filter(group == 4) %>%
+  ggplot(aes(x = str_wrap(District.name, width = 50), y = X2021.2022.attendance.rate...year.to.date, fill = class)) +
+  geom_bar(stat = "identity", color = "black", width = 0.7,position = position_dodge(width = 1)) +
+  labs(
+    x = "District",
+    y = "Attendance Rate"
+  ) +
+  scale_y_continuous(breaks = c(0, 0.5, 1,1.5), limits = c(0, 1.5)) +
+  scale_fill_viridis(discrete = TRUE, option = "viridis", alpha = 0.7,name = "Attendance Rate") +  # Reduced opacity
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1)
+  )
+
+# Arrange the plots into a grid and save as a PNG file
+SWHNN_plot1 <- plot1 + plot2 + plot_layout(ncol = 2)
+SWHNN_plot2 <- plot3 + plot4 + plot_layout(ncol = 2)
+ggsave("SWHNN_plot1.png", SWHNN_plot1, width = 17, height = 8, units = "in")
+ggsave("SWHNN_plot2.png", SWHNN_plot2, width = 17, height = 8, units = "in")
+```
